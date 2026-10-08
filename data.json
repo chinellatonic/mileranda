@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 09:27",
+  "actualizado": "jue 8/10 · 09:30",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 9:25 a. m.]",
+    "fecha": "[8/10/2026, 9:30 a. m.]",
     "autor": "Manu",
-    "texto": "ta"
+    "texto": "llevo mi cartuchera y cuadernos que tengo"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -64,7 +64,7 @@
                   "who": "Pili y Chine"
                 },
                 {
-                  "t": "Manu pregunta qué comprar. Propuesta: destapador, sombrero loco, y fibras y papel para el cadáver exquisito.",
+                  "t": "Destapador: Manu, ¿lo comprás?",
                   "who": "Manu"
                 },
                 {
@@ -92,16 +92,12 @@
                   "who": "Chine (parrilla) y Cata (empanadas)"
                 },
                 {
-                  "t": "Falta la otra heladerita y el destapador. Chine lleva una heladerita y la pelota.",
+                  "t": "Falta la otra heladerita. Chine lleva una heladerita y la pelota.",
                   "who": "¿Quién?"
                 },
                 {
                   "t": "Luces para la noche: ¿alguien tiene?",
                   "who": "¿Quién?"
-                },
-                {
-                  "t": "Un sombrero loco para sortear los equipos.",
-                  "who": "¿Quién tiene?"
                 },
                 {
                   "t": "Domingo a la mañana: un juego o actividad chill que le guste a Juani.",
@@ -334,7 +330,7 @@
                         {
                           "e": "pend",
                           "t": "Destapador",
-                          "who": "¿Quién?"
+                          "who": "¿Manu?"
                         },
                         {
                           "e": "ok",
@@ -393,9 +389,10 @@
                           "nota": "En el cotillón. Angie lleva un banderín de cartón con colores patrios, que se puede pintar."
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Sombrero loco",
-                          "who": "¿Quién tiene?"
+                          "who": "Angie",
+                          "nota": "Uno amarillo, del casamiento del otro día."
                         },
                         {
                           "e": "ok",
@@ -404,9 +401,10 @@
                           "nota": "The Mind."
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Fibras y papel (cadáver exquisito)",
-                          "who": "¿Quién?"
+                          "who": "Manu",
+                          "nota": "Su cartuchera y cuadernos."
                         },
                         {
                           "e": "pend",
@@ -511,6 +509,26 @@
                   ]
                 },
                 {
+                  "titulo": "Manu",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Su cartuchera y cuadernos",
+                          "nota": "Para el cadáver exquisito."
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Destapador",
+                          "nota": "Propuesto por Bartolomé. Falta que confirme."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "titulo": "Agus",
                   "bloques": [
                     {
@@ -558,6 +576,11 @@
                           "e": "ok",
                           "t": "Su cartuchera",
                           "nota": "Para la bitácora."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Sombrero loco",
+                          "nota": "Uno amarillo, del casamiento del otro día. Para sortear los equipos."
                         }
                       ]
                     }
@@ -681,7 +704,7 @@
             },
             {
               "tipo": "nota",
-              "texto": "Muke, Manu y Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
+              "texto": "Muke y Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
             }
           ]
         }
@@ -1120,7 +1143,7 @@
                     "Idea anterior de Agus: el equipo que pierde limpia el baño el domingo."
                   ],
                   "necesita": [
-                    "Sombrero loco",
+                    "Sombrero loco (Angie, uno amarillo)",
                     "Papelitos",
                     "Premio: chocolates y un buen escabio"
                   ]
@@ -1174,8 +1197,7 @@
                   "nota": "Sobre alguna historia loca de ellos. Llevamos fibras.",
                   "propuso": "Agus",
                   "necesita": [
-                    "Fibras",
-                    "Papel"
+                    "Fibras y papel: Manu lleva su cartuchera y cuadernos"
                   ]
                 },
                 {
