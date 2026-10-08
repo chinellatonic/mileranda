@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 10:42",
+  "actualizado": "jue 8/10 · 10:44",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:26 a. m.]",
-    "autor": "Chine",
-    "texto": "Bueno entonces sanguches de carne sabad a la noche, compremos papel aluminio... pan, aluminio, ajo cebollas y demas condimentos y algunas salsitas"
+    "fecha": "[8/10/2026, 10:39 a. m.]",
+    "autor": "Basha",
+    "texto": "Llevo boquita y luces"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -108,10 +108,6 @@
                   "who": "Chine (parrilla) y Cata (empanadas)"
                 },
                 {
-                  "t": "Luces para la noche: ¿alguien tiene?",
-                  "who": "¿Quién?"
-                },
-                {
                   "t": "Domingo a la mañana: un juego o actividad chill que le guste a Juani.",
                   "who": "Los chicos, ideas"
                 },
@@ -130,10 +126,6 @@
                 {
                   "t": "Frases para el cuervo del viernes.",
                   "who": "Todos"
-                },
-                {
-                  "t": "El Boquita (el cáliz): Basha, ¿lo llevás? Dicen que tenés uno nuevo.",
-                  "who": "Basha"
                 }
               ]
             }
@@ -348,9 +340,9 @@
                           "who": "Chine"
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Luces para la noche",
-                          "who": "¿Quién?"
+                          "who": "Basha"
                         },
                         {
                           "e": "ok",
@@ -881,14 +873,13 @@
                       "tipo": "estado",
                       "items": [
                         {
-                          "e": "duda",
+                          "e": "ok",
                           "t": "El Boquita",
-                          "nota": "El cáliz. Dicen que tiene uno nuevo. Falta que confirme."
+                          "nota": "El cáliz."
                         },
                         {
-                          "e": "pend",
-                          "t": "¿Luces para la noche?",
-                          "nota": "Pregunta abierta."
+                          "e": "ok",
+                          "t": "Luces para la noche"
                         }
                       ]
                     }
@@ -1595,7 +1586,7 @@
                     "Recrearla con las luces en la pared y evocar esos momentos."
                   ],
                   "necesita": [
-                    "Luces (¿quién tiene?)"
+                    "Luces (las lleva Basha)"
                   ]
                 },
                 {
