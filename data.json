@@ -1,5 +1,5 @@
 {
-  "actualizado": "mié 7/10 · 21:40",
+  "actualizado": "mié 7/10 · 21:45",
   "ultimo_leido": {
     "fecha": "[7/10/2026, 9:36 p. m.]",
     "autor": "Angie",
@@ -64,12 +64,16 @@
                   "who": "Cata"
                 },
                 {
+                  "t": "Bitácora: ¿cómo la imaginamos? Así sabemos qué más hay que comprar o llevar.",
+                  "who": "Todos"
+                },
+                {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
                   "who": "Todos"
                 },
                 {
-                  "t": "Qué auto lleva a los novios (sale ~10:30). Opción de reserva: Bian ofreció el de ellos, aunque no es lo ideal.",
-                  "who": "A definir"
+                  "t": "Falta un auto: con 3 no entramos los 14. Si nadie suma uno antes del viernes, vamos con el de Bian y Juani (no es lo ideal). Y falta definir en cuál van los novios.",
+                  "who": "¿Alguien más tiene auto?"
                 },
                 {
                   "t": "Confirmar las compras (todo menos la carne). Se sumó lo de las empanadas.",
@@ -744,14 +748,14 @@
                   "t": "Sol"
                 },
                 {
-                  "e": "idea",
+                  "e": "duda",
                   "t": "Auto de los novios",
-                  "nota": "Si hace falta: Bian lo ofreció (vía Angie). No es lo ideal, pero queda de reserva."
+                  "nota": "Con 3 autos no entramos los 14. Bian ofreció el de ellos (vía Angie): es una opción, pero lo ideal sería conseguir otro."
                 },
                 {
                   "e": "pend",
                   "t": "¿Alguien más tiene auto?",
-                  "nota": "Somos 14 con heladeritas: vamos justos."
+                  "nota": "Somos 14 y con 3 autos no entramos. Si nadie suma uno, vamos con el de Bian y Juani."
                 }
               ]
             },
@@ -1055,7 +1059,8 @@
                   "propuso": "Cata",
                   "mas": [
                     "Un cuaderno donde les escribimos, y que siga de acá al casamiento. Lo tuneamos y le damos onda.",
-                    "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar."
+                    "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar.",
+                    "Falta definir cómo la imaginamos, para saber qué más hace falta."
                   ],
                   "necesita": [
                     "Cuaderno de hojas lisas y tapa dura (Cata, el viernes, en Croquis)",
