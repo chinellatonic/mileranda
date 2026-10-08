@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 09:31",
+  "actualizado": "jue 8/10 · 09:37",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 9:31 a. m.]",
-    "autor": "Angie",
-    "texto": "Piola"
+    "fecha": "[8/10/2026, 9:36 a. m.]",
+    "autor": "Manu",
+    "texto": "bartolomé, haceme una función en Python que devuelva si un número es par."
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -64,16 +64,8 @@
                   "who": "Pili y Chine"
                 },
                 {
-                  "t": "Destapador: Manu, ¿lo comprás?",
-                  "who": "Manu"
-                },
-                {
                   "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
                   "who": "Cata"
-                },
-                {
-                  "t": "Café: ¿instantáneo, o alguien lleva prensa o cafetera?",
-                  "who": "¿Quién?"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -236,7 +228,7 @@
                         "Mermeladas",
                         "Huevos (aparte de los de las empanadas)",
                         "Yerba",
-                        "Café (¿instantáneo o alguien lleva prensa o cafetera?)",
+                        "Café (Manu lleva cafetera)",
                         "Azúcar",
                         "Leche"
                       ]
@@ -328,15 +320,20 @@
                           "who": "Chine"
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Destapador",
-                          "who": "¿Manu?"
+                          "who": "Manu"
                         },
                         {
                           "e": "ok",
                           "t": "Globos, stickers de Juani, silbato y banderín",
                           "who": "Angie",
                           "nota": "Sobras de la despedida de Bian: globos celestes y grises, stickers con la cara de Juani, un silbato y un banderín de cartón con colores patrios, que se puede pintar. Van: los reutilizamos."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Cafetera",
+                          "who": "Manu"
                         }
                       ]
                     }
@@ -520,9 +517,12 @@
                           "nota": "Para el cadáver exquisito."
                         },
                         {
-                          "e": "duda",
-                          "t": "Destapador",
-                          "nota": "Propuesto por Bartolomé. Falta que confirme."
+                          "e": "ok",
+                          "t": "Destapador"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Cafetera"
                         }
                       ]
                     }
