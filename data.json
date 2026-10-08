@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 21:27",
+  "actualizado": "mié 7/10 · 21:40",
   "ultimo_leido": {
-    "fecha": "[10/7/26, 9:08:46 PM]",
-    "autor": "Agus",
-    "texto": "yo puedo aportar el parlante grande de mi papá que se conecte a celular"
+    "fecha": "[7/10/2026, 9:36 p. m.]",
+    "autor": "Angie",
+    "texto": "no es el ideal pero se puede tener en cuenta"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -60,11 +60,15 @@
                   "who": "Agus averiguaba en el cotillón"
                 },
                 {
+                  "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
+                  "who": "Cata"
+                },
+                {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
                   "who": "Todos"
                 },
                 {
-                  "t": "Qué auto lleva a los novios (sale ~10:30).",
+                  "t": "Qué auto lleva a los novios (sale ~10:30). Opción de reserva: Bian ofreció el de ellos, aunque no es lo ideal.",
                   "who": "A definir"
                 },
                 {
@@ -92,7 +96,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Angie mandó dos fotos de cosas para llevar y pintar: ¿qué son?",
+                  "t": "Angie mandó dos fotos de cosas para llevar y pintar: ¿qué son? Cata vota que van.",
                   "who": "Angie"
                 },
                 {
@@ -287,7 +291,7 @@
                           "e": "duda",
                           "t": "Lo de las fotos de Angie",
                           "who": "Angie",
-                          "nota": "Algo para llevar y algo para pintar."
+                          "nota": "Algo para llevar y algo para pintar. Cata dice que van: los reutilizamos, y los novios son onda green. Falta que Angie cuente qué son."
                         }
                       ]
                     }
@@ -312,7 +316,8 @@
                         {
                           "e": "wip",
                           "t": "Cuaderno para la bitácora",
-                          "who": "Cata, el viernes"
+                          "who": "Cata, el viernes",
+                          "nota": "Lo compra Cata el viernes en Croquis (librería de dibujo): uno lindo, de hojas lisas y tapa dura."
                         },
                         {
                           "e": "wip",
@@ -462,7 +467,7 @@
                         {
                           "e": "duda",
                           "t": "Lo de las fotos",
-                          "nota": "Algo para llevar y algo para pintar. ¿Qué es?"
+                          "nota": "Algo para llevar y algo para pintar. Cata dice que van: los reutilizamos, y los novios son onda green. Falta que Angie cuente qué son."
                         }
                       ]
                     }
@@ -477,7 +482,7 @@
                         {
                           "e": "wip",
                           "t": "Cuaderno para la bitácora",
-                          "nota": "Lo compra el viernes."
+                          "nota": "Lo compra Cata el viernes en Croquis (librería de dibujo): uno lindo, de hojas lisas y tapa dura."
                         },
                         {
                           "e": "duda",
@@ -737,6 +742,11 @@
                 {
                   "e": "ok",
                   "t": "Sol"
+                },
+                {
+                  "e": "idea",
+                  "t": "Auto de los novios",
+                  "nota": "Si hace falta: Bian lo ofreció (vía Angie). No es lo ideal, pero queda de reserva."
                 },
                 {
                   "e": "pend",
@@ -1041,14 +1051,14 @@
                 {
                   "e": "ok",
                   "t": "Bitácora",
-                  "nota": "Cata compra el cuaderno el viernes. Jerga imprime 1 o 2 hojas A3 con fotitos para recortar y pegar. Manden fotos con los novios a Jerga.",
+                  "nota": "Cata compra el cuaderno el viernes en Croquis. Jerga imprime 1 o 2 hojas A3 con fotitos para recortar y pegar. Manden fotos con los novios a Jerga.",
                   "propuso": "Cata",
                   "mas": [
                     "Un cuaderno donde les escribimos, y que siga de acá al casamiento. Lo tuneamos y le damos onda.",
                     "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar."
                   ],
                   "necesita": [
-                    "Cuaderno (Cata, el viernes)",
+                    "Cuaderno de hojas lisas y tapa dura (Cata, el viernes, en Croquis)",
                     "Fotos con los novios: mándenselas a Jerga",
                     "Algo escrito por cada uno"
                   ]
