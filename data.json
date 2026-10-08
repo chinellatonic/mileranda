@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 12:50",
+  "actualizado": "jue 8/10 · 16:05",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 12:49 p. m.]",
-    "autor": "Julia",
-    "texto": "Confirmadas tortillas"
+    "fecha": "[10/8/26, 4:01:45 PM]",
+    "autor": "Angie",
+    "texto": "Hermo"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -56,6 +56,14 @@
                   "who": "Todos"
                 },
                 {
+                  "t": "Inflable castillo en lugar del toro (Agus; bancan Chine y Flopi): ¿quién lo consigue y cuánto sale?",
+                  "who": "¿Quién?"
+                },
+                {
+                  "t": "Vino para la cena: Jerga le compra al hermano de Cata, con promos por cantidad. ¿Quién se suma? Agus sí (blanco o rosado). ¿Va como gasto común?",
+                  "who": "Todos, a Jerga"
+                },
+                {
                   "t": "Búsqueda del tesoro: ¿quién escribe y esconde las pistas? Propuesta: Angie y Agus.",
                   "who": "¿Angie y Agus?"
                 },
@@ -72,20 +80,16 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Orejas de elfo: donde averiguó Agus no había 14. Cata mira en calle San Luis el viernes. Si no aparecen, otra variante.",
-                  "who": "Agus y Cata"
+                  "t": "Orejas: ni Cata ni Agus consiguen. Cata prueba en Casa González. Plan B: mitad orejas y mitad ogro (o laureles), que dividan los equipos.",
+                  "who": "Cata y Agus"
                 },
                 {
                   "t": "Horario de salida: ¿9:30 o más tarde? Propuesta: la avanzada a las 9 y el resto hasta las 10:30, con los novios. La casa abre a las 10 y cada hora que llegamos tarde es una hora pagada sin usar.",
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne para los sanguches del sábado: el Redil hace 15% en efectivo o transferencia. Chine arma la lista y se la pasa a Pili, que la deja preparada para retirar.",
-                  "who": "Chine"
-                },
-                {
-                  "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
-                  "who": "Cata"
+                  "t": "Carne: la compra Pili en el Redil de Fisherton. Falta decirle corte y cantidad para los sanguches del sábado. Para las empanadas: 2 kg de picada especial (o un corte que piquen ahí).",
+                  "who": "Chine, a Pili"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -114,10 +118,6 @@
                 {
                   "t": "Fiambres de Zaatar para el almuerzo del sábado: Cata los compra el viernes.",
                   "who": "Cata"
-                },
-                {
-                  "t": "Toro: hoy sí o no. $180.000 por 2 h (unos $15.000 por cabeza) más el flete, que todavía no pasaron. Si esta noche no hay precio del flete y mayoría, no va.",
-                  "who": "Cata y todos"
                 },
                 {
                   "t": "Frases para el cuervo del viernes.",
@@ -321,7 +321,7 @@
                     },
                     {
                       "tipo": "nota",
-                      "texto": "No va en el súper: carne y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Lo de verdulería lo compra Cata el viernes (ver abajo)."
+                      "texto": "No va en el súper: carne (Pili) y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Lo de verdulería lo compra Cata el viernes (ver abajo)."
                     }
                   ]
                 },
@@ -520,10 +520,10 @@
                           "who": "Angie"
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Cuaderno para la bitácora",
                           "who": "Cata, el viernes",
-                          "nota": "Lo compra Cata el viernes en Croquis (librería de dibujo): uno lindo, de hojas lisas y tapa dura."
+                          "nota": "Comprado por Cata: tapa dura, A5 horizontal."
                         },
                         {
                           "e": "wip",
@@ -532,16 +532,16 @@
                           "nota": "Angie las junta en un álbum compartido (Muke, sumá tu álbum de Juani). Pásenle los links a Jerga: ya bajó las del grupo y elige cuáles imprime, tampoco mil. Mañana imprime."
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Útiles y plasticola para la bitácora",
-                          "who": "Todos + Cata",
-                          "nota": "Cada uno lleva los útiles que tenga (Angie, su cartuchera). La plasticola, y quizá lapiceras, la compra Cata en Croquis."
+                          "who": "Cata + cada uno",
+                          "nota": "Cata compró dos grafos y una boligoma. Cada uno lleva los útiles que tenga."
                         },
                         {
                           "e": "wip",
                           "t": "Orejas de elfo",
                           "who": "Agus y Cata buscan",
-                          "nota": "Agus sigue buscando: donde averiguó no había 14. Cata mira en los cotillones de calle San Luis el viernes, cuando va a Croquis. Si no aparecen, vamos con otra variante."
+                          "nota": "Ni Cata ni Agus consiguen. Cata prueba en Casa González. Plan B: mitad orejas y mitad ogro, que dividan los equipos; laureles de cotillón; pelucas para los novios."
                         },
                         {
                           "e": "wip",
@@ -662,16 +662,6 @@
                         {
                           "e": "ok",
                           "t": "Limas y azúcar para tragos"
-                        },
-                        {
-                          "e": "wip",
-                          "t": "Carne para los sanguches del sábado",
-                          "nota": "La compra en el Redil: 15% de descuento pagando en efectivo o transferencia (lo consiguió Pili)."
-                        },
-                        {
-                          "e": "wip",
-                          "t": "2 kg de carne picada para las empanadas",
-                          "nota": "La compra junto con el resto de la carne."
                         },
                         {
                           "e": "ok",
@@ -841,14 +831,14 @@
                       "tipo": "estado",
                       "items": [
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Cuaderno para la bitácora",
-                          "nota": "Lo compra Cata el viernes en Croquis (librería de dibujo): uno lindo, de hojas lisas y tapa dura."
+                          "nota": "Comprado: tapa dura A5 horizontal."
                         },
                         {
-                          "e": "wip",
-                          "t": "Plasticola (y quizá lapiceras)",
-                          "nota": "La compra en Croquis, junto con el cuaderno."
+                          "e": "ok",
+                          "t": "Dos grafos y una boligoma",
+                          "nota": "Comprados."
                         },
                         {
                           "e": "wip",
@@ -889,6 +879,11 @@
                           "e": "wip",
                           "t": "Fotos impresas en A3",
                           "nota": "Angie las junta en un álbum compartido (Muke, sumá tu álbum de Juani). Pásenle los links a Jerga: ya bajó las del grupo y elige cuáles imprime, tampoco mil. Mañana imprime."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Vino para la cena",
+                          "nota": "Se lo compra al hermano de Cata, que tiene promos por cantidad. Agus se suma (blanco o rosado)."
                         }
                       ]
                     }
@@ -942,6 +937,11 @@
                         {
                           "e": "ok",
                           "t": "2 reposeras"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Las fotos del jacuzzi",
+                          "nota": "Las sube al álbum."
                         }
                       ]
                     }
@@ -954,9 +954,9 @@
                       "tipo": "estado",
                       "items": [
                         {
-                          "e": "ok",
-                          "t": "Descuento para la carne en el Redil",
-                          "nota": "15% de descuento en el Redil pagando en efectivo o transferencia. Si Chine arma la lista, preparan el pedido para retirarlo listo."
+                          "e": "wip",
+                          "t": "La carne",
+                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Falta que le digan corte y cantidad para el sábado; para las empanadas, 2 kg de picada especial."
                         },
                         {
                           "e": "ok",
@@ -1054,10 +1054,10 @@
                   "nota": "Confirmada con Giuli por Jerga."
                 },
                 {
-                  "concepto": "Toro mecánico",
-                  "total": 180000,
-                  "e": "pend",
-                  "nota": "$180.000 por 2 h. Falta sumar el flete, que todavía no pasaron. Hoy se decide."
+                  "concepto": "Bitácora: cuaderno, 2 grafos y boligoma",
+                  "total": 24200,
+                  "e": "ok",
+                  "nota": "Ya comprado por Cata."
                 },
                 {
                   "concepto": "Compras del súper",
@@ -1069,7 +1069,7 @@
                   "concepto": "Carne para la parrilla y las empanadas",
                   "total": null,
                   "e": "pend",
-                  "nota": "La compra Chine."
+                  "nota": "La compra Pili en el Redil de Fisherton, con 15% de descuento."
                 },
                 {
                   "concepto": "Orejas y banderines",
@@ -1077,10 +1077,16 @@
                   "e": "pend"
                 },
                 {
-                  "concepto": "Fotos A3 y cuaderno de la bitácora",
+                  "concepto": "Fotos A3",
                   "total": null,
                   "e": "pend",
-                  "nota": "Jerga y Cata."
+                  "nota": "Jerga."
+                },
+                {
+                  "concepto": "Tortillas (5)",
+                  "total": null,
+                  "e": "ok",
+                  "nota": "Confirmadas. Falta el precio."
                 }
               ]
             }
@@ -1428,7 +1434,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas. Plan B: algo a la estaca (idea de Cata, 5/10). La carne la compra Chine en el Redil, con 15% de descuento. Con tzatziki casero de Cata."
+                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10)."
                 ],
                 [
                   "Dom mediodía",
@@ -1465,15 +1471,13 @@
                   "propuso": "Bian y Juani (avisó Angie)"
                 },
                 {
-                  "e": "pend",
+                  "e": "no",
                   "t": "Toro mecánico",
-                  "nota": "Hoy se decide. $180.000 por 2 h, más el flete, que todavía no pasaron.",
+                  "nota": "Descartado (8/10): con el flete salía $430.000, unos $36.000 por cabeza. Votaron que no Jerga, Chine y Angie; Pili no puede subirse; Cata: \"en otro evento será\".",
                   "propuso": "Cata",
                   "mas": [
-                    "Servicio llave en mano: 2 operadores que se quedan todo el rato y adaptan la velocidad a cada uno.",
-                    "$180.000 por 2 h, más el flete, que todavía no pasaron. Cata espera el precio.",
-                    "Sería antes de las 21 h. Olga lo permite si no tapa la entrada y salida de autos y nadie se golpea.",
-                    "Default: si esta noche no hay precio del flete y una mayoría que lo banque, no va."
+                    "Cotización final: $180.000 (18 a 20 h) o $200.000 (18 a 21 h), más $250.000 de flete.",
+                    "Jerga: ya hay miles de actividades, es un solo día y el clima está medio meh. Pili conoce gente que se fracturó."
                   ],
                   "links": [
                     {
@@ -1560,11 +1564,13 @@
                   ]
                 },
                 {
-                  "e": "idea",
-                  "t": "Inflable gigante en el jardín",
-                  "propuso": "Chine",
+                  "e": "pend",
+                  "t": "Inflable con forma de castillo",
+                  "propuso": "Agus (versión castillo)",
                   "mas": [
-                    "Olga lo permite, con las mismas condiciones que el toro."
+                    "En lugar del toro, más soft (idea de Agus). Bancan Chine y Flopi.",
+                    "Olga lo permite si no tapa la entrada y salida de autos.",
+                    "Falta quién lo consigue y cuánto sale."
                   ]
                 },
                 {
@@ -1647,8 +1653,8 @@
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
-                    "Agus sigue buscando: en el cotillón donde averiguó no había 14. Cata mira en calle San Luis el viernes, cuando va a Croquis. Si no aparecen, vamos con otra variante del tema.",
-                    "Cata pasa el viernes por calle San Luis, cuando va a Croquis, y mira si hay. Si alguien más pasa por un cotillón, que pregunte."
+                    "Ni Cata ni Agus consiguen. Cata prueba en Casa González.",
+                    "Plan B de Agus: mitad orejas y mitad ogro (o algo medieval), y que eso divida los equipos. Cata vio laureles de cotillón y pelucas para ponerles a los novios."
                   ],
                   "links": [
                     {
@@ -1661,21 +1667,18 @@
                 {
                   "e": "ok",
                   "t": "Bitácora",
-                  "nota": "Cata compra el cuaderno el viernes en Croquis. Jerga imprime 1 o 2 hojas A3 con fotitos para recortar y pegar. Manden fotos con los novios a Jerga.",
+                  "nota": "Cuaderno comprado (Cata). Jerga imprime fotos el viernes.",
                   "propuso": "Cata",
                   "mas": [
                     "Un diario o registro de la despedida: escribimos, pegamos fotos y cosas, y sigue de acá al casamiento.",
                     "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar: con los novios y también grupales (de 3 o más). Muke tiene un álbum de fotos de Juani."
                   ],
                   "necesita": [
-                    "Cuaderno de hojas lisas y tapa dura (Cata, el viernes, en Croquis)",
-                    "Fotos con los novios: mándenselas a Jerga",
-                    "Plasticola y quizá lapiceras (Cata, en Croquis)",
-                    "Los útiles que tenga cada uno (Angie lleva su cartuchera)",
-                    "Cosas para pegar",
-                    "Algo escrito por cada uno",
+                    "Cuaderno tapa dura A5 horizontal, 2 grafos y boligoma (comprados por Cata)",
+                    "Fotos: links a Jerga, que imprime el viernes",
+                    "Los útiles que tenga cada uno (Angie y Manu, cartucheras)",
                     "Tijeras",
-                    "Si alguien tiene cámara instantánea, suma"
+                    "Algo escrito por cada uno"
                   ]
                 },
                 {
@@ -1887,6 +1890,13 @@
         "pago": "Jerga",
         "pendiente": true,
         "nota": "Se paga allá, en el lugar: cada uno le da $33.250 a Jerga y él le paga a la dueña."
+      },
+      {
+        "concepto": "Bitácora: cuaderno, 2 grafos y boligoma",
+        "monto": 24200,
+        "pago": "Cata",
+        "fecha": "8/10",
+        "nota": "Cuaderno tapa dura A5 horizontal."
       },
       {
         "concepto": "Frutillas (4 kg)",

@@ -102,6 +102,7 @@ ul.rows.pend > li{grid-template-columns:auto minmax(0,1fr)}
 .chip.wip{background:var(--blue-bg);color:var(--blue);border-color:var(--blue-bd)}
 .chip.pend,.chip.duda{background:var(--warn-bg);color:var(--warn);border-color:var(--warn-bd)}
 .chip.idea{background:var(--soft);color:var(--muted2);border-color:var(--border-soft)}
+.chip.no{background:transparent;color:var(--muted2);border-color:var(--border-soft);text-decoration:line-through}
 
 /* key / value */
 dl.kv{margin:0;display:grid}
@@ -237,7 +238,7 @@ footer{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:6px 40px;
 <script>
 (function(){
 function init(D){
-  var LABEL = {ok:'listo', wip:'en marcha', pend:'falta', idea:'idea', duda:'a confirmar'};
+  var LABEL = {ok:'listo', wip:'en marcha', pend:'falta', idea:'idea', duda:'a confirmar', no:'descartado'};
 
   function el(tag, cls, txt){
     var n = document.createElement(tag);
