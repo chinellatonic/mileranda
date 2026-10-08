@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 08:52",
+  "actualizado": "jue 8/10 · 08:55",
   "ultimo_leido": {
-    "fecha": "8/10, después de las 8:51",
-    "autor": "(sin nombre en lo pegado)",
-    "texto": "El horario de salida… 9.30 no es muy temprano ? Jaja por si nos queda comrpar algo tendría un changüí… onda 11 am salir ? Muy vaga yo?"
+    "fecha": "[8/10/2026, 8:54 a. m.]",
+    "autor": "Flopi",
+    "texto": "Bartolomé, podrás armar la lista del súper final con esta info por favor? Gracoss"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -193,40 +193,15 @@
                   ]
                 },
                 {
-                  "titulo": "Compras",
+                  "titulo": "Lista del súper (final)",
+                  "tag": "Flopi",
                   "bloques": [
                     {
                       "tipo": "lista",
-                      "items": [
-                        "3 bidones de agua.",
-                        "Hielo. En heladeritas aguanta unas 24 h, se puede llevar de acá.",
-                        "Desayuno: mermeladas, huevos, yerba, café, azúcar y leche (a confirmar). El pan lo lleva Sol: 2 hogazas de Barra.",
-                        "Crema y azúcar impalpable, para las frutillas con crema (las frutillas las compra Chine).",
-                        "Carne y pan para la parrilla (Chine).",
-                        "Empanadas: ver la lista de abajo.",
-                        "Condimentos.",
-                        "Papel de cocina y papel higiénico extra (más de un paquete).",
-                        "Leña para el fogón, y para la estaca si hacemos.",
-                        "Harina y caramelos (juego de la harina).",
-                        "Chocolates y un buen escabio: el premio para el agasajado cuyo equipo gane."
-                      ],
                       "check": true,
-                      "id": "compras"
-                    },
-                    {
-                      "tipo": "nota",
-                      "texto": "Flopi las confirmó todas, menos la carne (Chine). La bebida la lleva cada uno."
-                    }
-                  ],
-                  "tag": "confirmadas por Flopi"
-                },
-                {
-                  "titulo": "Empanadas (8 docenas)",
-                  "bloques": [
-                    {
-                      "tipo": "lista",
+                      "id": "super-empanadas",
+                      "subtitulo": "Empanadas (8 docenas)",
                       "items": [
-                        "2 kg de carne picada (la compra Chine con el resto de la carne)",
                         "2,1 kg de cebolla común",
                         "600 g de cebolla de verdeo",
                         "400 g de cebolla morada",
@@ -237,13 +212,58 @@
                         "2 paquetes de grasa",
                         "Aceite",
                         "Pimentón, comino, ají molido, orégano, sal y pimienta"
-                      ],
+                      ]
+                    },
+                    {
+                      "tipo": "lista",
                       "check": true,
-                      "id": "empanadas"
+                      "id": "super-desayuno",
+                      "subtitulo": "Desayuno y merienda",
+                      "items": [
+                        "Mermeladas",
+                        "Huevos (aparte de los de las empanadas)",
+                        "Yerba",
+                        "Café",
+                        "Azúcar",
+                        "Leche"
+                      ]
+                    },
+                    {
+                      "tipo": "lista",
+                      "check": true,
+                      "id": "super-postre",
+                      "subtitulo": "Postre",
+                      "items": [
+                        "Crema",
+                        "Azúcar impalpable"
+                      ]
+                    },
+                    {
+                      "tipo": "lista",
+                      "check": true,
+                      "id": "super-juegos",
+                      "subtitulo": "Juegos y premio",
+                      "items": [
+                        "Harina y caramelos",
+                        "Chocolates y un buen escabio"
+                      ]
+                    },
+                    {
+                      "tipo": "lista",
+                      "check": true,
+                      "id": "super-casa",
+                      "subtitulo": "Casa",
+                      "items": [
+                        "3 bidones de agua",
+                        "Hielo (en heladeritas aguanta unas 24 h, se puede llevar de acá)",
+                        "Papel de cocina",
+                        "Papel higiénico extra (más de un paquete)",
+                        "Leña para el fogón, y para la estaca si hacemos"
+                      ]
                     },
                     {
                       "tipo": "nota",
-                      "texto": "Receta de Charly, vía Julia: 5 docenas de carne y 3 de cebolla y queso."
+                      "texto": "No va en el súper: carne, pan de la parrilla y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Puede sumarse: condimentos de la parrilla (los dice Chine) y la picada, si la canasta no alcanza. El desayuno queda así si nadie pide otra cosa hoy."
                     }
                   ]
                 },
