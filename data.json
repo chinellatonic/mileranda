@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 16:22",
+  "actualizado": "jue 8/10 · 17:12",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 4:22 p. m.]",
-    "autor": "Chine",
-    "texto": "bartolo que sean dos pedazos de 2,5kg aprox para hacer 5kg en total... inflable va bien si nos los podemos llevar nosotros"
+    "fecha": "[8/10/2026, 4:50 p. m.]",
+    "autor": "Pili",
+    "texto": "No sé en q quedó lo de los autos. Puedo poner! No tengo LA experiencia en ruta pero si me tienen paciencia arrancamo"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -56,12 +56,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Inflable castillo: 3 a favor (Chine, Flopi, Agus), 1 en contra (Manu). Va solo si lo alquilamos en Victoria y lo llevamos nosotros. Jerga, ¿Olga tiene algún dato?",
+                  "t": "Inflable castillo: 3 a 2 (a favor Chine, Flopi y Agus; en contra Manu y Angie). Va solo si lo alquilamos en Victoria y lo llevamos nosotros. Jerga, ¿Olga tiene algún dato?",
                   "who": "Jerga y todos"
-                },
-                {
-                  "t": "Vino para la cena: Jerga le compra al hermano de Cata, con promos por cantidad. ¿Quién se suma? Agus sí (blanco o rosado). ¿Va como gasto común?",
-                  "who": "Todos, a Jerga"
                 },
                 {
                   "t": "Búsqueda del tesoro: ¿quién escribe y esconde las pistas? Propuesta: Angie y Agus.",
@@ -80,7 +76,7 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Orejas: ni Cata ni Agus consiguen. Cata prueba en Casa González. Plan B: mitad orejas y mitad ogro (o laureles), que dividan los equipos.",
+                  "t": "Orejas: Agus ya recorrió otro cotillón sin suerte; Cata prueba en Casa González. Plan B: mitad orejas y mitad ogro (o laureles), que dividan los equipos.",
                   "who": "Cata y Agus"
                 },
                 {
@@ -96,8 +92,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Autos: con 3 entramos justo los 14 y sin lugar para la carga (Sol también está preocupado). La chata de Chine lleva cosas arriba o en la caja. Si nadie suma uno antes del viernes, va el de los novios. Falta armar quién va en cuál (Muke no tiene carnet; Jerga, en la avanzada).",
-                  "who": "¿Alguien más tiene auto?"
+                  "t": "Autos: ya somos 4 (Chine con la chata, Flopi, Sol y Pili). Falta armar quién va en cuál. Muke no tiene carnet; Jerga, en la avanzada.",
+                  "who": "Todos"
                 },
                 {
                   "t": "Desayuno: pan de Barra (Sol), mermeladas, huevos, yerba, café, azúcar y leche. Si nadie pide otra cosa antes de esta noche, queda así.",
@@ -217,7 +213,7 @@
                         "Protector solar",
                         "Linterna (para el juego de la noche)",
                         "Útiles que tengas (lapiceras, fibras) para la bitácora",
-                        "Lo que quieras tomar + un extra para los novios (vino o Cinzano)",
+                        "Lo que quieras tomar + un extra para los novios (vino o Cinzano). La bebida corre por cuenta de cada uno.",
                         "Algo para el almuerzo a la canasta del sábado",
                         "Abrigo para la noche",
                         "Algo para la lluvia",
@@ -884,7 +880,7 @@
                         {
                           "e": "wip",
                           "t": "Vino para la cena",
-                          "nota": "Se lo compra al hermano de Cata, que tiene promos por cantidad. Agus se suma (blanco o rosado)."
+                          "nota": "Se lo compra al hermano de Cata (promos por cantidad). Agus se suma. La bebida corre por cuenta de cada uno."
                         }
                       ]
                     }
@@ -954,6 +950,11 @@
                     {
                       "tipo": "estado",
                       "items": [
+                        {
+                          "e": "ok",
+                          "t": "Auto",
+                          "nota": "Sin mucha experiencia en ruta: paciencia."
+                        },
                         {
                           "e": "wip",
                           "t": "La carne",
@@ -1232,14 +1233,14 @@
                           "t": "Sol"
                         },
                         {
-                          "e": "duda",
-                          "t": "Auto de los novios",
-                          "nota": "Con 3 autos no entramos los 14. Bian ofreció el de ellos (vía Angie): es una opción, pero lo ideal sería conseguir otro."
+                          "e": "ok",
+                          "t": "Pili",
+                          "nota": "No tiene mucha experiencia en ruta: va con paciencia y buena compañía."
                         },
                         {
-                          "e": "pend",
-                          "t": "¿Alguien más tiene auto?",
-                          "nota": "Somos 14 y con 3 autos no entramos. Si nadie suma uno, vamos con el de Bian y Juani."
+                          "e": "no",
+                          "t": "Auto de los novios",
+                          "nota": "Ya no hace falta: Pili suma el cuarto auto."
                         }
                       ]
                     }
@@ -1570,7 +1571,7 @@
                   "propuso": "Agus (versión castillo)",
                   "mas": [
                     "En lugar del toro, más soft (idea de Agus).",
-                    "A favor: Chine, Flopi y Agus. En contra: Manu (que quería el toro). Sol lo quiere ver a Manu adentro del inflable.",
+                    "A favor: Chine, Flopi y Agus. En contra: Manu (que quería el toro) y Angie (vio el video de Muke: terminó con ambulancia).",
                     "Chine: va si lo llevamos y lo traemos nosotros. Es un motor y el inflable.",
                     "Angie: lo ideal es alquilarlo en Victoria. ¿Olga tendrá algún dato?",
                     "Olga lo permite si no tapa la entrada y salida de autos."
