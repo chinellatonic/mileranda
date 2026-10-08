@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 22:02",
+  "actualizado": "mié 7/10 · 22:04",
   "ultimo_leido": {
-    "fecha": "7/10, después de las 21:59",
-    "autor": "(sin nombre en lo pegado)",
-    "texto": "@chicos alguno sabe de algún juego o actividad lúdica chill para un domingo a la mañana que le guste a juani!?"
+    "fecha": "[7/10/2026, 10:01 p. m.]",
+    "autor": "Agus",
+    "texto": "@chicas alguna tiene burako? @chicos alguno sabe de algún juego o actividad lúdica chill para un domingo a la mañana que le guste a juani!?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -94,6 +94,14 @@
                 {
                   "t": "Las cartas de los números.",
                   "who": "Flopi, ¿las llevás?"
+                },
+                {
+                  "t": "Burako para el domingo: ¿alguna lo tiene?",
+                  "who": "Las chicas"
+                },
+                {
+                  "t": "Algo chill para el domingo a la mañana que le guste a Juani.",
+                  "who": "Los chicos, ideas"
                 },
                 {
                   "t": "Burako para el domingo: ¿alguna tiene?",
@@ -1080,7 +1088,7 @@
                     "Algo que le guste a Juani"
                   ],
                   "mas": [
-                    "Domingo a la mañana, algo chill. Burako para Bian. Para Juani se buscan ideas: chicos, ¿qué le gusta?"
+                    "Algo tranqui para el domingo a la mañana. Para Bian, burako (¿quién tiene?). Para Juani, se aceptan sugerencias de los chicos."
                   ]
                 }
               ],
@@ -1102,7 +1110,7 @@
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
                     "Agus sigue buscando: en el cotillón donde averiguó no había 14. Cata mira en calle San Luis el viernes, cuando va a Croquis. Si no aparecen, vamos con otra variante del tema.",
-                    "Si alguien pasa por un cotillón, que pregunte."
+                    "Cata pasa el viernes por calle San Luis, cuando va a Croquis, y mira si hay. Si alguien más pasa por un cotillón, que pregunte."
                   ],
                   "links": [
                     {
