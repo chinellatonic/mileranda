@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 20:45",
+  "actualizado": "mié 7/10 · 21:15",
   "ultimo_leido": {
-    "fecha": "[10/7/26, 7:54:38 PM]",
-    "autor": "Jerga",
-    "texto": "Podemos mandar a imprimir en algun plotter una o dos hojas a3 con muchas fotitos..."
+    "fecha": "[10/7/26, 9:08:46 PM]",
+    "autor": "Agus",
+    "texto": "yo puedo aportar el parlante grande de mi papá que se conecte a celular"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,19 +48,27 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "¿Manu viene? Avisó el lunes 5/10 que no puede. Si no viene, cambia la cuenta del segundo pago y la cantidad de orejas.",
-                  "who": "Manu"
-                },
-                {
                   "t": "Segundo pago: $33.250 cada uno.",
                   "who": "Todos, a Jerga"
+                },
+                {
+                  "t": "Limpieza: Giuli limpia de noche y deja todo listo para la mañana. El último grupo le juntó $50.000 entre todos. Cata y Agus a favor de pagarle. Si nadie se opone antes del jueves, le pagamos.",
+                  "who": "Todos"
+                },
+                {
+                  "t": "Orejas de elfo: quién las compra. Son 14. De paso, banderines en el cotillón.",
+                  "who": "Agus averiguaba en el cotillón"
+                },
+                {
+                  "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
+                  "who": "Todos"
                 },
                 {
                   "t": "Qué auto lleva a los novios (sale ~10:30).",
                   "who": "A definir"
                 },
                 {
-                  "t": "Confirmar las compras (todo menos la carne).",
+                  "t": "Confirmar las compras (todo menos la carne). Se sumó lo de las empanadas.",
                   "who": "Flopi"
                 },
                 {
@@ -68,20 +76,28 @@
                   "who": "A definir"
                 },
                 {
-                  "t": "Limpieza: ¿le pagamos a Giuli o limpiamos nosotros?",
-                  "who": "Jerga averigua el costo"
+                  "t": "Luces para la noche: ¿alguien tiene?",
+                  "who": "¿Quién?"
+                },
+                {
+                  "t": "Un sombrero loco para sortear los equipos.",
+                  "who": "¿Quién tiene?"
+                },
+                {
+                  "t": "Las cartas de los números.",
+                  "who": "Flopi, ¿las llevás?"
+                },
+                {
+                  "t": "Sábado a la tarde: ¿picada de Zaatar (la compra Cata) o alcanza con lo de la canasta?",
+                  "who": "Todos"
+                },
+                {
+                  "t": "Angie mandó dos fotos de cosas para llevar y pintar: ¿qué son?",
+                  "who": "Angie"
                 },
                 {
                   "t": "Toro mecánico: falta el precio del flete para decidir.",
                   "who": "Cata"
-                },
-                {
-                  "t": "Orejas de elfo: quién las compra y cuántas.",
-                  "who": "Agus averiguaba en el cotillón"
-                },
-                {
-                  "t": "Bitácora: ¿aprobamos que Jerga imprima fotos en A3 para pegar?",
-                  "who": "Todos"
                 },
                 {
                   "t": "Frases para el cuervo del viernes.",
@@ -247,9 +263,9 @@
               "tipo": "estado",
               "items": [
                 {
-                  "e": "pend",
+                  "e": "wip",
                   "t": "Limpieza (Giuli)",
-                  "nota": "Jerga averigua cuánto cobra."
+                  "nota": "$50.000 entre todos (lo que juntó el último grupo). Unos $4.200 cada uno si pagamos 12. Cata y Agus a favor."
                 },
                 {
                   "e": "pend",
@@ -289,7 +305,7 @@
                 {
                   "e": "pend",
                   "t": "¿Alguien más tiene auto?",
-                  "nota": "Con 13 o 14 personas y heladeritas vamos justos."
+                  "nota": "Somos 14 con heladeritas: vamos justos."
                 }
               ]
             },
@@ -326,6 +342,7 @@
                 "Toallón",
                 "Repelente",
                 "Protector solar",
+                "Linterna (para el juego de la noche)",
                 "Lo que quieras tomar + un extra para los novios",
                 "Algo para el almuerzo a la canasta del sábado"
               ]
@@ -350,12 +367,18 @@
                 {
                   "e": "ok",
                   "t": "Parlante",
-                  "who": "Agus"
+                  "who": "Agus",
+                  "nota": "El grande del papá de Agus, se conecta al celu."
                 },
                 {
                   "e": "ok",
                   "t": "Limas y azúcar para tragos",
                   "who": "Chine"
+                },
+                {
+                  "e": "ok",
+                  "t": "Juego de dardos con imanes",
+                  "who": "Agus"
                 },
                 {
                   "e": "pend",
@@ -371,6 +394,27 @@
                   "e": "pend",
                   "t": "Destapador",
                   "who": "¿Quién?"
+                },
+                {
+                  "e": "pend",
+                  "t": "Luces para la noche",
+                  "who": "¿Quién?"
+                },
+                {
+                  "e": "pend",
+                  "t": "Sombrero loco",
+                  "who": "¿Quién?"
+                },
+                {
+                  "e": "pend",
+                  "t": "Cartas de los números",
+                  "who": "Flopi, a confirmar"
+                },
+                {
+                  "e": "duda",
+                  "t": "Lo de las fotos de Angie",
+                  "who": "Angie",
+                  "nota": "Algo para llevar y algo para pintar."
                 }
               ]
             }
@@ -402,7 +446,8 @@
                 "No hay disco para freír. Lo lleva Julia.",
                 "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
                 "Lo que se rompe se repone.",
-                "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee."
+                "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee.",
+                "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba."
               ]
             }
           ]
@@ -424,16 +469,24 @@
                   "A la canasta: cada uno trae algo."
                 ],
                 [
+                  "Sáb tarde",
+                  "A definir: picada de Zaatar (Cata se ofrece a comprarla) o lo que sobre de la canasta."
+                ],
+                [
                   "Sáb noche",
                   "Parrilla. Compra Chine."
                 ],
                 [
                   "Dom mediodía",
-                  "Empanadas fritas de carne y veggie, con competencia de repulgue. Cata dirige, todos repulgan."
+                  "Empanadas fritas, 8 docenas: 5 de carne y 3 de cebolla y queso (receta de Charly, vía Julia). Con competencia de repulgue: Cata dirige, todos repulgan."
                 ],
                 [
                   "Desayunos y meriendas",
                   "Van en las compras."
+                ],
+                [
+                  "Postre",
+                  "Idea de Cata: frutillas con crema."
                 ]
               ]
             }
@@ -450,11 +503,30 @@
                 "Hielo. En heladeritas aguanta unas 24 h, se puede llevar de acá.",
                 "Desayuno y merienda.",
                 "Carne y pan para la parrilla (Chine).",
-                "Empanadas: relleno de carne y veggie, tapas y grasa.",
+                "Empanadas: ver la lista de abajo.",
                 "Condimentos.",
-                "Papel de cocina y un paquete de higiénico extra.",
+                "Papel de cocina y papel higiénico extra (más de un paquete).",
                 "Leña para el fogón, y para la estaca si hacemos.",
-                "Detergente, rejilla y repasador, solo si limpiamos nosotros."
+                "Detergente, rejilla y repasador, solo si limpiamos nosotros.",
+                "Harina y caramelos (juego de la harina).",
+                "Chocolates y un buen escabio: el premio para el agasajado cuyo equipo gane."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "subtitulo": "Empanadas (8 docenas)",
+              "items": [
+                "2 kg de carne picada (la compra Chine con el resto de la carne)",
+                "2,1 kg de cebolla común",
+                "600 g de cebolla de verdeo",
+                "400 g de cebolla morada",
+                "1 kg de mozzarella",
+                "3–4 huevos",
+                "150–200 g de aceitunas",
+                "8 docenas de discos para freír",
+                "2 paquetes de grasa",
+                "Aceite",
+                "Pimentón, comino, ají molido, orégano, sal y pimienta"
               ]
             }
           ]
@@ -504,7 +576,7 @@
                 {
                   "e": "idea",
                   "t": "Búsqueda del tesoro",
-                  "nota": "El tesoro pueden ser las orejas o la bitácora."
+                  "nota": "Las pistas son las Crónicas del Reino: cada una, un recuerdo de nuestra historia con ellos. El tesoro: la bitácora. Final posible: quemamos las esculturas en el fogón y aparece la bitácora."
                 },
                 {
                   "e": "idea",
@@ -513,16 +585,37 @@
                 },
                 {
                   "e": "idea",
-                  "t": "Equipos con sombrero seleccionador",
-                  "nota": "Según los personajes del cuervo. El que pierde limpia el baño."
-                },
-                {
-                  "e": "idea",
-                  "t": "Juego de la silla"
+                  "t": "Dos equipos: el de Juani y el de Bian",
+                  "nota": "Papelitos con los nombres, sacados de un sombrero loco. El equipo ganador suma puntos para su agasajado; premio el domingo: chocolates y escabio."
                 },
                 {
                   "e": "idea",
                   "t": "Inflable gigante en el jardín"
+                },
+                {
+                  "e": "idea",
+                  "t": "Kermesse con postas",
+                  "nota": "Idea de Agus. Dardos con imanes (los lleva Agus), puzzle con una foto de ellos, ponerle la cola al burro con dardos y ojos cerrados, juego de la harina y los caramelos."
+                },
+                {
+                  "e": "idea",
+                  "t": "Juego tipo el grillo, de noche y por grupos",
+                  "nota": "Cada uno lleva linterna."
+                },
+                {
+                  "e": "idea",
+                  "t": "Desafío nocturno",
+                  "nota": "El equipo de Juani lo entrena para hacer el gusanito; el de Bian, para que haga algo muy Juani. Se aceptan sugerencias."
+                },
+                {
+                  "e": "idea",
+                  "t": "Cadáver exquisito",
+                  "nota": "Sobre alguna historia loca de ellos. Llevamos fibras."
+                },
+                {
+                  "e": "idea",
+                  "t": "Domingo libre",
+                  "nota": "Burako para Bian y algo para Juani (se aceptan sugerencias). Cartas de los números, si Flopi las lleva."
                 }
               ]
             }
@@ -537,17 +630,17 @@
                 {
                   "e": "wip",
                   "t": "Orejas de elfo para todos",
-                  "nota": "Para usarlas después en el casamiento. Aprobado; falta quién compra y cuántas."
+                  "nota": "Para usarlas después en el casamiento. Aprobado; son 14. Falta quién las compra."
                 },
                 {
-                  "e": "wip",
+                  "e": "ok",
                   "t": "Bitácora",
-                  "nota": "Cata compra el cuaderno el viernes. Jerga propone imprimir fotos en A3 para pegar, o imágenes con IA de cada uno en modo casamiento."
+                  "nota": "Cata compra el cuaderno el viernes. Jerga imprime 1 o 2 hojas A3 con fotitos para recortar y pegar. Manden fotos con los novios a Jerga."
                 },
                 {
                   "e": "wip",
                   "t": "Un cuervo nuestro para los novios",
-                  "nota": "Viernes a la mañana. Idea de Angie. Faltan frases."
+                  "nota": "Les llega el viernes a la mañana, con lo que tienen que llevar, armado en tono simpático. Idea de Angie. Faltan frases."
                 },
                 {
                   "e": "idea",
@@ -557,7 +650,7 @@
                 {
                   "e": "idea",
                   "t": "Esculturas de madera de los dos para quemar",
-                  "nota": "Estilo Burning Man."
+                  "nota": "Pueden ser unos palos atados con alambre. Pueden ser el final de la búsqueda del tesoro."
                 },
                 {
                   "e": "idea",
@@ -567,7 +660,7 @@
                 {
                   "e": "idea",
                   "t": "Crónicas del Reino",
-                  "nota": "Nuestra historia con ellos, leída en el fogón, con trivia."
+                  "nota": "Nuestra historia con ellos. Pueden ser las pistas de la búsqueda del tesoro, o leerse en el fogón."
                 },
                 {
                   "e": "idea",
@@ -582,7 +675,26 @@
                 {
                   "e": "idea",
                   "t": "Decoración medieval",
-                  "nota": "Aunque sea unos banderines."
+                  "nota": "Aunque sea unos banderines del cotillón, que son baratos."
+                },
+                {
+                  "e": "idea",
+                  "t": "Retratos con IA",
+                  "nota": "Cada uno en modo casamiento, medio bizarro, con un mensaje para los novios. Idea de Jerga."
+                },
+                {
+                  "e": "wip",
+                  "t": "Playlist colaborativa de Bian y Juani",
+                  "nota": "Sumen temas que creamos que les gustan."
+                }
+              ]
+            },
+            {
+              "tipo": "botones",
+              "items": [
+                {
+                  "texto": "Sumar temas a la playlist →",
+                  "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N"
                 }
               ]
             }
@@ -628,8 +740,7 @@
                 },
                 {
                   "n": "Manu",
-                  "r": "Avisó el 5/10 que no viene",
-                  "e": "duda"
+                  "r": "Viene"
                 },
                 {
                   "n": "Angie",
@@ -646,11 +757,11 @@
                 },
                 {
                   "n": "Agus",
-                  "r": "Parlante"
+                  "r": "Parlante, dardos y playlist"
                 },
                 {
                   "n": "Jerga",
-                  "r": "Habla con la dueña y cobra"
+                  "r": "Habla con la dueña, cobra y arma las fotos A3"
                 },
                 {
                   "n": "Sol",
