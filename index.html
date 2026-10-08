@@ -316,6 +316,7 @@ function init(D){
     C.gastos.forEach(function(g){
       g._pay = payers(g); g._sh = shares(g);
       if (g.pendiente) { porPagar += g.monto; return; }
+      if (g.aDividir) return;
       total += g.monto;
       Object.keys(g._pay).forEach(function(n){ ensure(n); puso[n] += g._pay[n]; });
       Object.keys(g._sh).forEach(function(n){ ensure(n); toca[n] += g._sh[n]; });
@@ -379,14 +380,15 @@ function init(D){
         var pk = Object.keys(g._pay);
         row(g.pendiente ? 'Lo paga' : 'Pagó', pk.length === 1 ? pk[0] : pk.map(function(n){ return n + ' ' + money(g._pay[n]); }).join(', '));
         var sk = Object.keys(g._sh), todos = g.entre == null || g.entre === 'todos';
-        row('Entre', todos ? 'todos (' + sk.length + ')' : sk.join(', '));
+        if (g.aDividir) row('Entre', 'a definir'); else row('Entre', todos ? 'todos (' + sk.length + ')' : sk.join(', '));
         var vals = sk.map(function(n){ return g._sh[n]; }), igual = vals.every(function(v){ return Math.abs(v - vals[0]) < 0.5; });
-        if (igual) row('A cada uno', money(vals[0]));
+        if (g.aDividir) {}
+        else if (igual) row('A cada uno', money(vals[0]));
         else row('A cada uno', sk.map(function(n){ return n + ' ' + money(g._sh[n]); }).join(', '));
         if (g.fecha) row('Cuándo', g.fecha);
         parts.push(dl);
         if (g.nota) parts.push(el('p', 'note', g.nota));
-        gs.appendChild(acc(g.concepto, money(g.monto) + (g.pendiente ? ' · por pagar' : ' · ' + (pk.length === 1 ? pk[0] : pk.length + ' pagaron')), g.pendiente, parts));
+        gs.appendChild(acc(g.concepto, money(g.monto) + (g.pendiente ? ' · por pagar' : g.aDividir ? ' · a dividir' : ' · ' + (pk.length === 1 ? pk[0] : pk.length + ' pagaron')), g.pendiente || g.aDividir, parts));
       });
       if (!C.gastos.length) gs.appendChild(el('p', 'note', 'Todavía no hay gastos.'));
       node.appendChild(gs);

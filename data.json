@@ -1,5 +1,5 @@
 {
-  "actualizado": "jue 8/10 · 20:46",
+  "actualizado": "jue 8/10 · 20:49",
   "ultimo_leido": {
     "fecha": "[8/10/2026, 7:19 p. m.]",
     "autor": "Angie",
@@ -1912,6 +1912,14 @@
         "pago": "Chine",
         "pendiente": true,
         "nota": "2 kg × $6.000. Cuando las compre, se pasa a gasto real."
+      },
+      {
+        "concepto": "Extra del sábado",
+        "monto": 90000,
+        "pago": "Chine",
+        "aDividir": true,
+        "fecha": "8/10",
+        "nota": "Ya pagado por Chine. Se divide solo entre los que participen; se define el sábado."
       }
     ],
     "pagos": [
