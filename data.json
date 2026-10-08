@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 09:37",
+  "actualizado": "jue 8/10 · 10:06",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 9:36 a. m.]",
+    "fecha": "[8/10/2026, 10:05 a. m.]",
     "autor": "Manu",
-    "texto": "bartolomé, haceme una función en Python que devuelva si un número es par."
+    "texto": "ssh bartolome"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -60,8 +60,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne: Pili espera confirmación de un descuento en el Redil.",
-                  "who": "Pili y Chine"
+                  "t": "Carne: el Redil hace 15% en efectivo o transferencia. Chine arma la lista y se la pasa a Pili, que la deja preparada para retirar.",
+                  "who": "Chine"
                 },
                 {
                   "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
@@ -82,10 +82,6 @@
                 {
                   "t": "Condimentos: los cocineros le dicen a Flopi qué necesitan.",
                   "who": "Chine (parrilla) y Cata (empanadas)"
-                },
-                {
-                  "t": "Falta la otra heladerita. Chine lleva una heladerita y la pelota.",
-                  "who": "¿Quién?"
                 },
                 {
                   "t": "Luces para la noche: ¿alguien tiene?",
@@ -310,9 +306,10 @@
                           "who": "¿Quién?"
                         },
                         {
-                          "e": "wip",
-                          "t": "2 heladeritas",
-                          "who": "Chine lleva 1. Falta otra."
+                          "e": "ok",
+                          "t": "Heladeritas",
+                          "who": "Chine, Pili y Muke",
+                          "nota": "Chine y Pili, una heladerita cada uno (Pili manda foto del tamaño). Muke suma una conservadora."
                         },
                         {
                           "e": "ok",
@@ -457,7 +454,7 @@
                         {
                           "e": "wip",
                           "t": "Carne y pan para la parrilla",
-                          "nota": "La compra. Pili ve si consigue descuento en el Redil."
+                          "nota": "La compra en el Redil: 15% de descuento pagando en efectivo o transferencia (lo consiguió Pili)."
                         },
                         {
                           "e": "wip",
@@ -523,6 +520,20 @@
                         {
                           "e": "ok",
                           "t": "Cafetera"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Muke",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Una conservadora"
                         }
                       ]
                     }
@@ -692,9 +703,14 @@
                       "tipo": "estado",
                       "items": [
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Descuento para la carne en el Redil",
-                          "nota": "Está esperando que le confirmen."
+                          "nota": "15% de descuento en el Redil pagando en efectivo o transferencia. Si Chine arma la lista, preparan el pedido para retirarlo listo."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Una heladerita",
+                          "nota": "Hoy manda foto del tamaño."
                         }
                       ]
                     }
@@ -704,7 +720,7 @@
             },
             {
               "tipo": "nota",
-              "texto": "Muke y Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
+              "texto": "Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
             }
           ]
         }
@@ -1023,7 +1039,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Parrilla. Compra Chine; Pili ve un descuento en el Redil."
+                  "Parrilla. Compra Chine en el Redil, con 15% de descuento (efectivo o transferencia), gracias a Pili."
                 ],
                 [
                   "Dom mediodía",
