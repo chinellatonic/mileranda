@@ -169,6 +169,19 @@ dialog.modal::backdrop{background:rgba(26,26,24,.38)}
 .m-in p{font-size:16.5px;line-height:1.5}
 .m-in .sub-h{margin-top:2px}
 
+/* desplegables */
+.accs{display:grid;gap:8px}
+details.acc{border:1px solid var(--border-soft);background:var(--paper);border-radius:12px}
+details.acc[open]{border-color:var(--border)}
+details.acc > summary{list-style:none;display:flex;align-items:center;gap:10px;min-height:50px;padding:10px 14px;cursor:pointer}
+details.acc > summary::-webkit-details-marker{display:none}
+details.acc > summary .a-t{flex:1 1 auto;min-width:0;font-size:17.5px;font-weight:600;letter-spacing:-.01em;line-height:1.25}
+details.acc > summary .a-n{font-family:var(--mono);font-size:11.5px;color:var(--muted2);white-space:nowrap}
+details.acc > summary .a-n.warn{color:var(--warn)}
+details.acc > summary .a-arrow{font-family:var(--mono);font-size:15px;color:var(--muted2);transition:transform .15s}
+details.acc[open] > summary .a-arrow{transform:rotate(90deg)}
+.a-body{padding:2px 14px 14px;display:grid;gap:10px;border-top:1px solid var(--border-soft);padding-top:10px}
+
 /* presupuesto */
 .pres-top{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .pres-box{border:1px solid var(--border-soft);background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:2px}
@@ -360,6 +373,28 @@ function init(D){
         node.appendChild(li);
       });
       if (b.abrir) { var wrap = el('div'); wrap.style.display = 'grid'; wrap.style.gap = '8px'; wrap.appendChild(el('span', 'hint', 'tocá cada una para ver más')); wrap.appendChild(node); node = wrap; }
+
+    } else if (b.tipo === 'desplegables') {
+      node = el('div', 'accs');
+      b.items.forEach(function(a){
+        var det = el('details', 'acc');
+        var sum = el('summary');
+        sum.appendChild(el('span', 'a-t', a.titulo));
+        var n = 0, falta = 0;
+        a.bloques.forEach(function(x){
+          var arr = x.items || x.personas || [];
+          n += arr.length;
+          arr.forEach(function(i){ if (i && (i.e === 'pend' || i.e === 'duda')) falta++; });
+        });
+        var tag = a.tag || (n + (n === 1 ? ' cosa' : ' cosas') + (falta ? ' · ' + falta + ' sin resolver' : ''));
+        sum.appendChild(el('span', 'a-n' + (falta && !a.tag ? ' warn' : ''), tag));
+        sum.appendChild(el('span', 'a-arrow', '›'));
+        det.appendChild(sum);
+        var body = el('div', 'a-body');
+        a.bloques.forEach(function(x){ body.appendChild(renderBlock(x)); });
+        det.appendChild(body);
+        node.appendChild(det);
+      });
 
     } else if (b.tipo === 'presupuesto') {
       node = el('div'); node.style.display = 'grid'; node.style.gap = '12px';

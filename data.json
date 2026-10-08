@@ -1,5 +1,5 @@
 {
-  "actualizado": "mié 7/10 · 21:23",
+  "actualizado": "mié 7/10 · 21:27",
   "ultimo_leido": {
     "fecha": "[10/7/26, 9:08:46 PM]",
     "autor": "Agus",
@@ -158,200 +158,393 @@
       "titulo": "Listas",
       "cards": [
         {
-          "titulo": "Qué lleva cada uno",
-          "tag": "tu lista",
+          "titulo": "Listas",
+          "tag": "tocá para abrir",
           "bloques": [
             {
-              "tipo": "lista",
-              "check": true,
-              "id": "cadauno",
+              "tipo": "desplegables",
               "items": [
-                "Reposera",
-                "Toallón (si preferís el tuyo; la casa tiene toalla de ducha)",
-                "Repelente",
-                "Protector solar",
-                "Linterna (para el juego de la noche)",
-                "Lo que quieras tomar + un extra para los novios",
-                "Algo para el almuerzo a la canasta del sábado"
+                {
+                  "titulo": "Qué lleva cada uno",
+                  "bloques": [
+                    {
+                      "tipo": "lista",
+                      "check": true,
+                      "id": "cadauno",
+                      "items": [
+                        "Reposera",
+                        "Toallón (si preferís el tuyo; la casa tiene toalla de ducha)",
+                        "Repelente",
+                        "Protector solar",
+                        "Linterna (para el juego de la noche)",
+                        "Lo que quieras tomar + un extra para los novios",
+                        "Algo para el almuerzo a la canasta del sábado"
+                      ]
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Los tildes se guardan solo en tu celu."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Compras",
+                  "bloques": [
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "3 bidones de agua.",
+                        "Hielo. En heladeritas aguanta unas 24 h, se puede llevar de acá.",
+                        "Desayuno y merienda.",
+                        "Carne y pan para la parrilla (Chine).",
+                        "Empanadas: ver la lista de abajo.",
+                        "Condimentos.",
+                        "Papel de cocina y papel higiénico extra (más de un paquete).",
+                        "Leña para el fogón, y para la estaca si hacemos.",
+                        "Detergente, rejilla y repasador, solo si limpiamos nosotros.",
+                        "Harina y caramelos (juego de la harina).",
+                        "Chocolates y un buen escabio: el premio para el agasajado cuyo equipo gane."
+                      ],
+                      "check": true,
+                      "id": "compras"
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Las confirma Flopi. La bebida la lleva cada uno."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Empanadas (8 docenas)",
+                  "bloques": [
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "2 kg de carne picada (la compra Chine con el resto de la carne)",
+                        "2,1 kg de cebolla común",
+                        "600 g de cebolla de verdeo",
+                        "400 g de cebolla morada",
+                        "1 kg de mozzarella",
+                        "3–4 huevos",
+                        "150–200 g de aceitunas",
+                        "8 docenas de discos para freír",
+                        "2 paquetes de grasa",
+                        "Aceite",
+                        "Pimentón, comino, ají molido, orégano, sal y pimienta"
+                      ],
+                      "check": true,
+                      "id": "empanadas"
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Receta de Charly, vía Julia: 5 docenas de carne y 3 de cebolla y queso."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Para la casa",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Disco",
+                          "who": "Julia"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Parlante",
+                          "who": "Agus",
+                          "nota": "El grande del papá de Agus, se conecta al celu."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Limas y azúcar para tragos",
+                          "who": "Chine"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Luces para la noche",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "2 heladeritas",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Pelota",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Destapador",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Lo de las fotos de Angie",
+                          "who": "Angie",
+                          "nota": "Algo para llevar y algo para pintar."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Para juegos y gestos",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Juego de dardos con imanes",
+                          "who": "Agus"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Bolsas de papa (embolsados)",
+                          "who": "Angie"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Cuaderno para la bitácora",
+                          "who": "Cata, el viernes"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Fotos impresas en A3",
+                          "who": "Jerga",
+                          "nota": "Mándenle fotos con los novios."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Orejas de elfo",
+                          "who": "¿Quién compra?",
+                          "nota": "En el cotillón."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Banderines",
+                          "who": "¿Quién compra?",
+                          "nota": "En el cotillón, junto con las orejas."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Sombrero loco",
+                          "who": "¿Quién tiene?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Cartas de los números",
+                          "who": "Flopi, a confirmar"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Fibras y papel (cadáver exquisito)",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Afiche (la cola al burro)",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Burako",
+                          "who": "¿Quién tiene?"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Harina, caramelos, chocolates y escabio del premio",
+                          "who": "En las compras"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Linternas",
+                          "who": "Cada uno la suya"
+                        }
+                      ]
+                    }
+                  ]
+                }
               ]
-            },
-            {
-              "tipo": "nota",
-              "texto": "Los tildes se guardan solo en tu celu."
             }
           ]
         },
         {
-          "titulo": "Compras",
-          "tag": "Flopi · a confirmar",
+          "titulo": "Por persona",
+          "tag": "además de lo de todos",
           "bloques": [
             {
-              "tipo": "lista",
+              "tipo": "desplegables",
               "items": [
-                "3 bidones de agua.",
-                "Hielo. En heladeritas aguanta unas 24 h, se puede llevar de acá.",
-                "Desayuno y merienda.",
-                "Carne y pan para la parrilla (Chine).",
-                "Empanadas: ver la lista de abajo.",
-                "Condimentos.",
-                "Papel de cocina y papel higiénico extra (más de un paquete).",
-                "Leña para el fogón, y para la estaca si hacemos.",
-                "Detergente, rejilla y repasador, solo si limpiamos nosotros.",
-                "Harina y caramelos (juego de la harina).",
-                "Chocolates y un buen escabio: el premio para el agasajado cuyo equipo gane."
-              ],
-              "check": true,
-              "id": "compras"
-            },
-            {
-              "tipo": "lista",
-              "subtitulo": "Empanadas (8 docenas)",
-              "items": [
-                "2 kg de carne picada (la compra Chine con el resto de la carne)",
-                "2,1 kg de cebolla común",
-                "600 g de cebolla de verdeo",
-                "400 g de cebolla morada",
-                "1 kg de mozzarella",
-                "3–4 huevos",
-                "150–200 g de aceitunas",
-                "8 docenas de discos para freír",
-                "2 paquetes de grasa",
-                "Aceite",
-                "Pimentón, comino, ají molido, orégano, sal y pimienta"
-              ],
-              "check": true,
-              "id": "empanadas"
+                {
+                  "titulo": "Chine",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Auto",
+                          "nota": "3 lugares."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Limas y azúcar para tragos"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Carne y pan para la parrilla",
+                          "nota": "La compra."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "2 kg de carne picada para las empanadas",
+                          "nota": "La compra junto con el resto de la carne."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Julia",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Disco para freír"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Agus",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Parlante grande",
+                          "nota": "El de su papá, se conecta al celu."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Juego de dardos con imanes"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Angie",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "wip",
+                          "t": "Bolsas de papa",
+                          "nota": "Para la carrera de embolsados."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Juegos tipo Supermatch"
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Lo de las fotos",
+                          "nota": "Algo para llevar y algo para pintar. ¿Qué es?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Cata",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "wip",
+                          "t": "Cuaderno para la bitácora",
+                          "nota": "Lo compra el viernes."
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Picada de Zaatar",
+                          "nota": "Si decidimos picada para el sábado a la tarde."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Jerga",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "wip",
+                          "t": "Fotos impresas en A3",
+                          "nota": "Mándenle fotos con los novios."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Flopi",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Auto"
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Las compras",
+                          "nota": "Falta que las confirme."
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Cartas de los números"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Sol",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Auto"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "tipo": "nota",
-              "texto": "La bebida la lleva cada uno. Los tildes se guardan solo en tu celu."
-            }
-          ]
-        },
-        {
-          "titulo": "Quién lleva qué",
-          "bloques": [
-            {
-              "tipo": "estado",
-              "subtitulo": "Para la casa",
-              "items": [
-                {
-                  "e": "ok",
-                  "t": "Disco",
-                  "who": "Julia"
-                },
-                {
-                  "e": "ok",
-                  "t": "Parlante",
-                  "who": "Agus",
-                  "nota": "El grande del papá de Agus, se conecta al celu."
-                },
-                {
-                  "e": "ok",
-                  "t": "Limas y azúcar para tragos",
-                  "who": "Chine"
-                },
-                {
-                  "e": "pend",
-                  "t": "Luces para la noche",
-                  "who": "¿Quién?"
-                },
-                {
-                  "e": "pend",
-                  "t": "2 heladeritas",
-                  "who": "¿Quién?"
-                },
-                {
-                  "e": "pend",
-                  "t": "Pelota",
-                  "who": "¿Quién?"
-                },
-                {
-                  "e": "pend",
-                  "t": "Destapador",
-                  "who": "¿Quién?"
-                },
-                {
-                  "e": "duda",
-                  "t": "Lo de las fotos de Angie",
-                  "who": "Angie",
-                  "nota": "Algo para llevar y algo para pintar."
-                }
-              ]
-            },
-            {
-              "tipo": "estado",
-              "subtitulo": "Para juegos y gestos",
-              "items": [
-                {
-                  "e": "ok",
-                  "t": "Juego de dardos con imanes",
-                  "who": "Agus"
-                },
-                {
-                  "e": "wip",
-                  "t": "Bolsas de papa (embolsados)",
-                  "who": "Angie"
-                },
-                {
-                  "e": "wip",
-                  "t": "Cuaderno para la bitácora",
-                  "who": "Cata, el viernes"
-                },
-                {
-                  "e": "wip",
-                  "t": "Fotos impresas en A3",
-                  "who": "Jerga",
-                  "nota": "Mándenle fotos con los novios."
-                },
-                {
-                  "e": "pend",
-                  "t": "Orejas de elfo",
-                  "who": "¿Quién compra?",
-                  "nota": "En el cotillón."
-                },
-                {
-                  "e": "pend",
-                  "t": "Banderines",
-                  "who": "¿Quién compra?",
-                  "nota": "En el cotillón, junto con las orejas."
-                },
-                {
-                  "e": "pend",
-                  "t": "Sombrero loco",
-                  "who": "¿Quién tiene?"
-                },
-                {
-                  "e": "pend",
-                  "t": "Cartas de los números",
-                  "who": "Flopi, a confirmar"
-                },
-                {
-                  "e": "pend",
-                  "t": "Fibras y papel (cadáver exquisito)",
-                  "who": "¿Quién?"
-                },
-                {
-                  "e": "pend",
-                  "t": "Afiche (la cola al burro)",
-                  "who": "¿Quién?"
-                },
-                {
-                  "e": "pend",
-                  "t": "Burako",
-                  "who": "¿Quién tiene?"
-                },
-                {
-                  "e": "ok",
-                  "t": "Harina, caramelos, chocolates y escabio del premio",
-                  "who": "En las compras"
-                },
-                {
-                  "e": "ok",
-                  "t": "Linternas",
-                  "who": "Cada uno la suya"
-                }
-              ]
+              "texto": "Muke, Manu, Pili y Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
             }
           ]
         }
