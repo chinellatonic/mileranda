@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 12:02",
+  "actualizado": "jue 8/10 · 12:11",
   "ultimo_leido": {
-    "fecha": "[10/8/26, 11:49:24 AM]",
-    "autor": "Cata",
-    "texto": "Bartolo, estuve hablando con flopi, las compras de supermercado lo podés dividir entre lo que es de verdulería y el resto?..."
+    "fecha": "[8/10/2026, 12:09 p. m.]",
+    "autor": "Agus",
+    "texto": "voy a ver si consigo un micrófono que se conecte al parlante"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -360,6 +360,11 @@
                           "t": "Parlante",
                           "who": "Agus",
                           "nota": "El grande del papá de Agus, se conecta al celu."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Micrófono para el parlante",
+                          "who": "Agus ve si consigue"
                         },
                         {
                           "e": "ok",
@@ -765,6 +770,16 @@
                           "e": "wip",
                           "t": "Orejas de elfo y cosas de cotillón",
                           "nota": "Sigue buscando: donde averiguó no había 14."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Micrófono para el parlante",
+                          "nota": "Ve si consigue uno que se conecte."
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Pistas de la búsqueda del tesoro, con Angie",
+                          "nota": "Propuesta de Bartolomé, a confirmar."
                         }
                       ]
                     }
