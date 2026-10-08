@@ -1,5 +1,5 @@
 {
-  "actualizado": "jue 8/10 · 11:50",
+  "actualizado": "jue 8/10 · 12:02",
   "ultimo_leido": {
     "fecha": "[10/8/26, 11:49:24 AM]",
     "autor": "Cata",
@@ -166,6 +166,25 @@
                   "texto": "Ver el lugar",
                   "link": "https://www.turismoentrerios.com/loslirios/",
                   "ghost": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Playlist de Bian y Juani",
+          "tag": "la armó Agus",
+          "bloques": [
+            {
+              "tipo": "nota",
+              "texto": "Es colaborativa: sumá los temas que creas que les gustan."
+            },
+            {
+              "tipo": "botones",
+              "items": [
+                {
+                  "texto": "Abrir en Spotify →",
+                  "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N"
                 }
               ]
             }
@@ -590,6 +609,25 @@
                         "¿Hay trébede, anafe y pava? ¿Hay señal o wifi?",
                         "¿A qué hora pasa Giuli a la noche?",
                         "La pileta: ¿tiene agua o está vacía? De noche hay que marcarla como zona prohibida."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Playlist de Bian y Juani",
+                  "tag": "Spotify",
+                  "bloques": [
+                    {
+                      "tipo": "nota",
+                      "texto": "La armó Agus y es colaborativa: sumá los temas que creas que les gustan."
+                    },
+                    {
+                      "tipo": "botones",
+                      "items": [
+                        {
+                          "texto": "Abrir en Spotify →",
+                          "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N"
+                        }
                       ]
                     }
                   ]
