@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 22:00",
+  "actualizado": "mié 7/10 · 22:02",
   "ultimo_leido": {
-    "fecha": "[7/10/2026, 9:59 p. m.]",
-    "autor": "Agus",
-    "texto": "bartolo querido: yo no tengo auto para poner y si, me animo a seguir en la búsqueda de orejas y el tema cotillón..."
+    "fecha": "7/10, después de las 21:59",
+    "autor": "(sin nombre en lo pegado)",
+    "texto": "@chicos alguno sabe de algún juego o actividad lúdica chill para un domingo a la mañana que le guste a juani!?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -56,8 +56,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Orejas de elfo: Agus sigue buscando, donde averiguó no había 14. Si pasás por un cotillón, preguntá. Si no aparecen, otra variante.",
-                  "who": "Agus"
+                  "t": "Orejas de elfo: donde averiguó Agus no había 14. Cata mira en calle San Luis el viernes. Si no aparecen, otra variante.",
+                  "who": "Agus y Cata"
                 },
                 {
                   "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
@@ -94,6 +94,14 @@
                 {
                   "t": "Las cartas de los números.",
                   "who": "Flopi, ¿las llevás?"
+                },
+                {
+                  "t": "Burako para el domingo: ¿alguna tiene?",
+                  "who": "Las chicas"
+                },
+                {
+                  "t": "Domingo a la mañana: un juego o actividad chill que le guste a Juani.",
+                  "who": "Los chicos, ideas"
                 },
                 {
                   "t": "Sábado a la tarde: ¿picada de Zaatar (la compra Cata) o alcanza con lo de la canasta?",
@@ -334,8 +342,8 @@
                         {
                           "e": "wip",
                           "t": "Orejas de elfo",
-                          "who": "Agus busca",
-                          "nota": "Agus sigue buscando: donde averiguó no había 14. Si no aparecen, vamos con otra variante. Si pasás por un cotillón, preguntá."
+                          "who": "Agus y Cata buscan",
+                          "nota": "Agus sigue buscando: donde averiguó no había 14. Cata mira en los cotillones de calle San Luis el viernes, cuando va a Croquis. Si no aparecen, vamos con otra variante."
                         },
                         {
                           "e": "wip",
@@ -366,7 +374,7 @@
                         {
                           "e": "pend",
                           "t": "Burako",
-                          "who": "¿Quién tiene?"
+                          "who": "¿Alguna tiene?"
                         },
                         {
                           "e": "ok",
@@ -499,6 +507,11 @@
                           "e": "duda",
                           "t": "Picada de Zaatar",
                           "nota": "Si decidimos picada para el sábado a la tarde."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Mirar orejas en calle San Luis",
+                          "nota": "El viernes, de paso a Croquis."
                         }
                       ]
                     }
@@ -1065,6 +1078,9 @@
                     "Burako",
                     "Cartas de los números (Flopi)",
                     "Algo que le guste a Juani"
+                  ],
+                  "mas": [
+                    "Domingo a la mañana, algo chill. Burako para Bian. Para Juani se buscan ideas: chicos, ¿qué le gusta?"
                   ]
                 }
               ],
@@ -1085,7 +1101,7 @@
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
-                    "Agus sigue buscando: en el cotillón donde averiguó no había 14. Si no aparecen, vamos con otra variante del tema.",
+                    "Agus sigue buscando: en el cotillón donde averiguó no había 14. Cata mira en calle San Luis el viernes, cuando va a Croquis. Si no aparecen, vamos con otra variante del tema.",
                     "Si alguien pasa por un cotillón, que pregunte."
                   ],
                   "links": [
@@ -1094,7 +1110,7 @@
                       "link": "https://www.cotillonoeste.com.ar/productos/orejas-de-elfo-s2u3x/"
                     }
                   ],
-                  "who": "Agus busca"
+                  "who": "Agus y Cata buscan"
                 },
                 {
                   "e": "ok",
