@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 10:48",
+  "actualizado": "jue 8/10 · 11:38",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:39 a. m.]",
-    "autor": "Basha",
-    "texto": "Llevo boquita y luces"
+    "fecha": "8/10, después de las 10:48",
+    "autor": "(sin nombre en lo pegado)",
+    "texto": "Ahh para la bitácora pueden ser fotos grupales tmb o no? Grupales de 3 o +"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,7 +48,7 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "Fotos con los novios para Jerga: hasta hoy a la noche, así imprime el viernes.",
+                  "t": "Fotos para Jerga: con los novios y también grupales (de 3 o más). Hasta hoy a la noche, así imprime el viernes. Muke, tu álbum de Juani sirve.",
                   "who": "Todos, a Jerga"
                 },
                 {
@@ -194,7 +194,7 @@
                       "items": [
                         "Reposera",
                         "Toallón (si preferís el tuyo; la casa tiene toalla de ducha)",
-                        "Repelente",
+                        "Repelente (lo recomienda Giuli)",
                         "Protector solar",
                         "Linterna (para el juego de la noche)",
                         "Útiles que tengas (lapiceras, fibras) para la bitácora",
@@ -493,7 +493,7 @@
                           "e": "wip",
                           "t": "Fotos impresas en A3",
                           "who": "Jerga",
-                          "nota": "Mándenle fotos con los novios."
+                          "nota": "Para pegar en la bitácora: con los novios, y también grupales (de 3 o más). Muke tiene un álbum de fotos de Juani. Mándenlas a Jerga hasta hoy a la noche."
                         },
                         {
                           "e": "wip",
@@ -787,7 +787,7 @@
                         {
                           "e": "wip",
                           "t": "Fotos impresas en A3",
-                          "nota": "Mándenle fotos con los novios."
+                          "nota": "Para pegar en la bitácora: con los novios, y también grupales (de 3 o más). Muke tiene un álbum de fotos de Juani. Mándenlas a Jerga hasta hoy a la noche."
                         }
                       ]
                     }
@@ -946,7 +946,7 @@
                   "concepto": "Limpieza (Giuli)",
                   "total": 50000,
                   "e": "ok",
-                  "nota": "Decidido: nadie se opuso. $50.000 entre todos."
+                  "nota": "Confirmada con Giuli por Jerga."
                 },
                 {
                   "concepto": "Toro mecánico",
@@ -1292,7 +1292,7 @@
                         "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
                         "Lo que se rompe se repone.",
                         "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee.",
-                        "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba. Le pagamos $50.000 entre todos."
+                        "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba. Jerga le confirmó $50.000."
                       ]
                     }
                   ]
@@ -1555,7 +1555,7 @@
                   "propuso": "Cata",
                   "mas": [
                     "Un diario o registro de la despedida: escribimos, pegamos fotos y cosas, y sigue de acá al casamiento.",
-                    "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar."
+                    "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar: con los novios y también grupales (de 3 o más). Muke tiene un álbum de fotos de Juani."
                   ],
                   "necesita": [
                     "Cuaderno de hojas lisas y tapa dura (Cata, el viernes, en Croquis)",
