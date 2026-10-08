@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 08:57",
+  "actualizado": "jue 8/10 · 09:03",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 8:57 a. m.]",
-    "autor": "Flopi",
-    "texto": "Chicos si le compramos unas tortillas al primo de Julia? Para el sábado al mediodía? Y armamos una picada o algo así?"
+    "fecha": "8/10, después de las 9:00",
+    "autor": "(sin nombre en lo pegado)",
+    "texto": "Chicos falta manteca para el pan del desayunoooo"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -101,7 +101,7 @@
                 },
                 {
                   "t": "Almuerzo del sábado: ¿a la canasta (Pili) o tortillas del primo de Julia + picada (Flopi)? Julia, ¿precio y si llega?",
-                  "who": "Todos, hoy"
+                  "who": "Julia consulta a su primo"
                 },
                 {
                   "t": "Toro mecánico: falta el precio del flete para decidir.",
@@ -224,6 +224,7 @@
                       "id": "super-desayuno",
                       "subtitulo": "Desayuno y merienda",
                       "items": [
+                        "Manteca",
                         "Mermeladas",
                         "Huevos (aparte de los de las empanadas)",
                         "Yerba",
@@ -975,7 +976,7 @@
                 ],
                 [
                   "Desayunos y meriendas",
-                  "2 hogazas de Barra (Sol), mermeladas, huevos, mate y café."
+                  "2 hogazas de Barra (Sol), manteca, mermeladas, huevos, mate y café."
                 ],
                 [
                   "Postre",
