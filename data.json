@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 08:55",
+  "actualizado": "jue 8/10 · 08:57",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 8:54 a. m.]",
+    "fecha": "[8/10/2026, 8:57 a. m.]",
     "autor": "Flopi",
-    "texto": "Bartolomé, podrás armar la lista del súper final con esta info por favor? Gracoss"
+    "texto": "Chicos si le compramos unas tortillas al primo de Julia? Para el sábado al mediodía? Y armamos una picada o algo así?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -60,6 +60,10 @@
                   "who": "Todos"
                 },
                 {
+                  "t": "Carne: Pili espera confirmación de un descuento en el Redil.",
+                  "who": "Pili y Chine"
+                },
+                {
                   "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
                   "who": "Cata"
                 },
@@ -96,8 +100,8 @@
                   "who": "Los chicos, ideas"
                 },
                 {
-                  "t": "Almuerzo a la canasta del sábado: cada uno dice qué lleva, así comemos variado (idea de Pili). Según eso, se ve si hace falta la picada de Zaatar.",
-                  "who": "Todos"
+                  "t": "Almuerzo del sábado: ¿a la canasta (Pili) o tortillas del primo de Julia + picada (Flopi)? Julia, ¿precio y si llega?",
+                  "who": "Todos, hoy"
                 },
                 {
                   "t": "Toro mecánico: falta el precio del flete para decidir.",
@@ -435,7 +439,7 @@
                         {
                           "e": "wip",
                           "t": "Carne y pan para la parrilla",
-                          "nota": "La compra."
+                          "nota": "La compra. Pili ve si consigue descuento en el Redil."
                         },
                         {
                           "e": "wip",
@@ -619,7 +623,22 @@
                         {
                           "e": "ok",
                           "t": "2 hogazas de Barra",
-                          "nota": "Para el desayuno."
+                          "nota": "Para el desayuno. Las compra el viernes."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Pili",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "wip",
+                          "t": "Descuento para la carne en el Redil",
+                          "nota": "Está esperando que le confirmen."
                         }
                       ]
                     }
@@ -629,7 +648,7 @@
             },
             {
               "tipo": "nota",
-              "texto": "Muke, Manu, Pili y Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
+              "texto": "Muke, Manu y Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
             }
           ]
         }
@@ -940,7 +959,7 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "A la canasta: cada uno trae algo. Pili propone definir qué lleva cada uno, así comemos variado."
+                  "A definir: a la canasta (cada uno trae algo, idea de Pili) o tortillas del primo de Julia + picada (idea de Flopi)."
                 ],
                 [
                   "Sáb tarde",
@@ -948,7 +967,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Parrilla. Compra Chine."
+                  "Parrilla. Compra Chine; Pili ve un descuento en el Redil."
                 ],
                 [
                   "Dom mediodía",
