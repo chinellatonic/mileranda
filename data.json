@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 21:50",
+  "actualizado": "mié 7/10 · 22:00",
   "ultimo_leido": {
-    "fecha": "[7/10/2026, 9:36 p. m.]",
-    "autor": "Angie",
-    "texto": "no es el ideal pero se puede tener en cuenta"
+    "fecha": "[7/10/2026, 9:59 p. m.]",
+    "autor": "Agus",
+    "texto": "bartolo querido: yo no tengo auto para poner y si, me animo a seguir en la búsqueda de orejas y el tema cotillón..."
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -56,16 +56,16 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Orejas de elfo: quién las compra. Son 14. De paso, banderines en el cotillón.",
-                  "who": "Agus averiguaba en el cotillón"
+                  "t": "Orejas de elfo: Agus sigue buscando, donde averiguó no había 14. Si pasás por un cotillón, preguntá. Si no aparecen, otra variante.",
+                  "who": "Agus"
                 },
                 {
                   "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
                   "who": "Cata"
                 },
                 {
-                  "t": "Bitácora: ¿cómo la imaginamos? Así sabemos qué más hay que comprar o llevar.",
-                  "who": "Todos"
+                  "t": "Útiles y plasticola para la bitácora: ¿quién los lleva?",
+                  "who": "¿Quién?"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -98,10 +98,6 @@
                 {
                   "t": "Sábado a la tarde: ¿picada de Zaatar (la compra Cata) o alcanza con lo de la canasta?",
                   "who": "Todos"
-                },
-                {
-                  "t": "Angie mandó dos fotos de cosas para llevar y pintar: ¿qué son? Cata vota que van.",
-                  "who": "Angie"
                 },
                 {
                   "t": "Toro mecánico: falta el precio del flete para decidir.",
@@ -292,10 +288,10 @@
                           "who": "¿Quién?"
                         },
                         {
-                          "e": "duda",
-                          "t": "Lo de las fotos de Angie",
+                          "e": "ok",
+                          "t": "Carteles con la cara de Juani y banderines de Argentina",
                           "who": "Angie",
-                          "nota": "Algo para llevar y algo para pintar. Cata dice que van: los reutilizamos, y los novios son onda green. Falta que Angie cuente qué son."
+                          "nota": "Carteles con la cara de Juani y banderines de Argentina, que sobraron de la despedida de Bian. Algunos se pueden pintar. Van: los reutilizamos."
                         }
                       ]
                     }
@@ -331,15 +327,21 @@
                         },
                         {
                           "e": "pend",
-                          "t": "Orejas de elfo",
-                          "who": "¿Quién compra?",
-                          "nota": "En el cotillón."
+                          "t": "Útiles y plasticola para la bitácora",
+                          "who": "¿Quién?",
+                          "nota": "Para escribir, dibujar y pegar cosas."
                         },
                         {
-                          "e": "pend",
+                          "e": "wip",
+                          "t": "Orejas de elfo",
+                          "who": "Agus busca",
+                          "nota": "Agus sigue buscando: donde averiguó no había 14. Si no aparecen, vamos con otra variante. Si pasás por un cotillón, preguntá."
+                        },
+                        {
+                          "e": "wip",
                           "t": "Banderines",
-                          "who": "¿Quién compra?",
-                          "nota": "En el cotillón, junto con las orejas."
+                          "who": "Agus busca",
+                          "nota": "En el cotillón. Ya hay los de Argentina que lleva Angie."
                         },
                         {
                           "e": "pend",
@@ -448,6 +450,11 @@
                         {
                           "e": "ok",
                           "t": "Juego de dardos con imanes"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Orejas de elfo y cosas de cotillón",
+                          "nota": "Sigue buscando: donde averiguó no había 14."
                         }
                       ]
                     }
@@ -469,9 +476,9 @@
                           "t": "Juegos tipo Supermatch"
                         },
                         {
-                          "e": "duda",
-                          "t": "Lo de las fotos",
-                          "nota": "Algo para llevar y algo para pintar. Cata dice que van: los reutilizamos, y los novios son onda green. Falta que Angie cuente qué son."
+                          "e": "ok",
+                          "t": "Carteles con la cara de Juani y banderines de Argentina",
+                          "nota": "Carteles con la cara de Juani y banderines de Argentina, que sobraron de la despedida de Bian. Algunos se pueden pintar. Van: los reutilizamos."
                         }
                       ]
                     }
@@ -1078,14 +1085,16 @@
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
-                    "Agus se fija en el cotillón. Hay que ver si llegan a tiempo."
+                    "Agus sigue buscando: en el cotillón donde averiguó no había 14. Si no aparecen, vamos con otra variante del tema.",
+                    "Si alguien pasa por un cotillón, que pregunte."
                   ],
                   "links": [
                     {
                       "texto": "Las del cotillón →",
                       "link": "https://www.cotillonoeste.com.ar/productos/orejas-de-elfo-s2u3x/"
                     }
-                  ]
+                  ],
+                  "who": "Agus busca"
                 },
                 {
                   "e": "ok",
@@ -1093,13 +1102,15 @@
                   "nota": "Cata compra el cuaderno el viernes en Croquis. Jerga imprime 1 o 2 hojas A3 con fotitos para recortar y pegar. Manden fotos con los novios a Jerga.",
                   "propuso": "Cata",
                   "mas": [
-                    "Un cuaderno donde les escribimos, y que siga de acá al casamiento. Lo tuneamos y le damos onda.",
-                    "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar.",
-                    "Falta definir cómo la imaginamos, para saber qué más hace falta."
+                    "Un diario o registro de la despedida: escribimos, pegamos fotos y cosas, y sigue de acá al casamiento.",
+                    "Jerga imprime 1 o 2 hojas A3 llenas de fotitos para recortar y pegar."
                   ],
                   "necesita": [
                     "Cuaderno de hojas lisas y tapa dura (Cata, el viernes, en Croquis)",
                     "Fotos con los novios: mándenselas a Jerga",
+                    "Útiles para escribir y dibujar",
+                    "Plasticola",
+                    "Cosas para pegar",
                     "Algo escrito por cada uno"
                   ]
                 },
@@ -1169,7 +1180,8 @@
                   "nota": "Aunque sea unos banderines del cotillón, que son baratos.",
                   "propuso": "Agus",
                   "necesita": [
-                    "Banderines del cotillón"
+                    "Banderines del cotillón (Agus busca)",
+                    "Los banderines de Argentina y los carteles con la cara de Juani (Angie)"
                   ]
                 },
                 {
