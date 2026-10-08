@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 09:15",
+  "actualizado": "jue 8/10 · 09:16",
   "ultimo_leido": {
-    "fecha": "8/10, mañana",
-    "autor": "(sin nombre en lo pegado)",
-    "texto": "Yo p la canasta voy a llevar algo un poco mas contundente, empanadas, tartas o algo asi... osea me como los palitos y las papitas tambien"
+    "fecha": "[8/10/2026, 9:14 a. m.]",
+    "autor": "Chine",
+    "texto": "osea me como los palitos y las papitas tambien"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -112,8 +112,8 @@
                   "who": "Julia"
                 },
                 {
-                  "t": "Fiambres de Zaatar para el almuerzo del sábado: ¿quién los compra? Cata se había ofrecido.",
-                  "who": "¿Cata?"
+                  "t": "Fiambres de Zaatar para el almuerzo del sábado: Cata los compra el viernes.",
+                  "who": "Cata"
                 },
                 {
                   "t": "Toro mecánico: falta el precio del flete para decidir.",
@@ -481,6 +481,11 @@
                           "e": "wip",
                           "t": "4 kg de frutillas",
                           "nota": "Para el postre. Las están regalando: 2 kg × $6.000."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Algo contundente para la canasta",
+                          "nota": "Empanadas o tartas."
                         }
                       ]
                     }
@@ -495,6 +500,11 @@
                         {
                           "e": "ok",
                           "t": "Disco para freír"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "5 tortillas de papa y cebolla",
+                          "nota": "Se las pide a su primo. Falta el precio."
                         }
                       ]
                     }
@@ -570,9 +580,9 @@
                           "nota": "La compra en Croquis, junto con el cuaderno."
                         },
                         {
-                          "e": "duda",
-                          "t": "Picada de Zaatar",
-                          "nota": "Si decidimos picada para el sábado a la tarde."
+                          "e": "wip",
+                          "t": "Fiambres de Zaatar",
+                          "nota": "Para el almuerzo del sábado. Los compra el viernes."
                         },
                         {
                           "e": "wip",
@@ -982,7 +992,7 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "5 tortillas de papa y cebolla del primo de Julia (una cada 3), fiambres de Zaatar, cherrys o ensalada, papitas y palitos. Y lo que cada uno sume a la canasta (hay quien lleva empanadas o tartas)."
+                  "5 tortillas de papa y cebolla del primo de Julia (una cada 3), fiambres de Zaatar (Cata, el viernes), cherrys o ensalada, papitas y palitos. Más lo que cada uno sume a la canasta: Chine lleva algo contundente (empanadas o tartas)."
                 ],
                 [
                   "Sáb tarde",
