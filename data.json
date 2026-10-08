@@ -1,8 +1,8 @@
 {
-  "actualizado": "jue 8/10 · 20:45",
+  "actualizado": "jue 8/10 · 20:46",
   "ultimo_leido": {
-    "fecha": "8/10, después de las 16:55",
-    "autor": "(sin nombre en lo pegado)",
+    "fecha": "[8/10/2026, 7:19 p. m.]",
+    "autor": "Angie",
     "texto": "Bueno dos autos salen de fisher uno pasa"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
@@ -84,7 +84,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne: Pili compra las dos piezas de 2,5 kg para los sanguches. La picada (2 kg) se compra el sábado a las 9 en el Redil: ¿qué auto de los que salen de Fisherton pasa?",
+                  "t": "Carne: Pili compra las dos piezas de 2,5 kg para los sanguches. La picada (2 kg) se compra el sábado a las 9 en el Redil, como prefiere Cata: según Angie, salen dos autos de Fisherton y uno pasa. ¿Cuál?",
                   "who": "Pili y un auto de Fisherton"
                 },
                 {
@@ -475,7 +475,7 @@
                           "e": "ok",
                           "t": "El relleno de las empanadas",
                           "who": "Sábado",
-                          "nota": "Se cocina el sábado (con la picada comprada esa mañana) y las empanadas se hacen el domingo."
+                          "nota": "Se cocina el sábado, con la picada comprada esa mañana (idea de Angie), y las empanadas se hacen el domingo."
                         },
                         {
                           "e": "duda",
