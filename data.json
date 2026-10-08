@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 09:03",
+  "actualizado": "jue 8/10 · 09:15",
   "ultimo_leido": {
-    "fecha": "8/10, después de las 9:00",
+    "fecha": "8/10, mañana",
     "autor": "(sin nombre en lo pegado)",
-    "texto": "Chicos falta manteca para el pan del desayunoooo"
+    "texto": "Yo p la canasta voy a llevar algo un poco mas contundente, empanadas, tartas o algo asi... osea me como los palitos y las papitas tambien"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -68,6 +68,14 @@
                   "who": "Cata"
                 },
                 {
+                  "t": "¿Qué toman Bian y Juani? ¿Vino? Para el extra que lleva cada uno.",
+                  "who": "Los que sepan"
+                },
+                {
+                  "t": "Café: ¿instantáneo, o alguien lleva prensa o cafetera?",
+                  "who": "¿Quién?"
+                },
+                {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
                   "who": "Todos"
                 },
@@ -100,8 +108,12 @@
                   "who": "Los chicos, ideas"
                 },
                 {
-                  "t": "Almuerzo del sábado: ¿a la canasta (Pili) o tortillas del primo de Julia + picada (Flopi)? Julia, ¿precio y si llega?",
-                  "who": "Julia consulta a su primo"
+                  "t": "Tortillas: Julia le pide a su primo 5 de papa y cebolla. Falta el precio.",
+                  "who": "Julia"
+                },
+                {
+                  "t": "Fiambres de Zaatar para el almuerzo del sábado: ¿quién los compra? Cata se había ofrecido.",
+                  "who": "¿Cata?"
                 },
                 {
                   "t": "Toro mecánico: falta el precio del flete para decidir.",
@@ -228,9 +240,19 @@
                         "Mermeladas",
                         "Huevos (aparte de los de las empanadas)",
                         "Yerba",
-                        "Café",
+                        "Café (¿instantáneo o alguien lleva prensa o cafetera?)",
                         "Azúcar",
                         "Leche"
+                      ]
+                    },
+                    {
+                      "tipo": "lista",
+                      "check": true,
+                      "id": "super-almuerzo",
+                      "subtitulo": "Almuerzo del sábado",
+                      "items": [
+                        "Tomates cherry o algo de ensalada",
+                        "Papitas y palitos"
                       ]
                     },
                     {
@@ -960,11 +982,11 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "A definir: a la canasta (cada uno trae algo, idea de Pili) o tortillas del primo de Julia + picada (idea de Flopi)."
+                  "5 tortillas de papa y cebolla del primo de Julia (una cada 3), fiambres de Zaatar, cherrys o ensalada, papitas y palitos. Y lo que cada uno sume a la canasta (hay quien lleva empanadas o tartas)."
                 ],
                 [
                   "Sáb tarde",
-                  "A definir: picada de Zaatar (Cata se ofrece a comprarla) o lo que sobre de la canasta."
+                  "Lo que sobre del mediodía."
                 ],
                 [
                   "Sáb noche",
