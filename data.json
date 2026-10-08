@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 11:38",
+  "actualizado": "jue 8/10 · 11:50",
   "ultimo_leido": {
-    "fecha": "8/10, después de las 10:48",
-    "autor": "(sin nombre en lo pegado)",
-    "texto": "Ahh para la bitácora pueden ser fotos grupales tmb o no? Grupales de 3 o +"
+    "fecha": "[10/8/26, 11:49:24 AM]",
+    "autor": "Cata",
+    "texto": "Bartolo, estuve hablando con flopi, las compras de supermercado lo podés dividir entre lo que es de verdulería y el resto?..."
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,7 +48,7 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "Fotos para Jerga: con los novios y también grupales (de 3 o más). Hasta hoy a la noche, así imprime el viernes. Muke, tu álbum de Juani sirve.",
+                  "t": "Fotos para Jerga, de lo que cada uno quiera (con los novios o grupales de 3 o más). Mañana las arma y las imprime: mándenlas hoy.",
                   "who": "Todos, a Jerga"
                 },
                 {
@@ -92,7 +92,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Autos: con 3 entramos justo los 14 y sin lugar para la carga. Si nadie suma uno antes del viernes, va el de los novios. Falta armar quién va en cuál (Muke no tiene carnet; Jerga, en la avanzada, porque recibe la casa).",
+                  "t": "Autos: con 3 entramos justo los 14 y sin lugar para la carga (Sol también está preocupado). La chata de Chine lleva cosas arriba o en la caja. Si nadie suma uno antes del viernes, va el de los novios. Falta armar quién va en cuál (Muke no tiene carnet; Jerga, en la avanzada).",
                   "who": "¿Alguien más tiene auto?"
                 },
                 {
@@ -214,8 +214,7 @@
                   ]
                 },
                 {
-                  "titulo": "Lista del súper (final)",
-                  "tag": "Flopi",
+                  "titulo": "Súper (Flopi)",
                   "bloques": [
                     {
                       "tipo": "lista",
@@ -223,9 +222,6 @@
                       "id": "super-empanadas",
                       "subtitulo": "Empanadas (8 docenas)",
                       "items": [
-                        "2,1 kg de cebolla común",
-                        "600 g de cebolla de verdeo",
-                        "400 g de cebolla morada",
                         "1 kg de mozzarella",
                         "3–4 huevos",
                         "150–200 g de aceitunas",
@@ -256,7 +252,6 @@
                       "id": "super-almuerzo",
                       "subtitulo": "Almuerzo del sábado",
                       "items": [
-                        "Tomates cherry o algo de ensalada",
                         "Papitas y palitos"
                       ]
                     },
@@ -268,8 +263,6 @@
                       "items": [
                         "Pan para sanguches",
                         "Papel aluminio",
-                        "Ajo",
-                        "Cebollas",
                         "Condimentos para la carne",
                         "Salsitas (o lo necesario para hacerlas)"
                       ]
@@ -309,7 +302,26 @@
                     },
                     {
                       "tipo": "nota",
-                      "texto": "No va en el súper: carne y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Puede sumarse: condimentos de la parrilla (los dice Chine) y la picada, si la canasta no alcanza. El desayuno queda así si nadie pide otra cosa hoy."
+                      "texto": "No va en el súper: carne y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Lo de verdulería lo compra Cata el viernes (ver abajo)."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Verdulería (Cata, el viernes)",
+                  "bloques": [
+                    {
+                      "tipo": "lista",
+                      "check": true,
+                      "id": "verduleria",
+                      "items": [
+                        "2,1 kg de cebolla común",
+                        "600 g de cebolla de verdeo",
+                        "400 g de cebolla morada",
+                        "Tomates cherry o algo de ensalada",
+                        "Ajo",
+                        "Cebollas",
+                        "Pepino y limón (para el tzatziki de Cata)"
+                      ]
                     }
                   ]
                 },
@@ -493,7 +505,7 @@
                           "e": "wip",
                           "t": "Fotos impresas en A3",
                           "who": "Jerga",
-                          "nota": "Para pegar en la bitácora: con los novios, y también grupales (de 3 o más). Muke tiene un álbum de fotos de Juani. Mándenlas a Jerga hasta hoy a la noche."
+                          "nota": "De lo que cada uno quiera: con los novios y también grupales (de 3 o más). Muke tiene un álbum de Juani; Angie también tiene fotos y videos. Mándenlas a Jerga: mañana las arma y las imprime."
                         },
                         {
                           "e": "wip",
@@ -551,6 +563,17 @@
                           "e": "ok",
                           "t": "Linternas",
                           "who": "Cada uno la suya"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Tijeras (bitácora)",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Cámara instantánea",
+                          "who": "¿Alguien tiene?",
+                          "nota": "Para la bitácora."
                         }
                       ]
                     }
@@ -591,7 +614,7 @@
                         {
                           "e": "ok",
                           "t": "Auto",
-                          "nota": "3 lugares."
+                          "nota": "La chata: se pueden poner cosas arriba o en la caja."
                         },
                         {
                           "e": "ok",
@@ -738,6 +761,11 @@
                           "e": "ok",
                           "t": "Sombrero loco",
                           "nota": "Uno amarillo, del casamiento del otro día. Para sortear los equipos."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Fotos y videos para Jerga",
+                          "nota": "Hoy los busca."
                         }
                       ]
                     }
@@ -773,6 +801,16 @@
                           "e": "ok",
                           "t": "Batidora",
                           "nota": "Para la crema."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Las compras de verdulería",
+                          "nota": "El viernes."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Tzatziki para la carne",
+                          "nota": "Con su yogurt casero, ralladura de limón, pepino, sal, pimienta y aceite de oliva."
                         }
                       ]
                     }
@@ -787,7 +825,7 @@
                         {
                           "e": "wip",
                           "t": "Fotos impresas en A3",
-                          "nota": "Para pegar en la bitácora: con los novios, y también grupales (de 3 o más). Muke tiene un álbum de fotos de Juani. Mándenlas a Jerga hasta hoy a la noche."
+                          "nota": "De lo que cada uno quiera: con los novios y también grupales (de 3 o más). Muke tiene un álbum de Juani; Angie también tiene fotos y videos. Mándenlas a Jerga: mañana las arma y las imprime."
                         }
                       ]
                     }
@@ -837,6 +875,10 @@
                           "e": "ok",
                           "t": "2 hogazas de Barra",
                           "nota": "Para el desayuno. Las compra el viernes."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "2 reposeras"
                         }
                       ]
                     }
@@ -1109,7 +1151,7 @@
                         {
                           "e": "ok",
                           "t": "Chine",
-                          "nota": "3 lugares."
+                          "nota": "Va con la chata: se pueden poner cosas arriba o en la caja."
                         },
                         {
                           "e": "ok",
@@ -1323,7 +1365,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas. Plan B: algo a la estaca (idea de Cata, 5/10). La carne la compra Chine en el Redil, con 15% de descuento."
+                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas. Plan B: algo a la estaca (idea de Cata, 5/10). La carne la compra Chine en el Redil, con 15% de descuento. Con tzatziki casero de Cata."
                 ],
                 [
                   "Dom mediodía",
@@ -1563,7 +1605,9 @@
                     "Plasticola y quizá lapiceras (Cata, en Croquis)",
                     "Los útiles que tenga cada uno (Angie lleva su cartuchera)",
                     "Cosas para pegar",
-                    "Algo escrito por cada uno"
+                    "Algo escrito por cada uno",
+                    "Tijeras",
+                    "Si alguien tiene cámara instantánea, suma"
                   ]
                 },
                 {
