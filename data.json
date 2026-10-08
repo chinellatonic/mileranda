@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 10:24",
+  "actualizado": "jue 8/10 · 10:27",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:23 a. m.]",
-    "autor": "Cata",
-    "texto": "che bartolo yo nunca dije algo a la estaca!!!"
+    "fecha": "[8/10/2026, 10:26 a. m.]",
+    "autor": "Chine",
+    "texto": "Bueno entonces sanguches de carne sabad a la noche, compremos papel aluminio... pan, aluminio, ajo cebollas y demas condimentos y algunas salsitas"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -60,11 +60,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Cena del sábado: lo fácil (choris y carne para sanguchitos) o algo más elaborado (estaca o carnes a la parrilla) solo si de verdad lo queremos. Si da igual, vamos con lo fácil. Manu, a favor de los sanguchitos.",
-                  "who": "Todos, hoy"
-                },
-                {
-                  "t": "Carne: el Redil hace 15% en efectivo o transferencia. Chine arma la lista y se la pasa a Pili, que la deja preparada para retirar.",
+                  "t": "Carne para los sanguches del sábado: el Redil hace 15% en efectivo o transferencia. Chine arma la lista y se la pasa a Pili, que la deja preparada para retirar.",
                   "who": "Chine"
                 },
                 {
@@ -250,6 +246,20 @@
                     {
                       "tipo": "lista",
                       "check": true,
+                      "id": "super-cena",
+                      "subtitulo": "Cena del sábado (sanguches de carne)",
+                      "items": [
+                        "Pan para sanguches",
+                        "Papel aluminio",
+                        "Ajo",
+                        "Cebollas",
+                        "Condimentos para la carne",
+                        "Salsitas (o lo necesario para hacerlas)"
+                      ]
+                    },
+                    {
+                      "tipo": "lista",
+                      "check": true,
                       "id": "super-postre",
                       "subtitulo": "Postre",
                       "items": [
@@ -277,12 +287,12 @@
                         "Hielo (en heladeritas aguanta unas 24 h, se puede llevar de acá)",
                         "Papel de cocina",
                         "Papel higiénico extra (más de un paquete)",
-                        "Leña para el fogón, y para la estaca si hacemos"
+                        "Leña para el fogón y para cocinar la carne"
                       ]
                     },
                     {
                       "tipo": "nota",
-                      "texto": "No va en el súper: carne, pan de la parrilla y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Puede sumarse: condimentos de la parrilla (los dice Chine) y la picada, si la canasta no alcanza. El desayuno queda así si nadie pide otra cosa hoy."
+                      "texto": "No va en el súper: carne y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Puede sumarse: condimentos de la parrilla (los dice Chine) y la picada, si la canasta no alcanza. El desayuno queda así si nadie pide otra cosa hoy."
                     }
                   ]
                 },
@@ -461,7 +471,7 @@
                         },
                         {
                           "e": "wip",
-                          "t": "Carne y pan para la parrilla",
+                          "t": "Carne para los sanguches del sábado",
                           "nota": "La compra en el Redil: 15% de descuento pagando en efectivo o transferencia (lo consiguió Pili)."
                         },
                         {
@@ -1063,7 +1073,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "A definir: lo fácil (choris y carne para sanguchitos) o, si de verdad lo queremos, algo más elaborado (estaca o carnes a la parrilla). Lo compra Chine en el Redil, con 15% de descuento."
+                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas mientras hacemos otra cosa. La carne la compra Chine en el Redil, con 15% de descuento."
                 ],
                 [
                   "Dom mediodía",
