@@ -184,7 +184,7 @@
               "items": [
                 {
                   "texto": "Abrir en Spotify →",
-                  "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
+                  "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
                 }
               ]
             }
@@ -631,7 +631,7 @@
                       "items": [
                         {
                           "texto": "Abrir en Spotify →",
-                          "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
+                          "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
                         }
                       ]
                     }
@@ -1747,7 +1747,7 @@
                   "links": [
                     {
                       "texto": "Sumar temas →",
-                      "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
+                      "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
                     }
                   ]
                 }
