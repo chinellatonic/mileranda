@@ -1,5 +1,5 @@
 {
-  "actualizado": "jue 8/10 · 08:43",
+  "actualizado": "jue 8/10 · 08:44",
   "ultimo_leido": {
     "fecha": "[8/10/2026, 7:18 a. m.]",
     "autor": "Flopi",
@@ -48,7 +48,7 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "Segundo pago: $33.250 cada uno.",
+                  "t": "Segundo pago: $33.250 cada uno. Se le paga a Jerga allá, en el lugar.",
                   "who": "Todos, a Jerga"
                 },
                 {
@@ -717,7 +717,7 @@
         },
         {
           "titulo": "Segundo pago",
-          "tag": "$33.250 c/u",
+          "tag": "$33.250 c/u · allá",
           "bloques": [
             {
               "tipo": "pagos",
@@ -775,7 +775,7 @@
             },
             {
               "tipo": "nota",
-              "texto": "La seña ya la pagaron los 12. Jerga se la pasó a la dueña el 11/9."
+              "texto": "Se le paga a Jerga allá, en el lugar. La seña ya la pagaron los 12; Jerga se la pasó a la dueña el 11/9."
             }
           ]
         }
@@ -1337,7 +1337,7 @@
         "monto": 399000,
         "pago": "Jerga",
         "pendiente": true,
-        "nota": "Cada uno le transfiere $33.250 a Jerga y él le paga a la dueña."
+        "nota": "Se paga allá, en el lugar: cada uno le da $33.250 a Jerga y él le paga a la dueña."
       }
     ],
     "pagos": [
