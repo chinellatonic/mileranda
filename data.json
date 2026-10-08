@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 12:24",
+  "actualizado": "jue 8/10 · 12:49",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 12:23 p. m.]",
-    "autor": "Agus",
-    "texto": "si para la noche quieren algo más pro habría q llevar una pc"
+    "fecha": "[8/10/2026, 12:43 p. m.]",
+    "autor": "Angie",
+    "texto": "Vos elegis. Un álbum es lo mismo? Yo estoy juntando las fotos en un album"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,7 +48,7 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "Fotos para Jerga, de lo que cada uno quiera (con los novios o grupales de 3 o más). Mañana las arma y las imprime: mándenlas hoy.",
+                  "t": "Fotos: al álbum compartido de Angie (o directo a Jerga), hasta hoy a la noche. Jerga elige y mañana imprime.",
                   "who": "Todos, a Jerga"
                 },
                 {
@@ -122,10 +122,6 @@
                 {
                   "t": "Frases para el cuervo del viernes.",
                   "who": "Todos"
-                },
-                {
-                  "t": "Música de la noche: ¿segunda playlist o alguien lleva una PC?",
-                  "who": "¿Quién?"
                 }
               ]
             }
@@ -533,7 +529,7 @@
                           "e": "wip",
                           "t": "Fotos impresas en A3",
                           "who": "Jerga",
-                          "nota": "De lo que cada uno quiera: con los novios y también grupales (de 3 o más). Muke tiene un álbum de Juani; Angie también tiene fotos y videos. Mándenlas a Jerga: mañana las arma y las imprime."
+                          "nota": "Angie las junta en un álbum compartido (Muke, sumá ahí tu álbum de Juani). Jerga ya bajó las que mandaron al grupo y elige cuáles imprime: tampoco mil. Mañana las imprime."
                         },
                         {
                           "e": "wip",
@@ -694,6 +690,11 @@
                           "e": "ok",
                           "t": "Algo contundente para la canasta",
                           "nota": "Empanadas o tartas."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Su PC",
+                          "nota": "Para la música de la noche (y porque Bartolomé vive ahí)."
                         }
                       ]
                     }
@@ -750,6 +751,11 @@
                         {
                           "e": "ok",
                           "t": "Una conservadora"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Su álbum de fotos de Juani",
+                          "nota": "Para sumar al álbum de Angie."
                         }
                       ]
                     }
@@ -822,7 +828,7 @@
                         {
                           "e": "wip",
                           "t": "Fotos y videos para Jerga",
-                          "nota": "Hoy los busca."
+                          "nota": "Las junta en un álbum compartido."
                         }
                       ]
                     }
@@ -882,7 +888,7 @@
                         {
                           "e": "wip",
                           "t": "Fotos impresas en A3",
-                          "nota": "De lo que cada uno quiera: con los novios y también grupales (de 3 o más). Muke tiene un álbum de Juani; Angie también tiene fotos y videos. Mándenlas a Jerga: mañana las arma y las imprime."
+                          "nota": "Angie las junta en un álbum compartido (Muke, sumá ahí tu álbum de Juani). Jerga ya bajó las que mandaron al grupo y elige cuáles imprime: tampoco mil. Mañana las imprime."
                         }
                       ]
                     }
@@ -1756,7 +1762,7 @@
                   ],
                   "mas": [
                     "Temas que nos hagan acordar a ellos o que creamos que les gustan. La idea es que les quede de regalo.",
-                    "Para la noche, si queremos algo más armado: una segunda playlist o alguien que lleve una PC."
+                    "Para la noche, Chine lleva su PC."
                   ]
                 }
               ],
