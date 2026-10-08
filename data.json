@@ -1,0 +1,675 @@
+{
+  "actualizado": "mié 7/10 · 20:45",
+  "ultimo_leido": {
+    "fecha": "[10/7/26, 7:54:38 PM]",
+    "autor": "Jerga",
+    "texto": "Podemos mandar a imprimir en algun plotter una o dos hojas a3 con muchas fotitos..."
+  },
+  "inicio": "2026-10-10T10:00:00-03:00",
+  "fin": "2026-10-11T18:00:00-03:00",
+  "tabs": [
+    {
+      "id": "resumen",
+      "titulo": "Resumen",
+      "cards": [
+        {
+          "sinMarco": true,
+          "bloques": [
+            {
+              "tipo": "kpis",
+              "items": [
+                {
+                  "calc": "gente",
+                  "ir": "gente"
+                },
+                {
+                  "calc": "pagos",
+                  "ir": "plata"
+                },
+                {
+                  "calc": "pendientes",
+                  "ir": "#falta"
+                },
+                {
+                  "calc": "autos",
+                  "ir": "logistica"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "falta",
+          "titulo": "Falta resolver",
+          "tagCalc": "pendientes",
+          "bloques": [
+            {
+              "tipo": "pendientes",
+              "id": "pendientes",
+              "items": [
+                {
+                  "t": "¿Manu viene? Avisó el lunes 5/10 que no puede. Si no viene, cambia la cuenta del segundo pago y la cantidad de orejas.",
+                  "who": "Manu"
+                },
+                {
+                  "t": "Segundo pago: $33.250 cada uno.",
+                  "who": "Todos, a Jerga"
+                },
+                {
+                  "t": "Qué auto lleva a los novios (sale ~10:30).",
+                  "who": "A definir"
+                },
+                {
+                  "t": "Confirmar las compras (todo menos la carne).",
+                  "who": "Flopi"
+                },
+                {
+                  "t": "Quién lleva la pelota, el destapador y las 2 heladeritas.",
+                  "who": "A definir"
+                },
+                {
+                  "t": "Limpieza: ¿le pagamos a Giuli o limpiamos nosotros?",
+                  "who": "Jerga averigua el costo"
+                },
+                {
+                  "t": "Toro mecánico: falta el precio del flete para decidir.",
+                  "who": "Cata"
+                },
+                {
+                  "t": "Orejas de elfo: quién las compra y cuántas.",
+                  "who": "Agus averiguaba en el cotillón"
+                },
+                {
+                  "t": "Bitácora: ¿aprobamos que Jerga imprima fotos en A3 para pegar?",
+                  "who": "Todos"
+                },
+                {
+                  "t": "Frases para el cuervo del viernes.",
+                  "who": "Todos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Cuándo y dónde",
+          "bloques": [
+            {
+              "tipo": "datos",
+              "filas": [
+                [
+                  "Llegada",
+                  "Sábado 10/10, desde las 10 h."
+                ],
+                [
+                  "Vuelta",
+                  "Domingo 11/10, hasta las 18 h (día y medio)."
+                ],
+                [
+                  "Lugar",
+                  "Estancia Los Lirios, cabaña Don Jorge. Camino mejorado, 8 km pasando Victoria, Entre Ríos."
+                ],
+                [
+                  "La dueña",
+                  "Olga. Habla con ella Jerga."
+                ],
+                [
+                  "Despensa",
+                  "En Victoria, a 8 km."
+                ]
+              ]
+            },
+            {
+              "tipo": "botones",
+              "items": [
+                {
+                  "texto": "Abrir en Google Maps →",
+                  "link": "https://maps.app.goo.gl/UmhmTNktsBqNLmos7"
+                },
+                {
+                  "texto": "Ver el lugar",
+                  "link": "https://www.turismoentrerios.com/loslirios/",
+                  "ghost": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plata",
+      "titulo": "Plata",
+      "cards": [
+        {
+          "titulo": "Cuentas",
+          "bloques": [
+            {
+              "tipo": "balance",
+              "filas": [
+                [
+                  "Por persona",
+                  "$57.000"
+                ],
+                [
+                  "Total por 14",
+                  "$798.000"
+                ],
+                [
+                  "Seña pagada (50%)",
+                  "$399.000"
+                ],
+                [
+                  "Falta pagar",
+                  "$399.000"
+                ],
+                [
+                  "Cada uno (pagamos 12)",
+                  "$33.250",
+                  true
+                ]
+              ]
+            },
+            {
+              "tipo": "nota",
+              "texto": "Noche $38.000 + media jornada $19.000. A los novios los invitamos. Se le paga a Jerga. La dueña cobra por persona y por noche: si alguien se baja, se recalcula."
+            }
+          ]
+        },
+        {
+          "titulo": "Segundo pago",
+          "tag": "$33.250 c/u",
+          "bloques": [
+            {
+              "tipo": "pagos",
+              "id": "pagos",
+              "personas": [
+                {
+                  "n": "Chine",
+                  "ok": false
+                },
+                {
+                  "n": "Julia",
+                  "ok": false
+                },
+                {
+                  "n": "Muke",
+                  "ok": false
+                },
+                {
+                  "n": "Manu",
+                  "ok": false
+                },
+                {
+                  "n": "Angie",
+                  "ok": false
+                },
+                {
+                  "n": "Cata",
+                  "ok": false
+                },
+                {
+                  "n": "Flopi",
+                  "ok": false
+                },
+                {
+                  "n": "Agus",
+                  "ok": false
+                },
+                {
+                  "n": "Jerga",
+                  "ok": false
+                },
+                {
+                  "n": "Sol",
+                  "ok": false
+                },
+                {
+                  "n": "Pili",
+                  "ok": false
+                },
+                {
+                  "n": "Basha",
+                  "ok": false
+                }
+              ]
+            },
+            {
+              "tipo": "nota",
+              "texto": "La seña ya la pagaron los 12. Jerga se la pasó a la dueña el 11/9."
+            }
+          ]
+        },
+        {
+          "titulo": "Posibles gastos extra",
+          "bloques": [
+            {
+              "tipo": "estado",
+              "items": [
+                {
+                  "e": "pend",
+                  "t": "Limpieza (Giuli)",
+                  "nota": "Jerga averigua cuánto cobra."
+                },
+                {
+                  "e": "pend",
+                  "t": "Toro mecánico",
+                  "nota": "~$180.000 por 2 h + flete (~$150.000). Unos $330.000 entre todos."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logistica",
+      "titulo": "Logística",
+      "cards": [
+        {
+          "titulo": "Autos",
+          "bloques": [
+            {
+              "tipo": "estado",
+              "id": "autos",
+              "items": [
+                {
+                  "e": "ok",
+                  "t": "Chine",
+                  "nota": "3 lugares."
+                },
+                {
+                  "e": "ok",
+                  "t": "Flopi"
+                },
+                {
+                  "e": "ok",
+                  "t": "Sol"
+                },
+                {
+                  "e": "pend",
+                  "t": "¿Alguien más tiene auto?",
+                  "nota": "Con 13 o 14 personas y heladeritas vamos justos."
+                }
+              ]
+            },
+            {
+              "tipo": "datos",
+              "subtitulo": "Salida",
+              "filas": [
+                [
+                  "Avanzada",
+                  "Sale ~9 h y llega a las 10, cuando abre la casa. Lleva heladeritas, compras y lo que haya que armar."
+                ],
+                [
+                  "Novios",
+                  "Salen ~10:30 y llegan con todo listo. Falta definir el auto."
+                ],
+                [
+                  "Ruta",
+                  "Se puede rodear Victoria sin entrar."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Qué lleva cada uno",
+          "tag": "tu lista",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "check": true,
+              "id": "cadauno",
+              "items": [
+                "Reposera",
+                "Toallón",
+                "Repelente",
+                "Protector solar",
+                "Lo que quieras tomar + un extra para los novios",
+                "Algo para el almuerzo a la canasta del sábado"
+              ]
+            },
+            {
+              "tipo": "nota",
+              "texto": "Los tildes se guardan solo en tu celu."
+            }
+          ]
+        },
+        {
+          "titulo": "Entre todos",
+          "bloques": [
+            {
+              "tipo": "estado",
+              "items": [
+                {
+                  "e": "ok",
+                  "t": "Disco",
+                  "who": "Julia"
+                },
+                {
+                  "e": "ok",
+                  "t": "Parlante",
+                  "who": "Agus"
+                },
+                {
+                  "e": "ok",
+                  "t": "Limas y azúcar para tragos",
+                  "who": "Chine"
+                },
+                {
+                  "e": "pend",
+                  "t": "2 heladeritas",
+                  "who": "¿Quién?"
+                },
+                {
+                  "e": "pend",
+                  "t": "Pelota",
+                  "who": "¿Quién?"
+                },
+                {
+                  "e": "pend",
+                  "t": "Destapador",
+                  "who": "¿Quién?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "La casa tiene",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                "Quincho con vasos, platos, cubiertos, ollas, parrilla, tele, heladera y freezer.",
+                "Salón de fiesta rústico con freezer grande.",
+                "Ropa de cama, toalla de ducha, papel higiénico y jabón.",
+                "Asado a la estaca y horno de barro.",
+                "Metegol, sapo y canchita de fútbol.",
+                "Agua potable (lo confirmó Olga)."
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Ojo con la casa",
+          "bloques": [
+            {
+              "tipo": "ojo",
+              "items": [
+                "La pileta no está lista.",
+                "No hay disco para freír. Lo lleva Julia.",
+                "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
+                "Lo que se rompe se repone.",
+                "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comida",
+      "titulo": "Comida",
+      "cards": [
+        {
+          "titulo": "Menú",
+          "bloques": [
+            {
+              "tipo": "datos",
+              "filas": [
+                [
+                  "Sáb mediodía",
+                  "A la canasta: cada uno trae algo."
+                ],
+                [
+                  "Sáb noche",
+                  "Parrilla. Compra Chine."
+                ],
+                [
+                  "Dom mediodía",
+                  "Empanadas fritas de carne y veggie, con competencia de repulgue. Cata dirige, todos repulgan."
+                ],
+                [
+                  "Desayunos y meriendas",
+                  "Van en las compras."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Compras",
+          "tag": "Flopi · a confirmar",
+          "bloques": [
+            {
+              "tipo": "lista",
+              "items": [
+                "3 bidones de agua.",
+                "Hielo. En heladeritas aguanta unas 24 h, se puede llevar de acá.",
+                "Desayuno y merienda.",
+                "Carne y pan para la parrilla (Chine).",
+                "Empanadas: relleno de carne y veggie, tapas y grasa.",
+                "Condimentos.",
+                "Papel de cocina y un paquete de higiénico extra.",
+                "Leña para el fogón, y para la estaca si hacemos.",
+                "Detergente, rejilla y repasador, solo si limpiamos nosotros."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "titulo": "Juegos",
+      "cards": [
+        {
+          "titulo": "Para jugar",
+          "bloques": [
+            {
+              "tipo": "estado",
+              "items": [
+                {
+                  "e": "ok",
+                  "t": "El juego de los novios",
+                  "nota": "Traen una dinámica para que los ayudemos a definir algo del casamiento."
+                },
+                {
+                  "e": "pend",
+                  "t": "Toro mecánico",
+                  "nota": "Cata espera el precio del flete. Sería antes de las 21 h."
+                },
+                {
+                  "e": "wip",
+                  "t": "Carrera de embolsados",
+                  "who": "Angie consigue las bolsas"
+                },
+                {
+                  "e": "wip",
+                  "t": "Juegos tipo Supermatch",
+                  "who": "Angie"
+                },
+                {
+                  "e": "ok",
+                  "t": "Competencia de repulgue",
+                  "nota": "Con las empanadas del domingo."
+                },
+                {
+                  "e": "ok",
+                  "t": "Metegol, sapo y fútbol",
+                  "nota": "Hay en la casa. Falta la pelota."
+                },
+                {
+                  "e": "idea",
+                  "t": "Búsqueda del tesoro",
+                  "nota": "El tesoro pueden ser las orejas o la bitácora."
+                },
+                {
+                  "e": "idea",
+                  "t": "Escape room",
+                  "nota": "A Bian le encantan."
+                },
+                {
+                  "e": "idea",
+                  "t": "Equipos con sombrero seleccionador",
+                  "nota": "Según los personajes del cuervo. El que pierde limpia el baño."
+                },
+                {
+                  "e": "idea",
+                  "t": "Juego de la silla"
+                },
+                {
+                  "e": "idea",
+                  "t": "Inflable gigante en el jardín"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Para decirles que los queremos",
+          "bloques": [
+            {
+              "tipo": "estado",
+              "items": [
+                {
+                  "e": "wip",
+                  "t": "Orejas de elfo para todos",
+                  "nota": "Para usarlas después en el casamiento. Aprobado; falta quién compra y cuántas."
+                },
+                {
+                  "e": "wip",
+                  "t": "Bitácora",
+                  "nota": "Cata compra el cuaderno el viernes. Jerga propone imprimir fotos en A3 para pegar, o imágenes con IA de cada uno en modo casamiento."
+                },
+                {
+                  "e": "wip",
+                  "t": "Un cuervo nuestro para los novios",
+                  "nota": "Viernes a la mañana. Idea de Angie. Faltan frases."
+                },
+                {
+                  "e": "idea",
+                  "t": "Remeras con sus caras",
+                  "nota": "Quizá solo dos, para ellos."
+                },
+                {
+                  "e": "idea",
+                  "t": "Esculturas de madera de los dos para quemar",
+                  "nota": "Estilo Burning Man."
+                },
+                {
+                  "e": "idea",
+                  "t": "La pieza de Juani de French",
+                  "nota": "Con las lucecitas en la pared."
+                },
+                {
+                  "e": "idea",
+                  "t": "Crónicas del Reino",
+                  "nota": "Nuestra historia con ellos, leída en el fogón, con trivia."
+                },
+                {
+                  "e": "idea",
+                  "t": "Video de saludos",
+                  "nota": "De los que no pueden venir."
+                },
+                {
+                  "e": "idea",
+                  "t": "Brindis",
+                  "nota": "Unas palabras de cada uno."
+                },
+                {
+                  "e": "idea",
+                  "t": "Decoración medieval",
+                  "nota": "Aunque sea unos banderines."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gente",
+      "titulo": "Gente",
+      "cards": [
+        {
+          "titulo": "Quiénes van",
+          "tag": "14 en la lista",
+          "ancho": true,
+          "bloques": [
+            {
+              "tipo": "gente",
+              "id": "gente",
+              "personas": [
+                {
+                  "n": "Juani",
+                  "r": "Novio, invitado",
+                  "novio": true
+                },
+                {
+                  "n": "Bian",
+                  "r": "Novia, invitada",
+                  "novio": true
+                },
+                {
+                  "n": "Chine",
+                  "r": "Compra la parrilla",
+                  "auto": true
+                },
+                {
+                  "n": "Julia",
+                  "r": "Lleva el disco"
+                },
+                {
+                  "n": "Muke",
+                  "r": ""
+                },
+                {
+                  "n": "Manu",
+                  "r": "Avisó el 5/10 que no viene",
+                  "e": "duda"
+                },
+                {
+                  "n": "Angie",
+                  "r": "Bolsas y juegos"
+                },
+                {
+                  "n": "Cata",
+                  "r": "Toro y cuaderno"
+                },
+                {
+                  "n": "Flopi",
+                  "r": "Compras",
+                  "auto": true
+                },
+                {
+                  "n": "Agus",
+                  "r": "Parlante"
+                },
+                {
+                  "n": "Jerga",
+                  "r": "Habla con la dueña y cobra"
+                },
+                {
+                  "n": "Sol",
+                  "r": "",
+                  "auto": true
+                },
+                {
+                  "n": "Pili",
+                  "r": ""
+                },
+                {
+                  "n": "Basha",
+                  "r": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
