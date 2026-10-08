@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 22:09",
+  "actualizado": "mié 7/10 · 22:13",
   "ultimo_leido": {
-    "fecha": "[7/10/2026, 10:08 p. m.]",
+    "fecha": "[7/10/2026, 10:12 p. m.]",
     "autor": "Angie",
-    "texto": "la foto que mande tiene globos celestes y grises, unos stikers con la cara de juani, un silbato, un banderin con colores patrios de carton..."
+    "texto": "yo llevo mi cartuchera"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -64,10 +64,6 @@
                   "who": "Cata"
                 },
                 {
-                  "t": "Útiles y plasticola para la bitácora: ¿quién los lleva?",
-                  "who": "¿Quién?"
-                },
-                {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
                   "who": "Todos"
                 },
@@ -96,8 +92,8 @@
                   "who": "Flopi, ¿las llevás?"
                 },
                 {
-                  "t": "Burako para el domingo: ¿alguna tiene?",
-                  "who": "Las chicas"
+                  "t": "Burako para el domingo: Sol, ¿tenés?",
+                  "who": "Sol"
                 },
                 {
                   "t": "Domingo a la mañana: un juego o actividad chill que le guste a Juani.",
@@ -189,6 +185,7 @@
                         "Repelente",
                         "Protector solar",
                         "Linterna (para el juego de la noche)",
+                        "Útiles que tengas (lapiceras, fibras) para la bitácora",
                         "Lo que quieras tomar + un extra para los novios",
                         "Algo para el almuerzo a la canasta del sábado"
                       ]
@@ -334,10 +331,10 @@
                           "nota": "Mándenle fotos con los novios."
                         },
                         {
-                          "e": "pend",
+                          "e": "wip",
                           "t": "Útiles y plasticola para la bitácora",
-                          "who": "¿Quién?",
-                          "nota": "Para escribir, dibujar y pegar cosas."
+                          "who": "Todos + Cata",
+                          "nota": "Cada uno lleva los útiles que tenga (Angie, su cartuchera). La plasticola, y quizá lapiceras, la compra Cata en Croquis."
                         },
                         {
                           "e": "wip",
@@ -374,7 +371,8 @@
                         {
                           "e": "pend",
                           "t": "Burako",
-                          "who": "¿Alguna tiene?"
+                          "who": "¿Sol?",
+                          "nota": "Angie cree que Sol tiene. Cata no."
                         },
                         {
                           "e": "ok",
@@ -487,6 +485,11 @@
                           "e": "ok",
                           "t": "Globos, stickers de Juani, silbato y banderín",
                           "nota": "Sobras de la despedida de Bian: globos celestes y grises, stickers con la cara de Juani, un silbato y un banderín de cartón con colores patrios, que se puede pintar. Van: los reutilizamos."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Su cartuchera",
+                          "nota": "Para la bitácora."
                         }
                       ]
                     }
@@ -502,6 +505,11 @@
                           "e": "wip",
                           "t": "Cuaderno para la bitácora",
                           "nota": "Lo compra Cata el viernes en Croquis (librería de dibujo): uno lindo, de hojas lisas y tapa dura."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Plasticola (y quizá lapiceras)",
+                          "nota": "La compra en Croquis, junto con el cuaderno."
                         },
                         {
                           "e": "duda",
@@ -1080,7 +1088,7 @@
                     "Algo que le guste a Juani"
                   ],
                   "mas": [
-                    "Algo tranqui para el domingo a la mañana. Para Bian, burako (¿quién tiene?). Para Juani, se aceptan sugerencias de los chicos."
+                    "Algo tranqui para el domingo a la mañana. Para Bian, burako (¿Sol tiene?). Para Juani, se aceptan sugerencias de los chicos."
                   ]
                 }
               ],
@@ -1124,8 +1132,8 @@
                   "necesita": [
                     "Cuaderno de hojas lisas y tapa dura (Cata, el viernes, en Croquis)",
                     "Fotos con los novios: mándenselas a Jerga",
-                    "Útiles para escribir y dibujar",
-                    "Plasticola",
+                    "Plasticola y quizá lapiceras (Cata, en Croquis)",
+                    "Los útiles que tenga cada uno (Angie lleva su cartuchera)",
                     "Cosas para pegar",
                     "Algo escrito por cada uno"
                   ]
