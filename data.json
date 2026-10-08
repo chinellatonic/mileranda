@@ -1299,7 +1299,7 @@
         "monto": 399000,
         "pago": "Jerga",
         "fecha": "11/9",
-        "nota": "Jerga se la pasó a la dueña."
+        "nota": "Los 11 le transfirieron su parte a Jerga entre el 9/9 y el 11/9, y Jerga le pagó a la dueña el 11/9."
       },
       {
         "concepto": "Casa: segundo 50%",
@@ -1314,67 +1314,78 @@
         "de": "Chine",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Julia",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Muke",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Manu",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Angie",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Cata",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Flopi",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "11/9"
       },
       {
         "de": "Agus",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Sol",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Pili",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "9/9"
       },
       {
         "de": "Basha",
         "a": "Jerga",
         "monto": 33250,
-        "nota": "Seña"
+        "nota": "Seña",
+        "fecha": "11/9"
       }
     ]
   }
