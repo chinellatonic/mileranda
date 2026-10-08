@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 12:17",
+  "actualizado": "jue 8/10 · 12:24",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 12:17 p. m.]",
-    "autor": "Chine",
-    "texto": "Ahora si!!"
+    "fecha": "[8/10/2026, 12:23 p. m.]",
+    "autor": "Agus",
+    "texto": "si para la noche quieren algo más pro habría q llevar una pc"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -122,6 +122,10 @@
                 {
                   "t": "Frases para el cuervo del viernes.",
                   "who": "Todos"
+                },
+                {
+                  "t": "Música de la noche: ¿segunda playlist o alguien lleva una PC?",
+                  "who": "¿Quién?"
                 }
               ]
             }
@@ -177,7 +181,7 @@
           "bloques": [
             {
               "tipo": "nota",
-              "texto": "Es colaborativa: sumá los temas que creas que les gustan."
+              "texto": "La armó Agus y es colaborativa. Temas que nos hagan acordar a ellos o que creamos que les gustan. La idea es que les quede de regalo."
             },
             {
               "tipo": "botones",
@@ -624,7 +628,7 @@
                   "bloques": [
                     {
                       "tipo": "nota",
-                      "texto": "La armó Agus y es colaborativa: sumá los temas que creas que les gustan."
+                      "texto": "La armó Agus y es colaborativa. Temas que nos hagan acordar a ellos o que creamos que les gustan. La idea es que les quede de regalo."
                     },
                     {
                       "tipo": "botones",
@@ -1742,13 +1746,17 @@
                 {
                   "e": "wip",
                   "t": "Playlist colaborativa de Bian y Juani",
-                  "nota": "Sumen temas que creamos que les gustan.",
+                  "nota": "Temas que nos hagan acordar a ellos o que creamos que les gustan. La idea es que les quede de regalo.",
                   "propuso": "Agus",
                   "links": [
                     {
                       "texto": "Sumar temas →",
                       "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
                     }
+                  ],
+                  "mas": [
+                    "Temas que nos hagan acordar a ellos o que creamos que les gustan. La idea es que les quede de regalo.",
+                    "Para la noche, si queremos algo más armado: una segunda playlist o alguien que lleve una PC."
                   ]
                 }
               ],
