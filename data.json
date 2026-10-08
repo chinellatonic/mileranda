@@ -1,5 +1,5 @@
 {
-  "actualizado": "jue 8/10 · 10:44",
+  "actualizado": "jue 8/10 · 10:46",
   "ultimo_leido": {
     "fecha": "[8/10/2026, 10:39 a. m.]",
     "autor": "Basha",
@@ -64,10 +64,6 @@
                   "who": "Hoy"
                 },
                 {
-                  "t": "Árbitro de Juani vs. Bian, con el silbato: ¿Manu?",
-                  "who": "Manu"
-                },
-                {
                   "t": "Cronograma: es un borrador, está en Logística. Correcciones hasta el viernes al mediodía.",
                   "who": "Todos"
                 },
@@ -120,8 +116,8 @@
                   "who": "Cata"
                 },
                 {
-                  "t": "Toro: hoy sí o no. ~$27.500 por cabeza. Cata, ¿de quién es la cotización de $180.000 + flete? Si esta noche no hay precio final y mayoría, no va.",
-                  "who": "Cata"
+                  "t": "Toro: hoy sí o no. $180.000 por 2 h (unos $15.000 por cabeza) más el flete, que todavía no pasaron. Si esta noche no hay precio del flete y mayoría, no va.",
+                  "who": "Cata y todos"
                 },
                 {
                   "t": "Frases para el cuervo del viernes.",
@@ -954,9 +950,9 @@
                 },
                 {
                   "concepto": "Toro mecánico",
-                  "total": 330000,
+                  "total": 180000,
                   "e": "pend",
-                  "nota": "Estimado con ~$180.000 por 2 h + flete ~$150.000. Toribio había cotizado $500.000 por 2 h. Hoy se decide."
+                  "nota": "$180.000 por 2 h. Falta sumar el flete, que todavía no pasaron. Hoy se decide."
                 },
                 {
                   "concepto": "Compras del súper",
@@ -1343,13 +1339,13 @@
                 {
                   "e": "pend",
                   "t": "Toro mecánico",
-                  "nota": "Hoy se decide. Toribio cotizó $435.000 (1 h) y $500.000 (2 h). Los ~$180.000 por 2 h + flete (~$150.000) son de otra cotización: Cata confirma de quién.",
+                  "nota": "Hoy se decide. $180.000 por 2 h, más el flete, que todavía no pasaron.",
                   "propuso": "Cata",
                   "mas": [
                     "Servicio llave en mano: 2 operadores que se quedan todo el rato y adaptan la velocidad a cada uno.",
-                    "Toribio cotizó $435.000 (1 h) y $500.000 (2 h). Los ~$180.000 por 2 h + flete (~$150.000) son de otra cotización: Cata confirma de quién.",
+                    "$180.000 por 2 h, más el flete, que todavía no pasaron. Cata espera el precio.",
                     "Sería antes de las 21 h. Olga lo permite si no tapa la entrada y salida de autos y nadie se golpea.",
-                    "Default: si esta noche no hay precio final con flete y una mayoría que lo banque, no va."
+                    "Default: si esta noche no hay precio del flete y una mayoría que lo banque, no va."
                   ],
                   "links": [
                     {
