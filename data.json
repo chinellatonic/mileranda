@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 22:04",
+  "actualizado": "mié 7/10 · 22:09",
   "ultimo_leido": {
-    "fecha": "[7/10/2026, 10:01 p. m.]",
-    "autor": "Agus",
-    "texto": "@chicas alguna tiene burako? @chicos alguno sabe de algún juego o actividad lúdica chill para un domingo a la mañana que le guste a juani!?"
+    "fecha": "[7/10/2026, 10:08 p. m.]",
+    "autor": "Angie",
+    "texto": "la foto que mande tiene globos celestes y grises, unos stikers con la cara de juani, un silbato, un banderin con colores patrios de carton..."
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -297,9 +297,9 @@
                         },
                         {
                           "e": "ok",
-                          "t": "Carteles con la cara de Juani y banderines de Argentina",
+                          "t": "Globos, stickers de Juani, silbato y banderín",
                           "who": "Angie",
-                          "nota": "Carteles con la cara de Juani y banderines de Argentina, que sobraron de la despedida de Bian. Algunos se pueden pintar. Van: los reutilizamos."
+                          "nota": "Sobras de la despedida de Bian: globos celestes y grises, stickers con la cara de Juani, un silbato y un banderín de cartón con colores patrios, que se puede pintar. Van: los reutilizamos."
                         }
                       ]
                     }
@@ -349,7 +349,7 @@
                           "e": "wip",
                           "t": "Banderines",
                           "who": "Agus busca",
-                          "nota": "En el cotillón. Ya hay los de Argentina que lleva Angie."
+                          "nota": "En el cotillón. Angie lleva un banderín de cartón con colores patrios, que se puede pintar."
                         },
                         {
                           "e": "pend",
@@ -485,8 +485,8 @@
                         },
                         {
                           "e": "ok",
-                          "t": "Carteles con la cara de Juani y banderines de Argentina",
-                          "nota": "Carteles con la cara de Juani y banderines de Argentina, que sobraron de la despedida de Bian. Algunos se pueden pintar. Van: los reutilizamos."
+                          "t": "Globos, stickers de Juani, silbato y banderín",
+                          "nota": "Sobras de la despedida de Bian: globos celestes y grises, stickers con la cara de Juani, un silbato y un banderín de cartón con colores patrios, que se puede pintar. Van: los reutilizamos."
                         }
                       ]
                     }
@@ -1197,7 +1197,7 @@
                   "propuso": "Agus",
                   "necesita": [
                     "Banderines del cotillón (Agus busca)",
-                    "Los banderines de Argentina y los carteles con la cara de Juani (Angie)"
+                    "Lo que lleva Angie: globos celestes y grises, stickers de Juani y un banderín de cartón para pintar"
                   ]
                 },
                 {
