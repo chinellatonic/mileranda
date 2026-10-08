@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 16:05",
+  "actualizado": "jue 8/10 · 16:22",
   "ultimo_leido": {
-    "fecha": "[10/8/26, 4:01:45 PM]",
-    "autor": "Angie",
-    "texto": "Hermo"
+    "fecha": "[8/10/2026, 4:22 p. m.]",
+    "autor": "Chine",
+    "texto": "bartolo que sean dos pedazos de 2,5kg aprox para hacer 5kg en total... inflable va bien si nos los podemos llevar nosotros"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -56,8 +56,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Inflable castillo en lugar del toro (Agus; bancan Chine y Flopi): ¿quién lo consigue y cuánto sale?",
-                  "who": "¿Quién?"
+                  "t": "Inflable castillo: 3 a favor (Chine, Flopi, Agus), 2 en contra (Manu, Sol). Va solo si lo alquilamos en Victoria y lo llevamos nosotros. Jerga, ¿Olga tiene algún dato?",
+                  "who": "Jerga y todos"
                 },
                 {
                   "t": "Vino para la cena: Jerga le compra al hermano de Cata, con promos por cantidad. ¿Quién se suma? Agus sí (blanco o rosado). ¿Va como gasto común?",
@@ -88,8 +88,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne: la compra Pili en el Redil de Fisherton. Falta decirle corte y cantidad para los sanguches del sábado. Para las empanadas: 2 kg de picada especial (o un corte que piquen ahí).",
-                  "who": "Chine, a Pili"
+                  "t": "Carne: la compra Pili en el Redil de Fisherton. Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg en total), de bondiola o vacío. Si sobra, al día siguiente va a las empanadas. Para las empanadas: 2 kg de picada especial.",
+                  "who": "Pili"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -613,7 +613,8 @@
                         "¿Dónde se puede hacer fogón y quemar cosas? Lejos del cumple de al lado.",
                         "¿Hay trébede, anafe y pava? ¿Hay señal o wifi?",
                         "¿A qué hora pasa Giuli a la noche?",
-                        "La pileta: ¿tiene agua o está vacía? De noche hay que marcarla como zona prohibida."
+                        "La pileta: ¿tiene agua o está vacía? De noche hay que marcarla como zona prohibida.",
+                        "¿Conoce a alguien que alquile un inflable en Victoria? Lo llevamos y lo traemos nosotros."
                       ]
                     }
                   ]
@@ -956,7 +957,7 @@
                         {
                           "e": "wip",
                           "t": "La carne",
-                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Falta que le digan corte y cantidad para el sábado; para las empanadas, 2 kg de picada especial."
+                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg en total), de bondiola o vacío. Si sobra, al día siguiente va a las empanadas. Para las empanadas: 2 kg de picada especial."
                         },
                         {
                           "e": "ok",
@@ -1568,9 +1569,11 @@
                   "t": "Inflable con forma de castillo",
                   "propuso": "Agus (versión castillo)",
                   "mas": [
-                    "En lugar del toro, más soft (idea de Agus). Bancan Chine y Flopi.",
-                    "Olga lo permite si no tapa la entrada y salida de autos.",
-                    "Falta quién lo consigue y cuánto sale."
+                    "En lugar del toro, más soft (idea de Agus).",
+                    "A favor: Chine, Flopi y Agus. En contra: Manu (que quería el toro) y Sol.",
+                    "Chine: va si lo llevamos y lo traemos nosotros. Es un motor y el inflable.",
+                    "Angie: lo ideal es alquilarlo en Victoria. ¿Olga tendrá algún dato?",
+                    "Olga lo permite si no tapa la entrada y salida de autos."
                   ]
                 },
                 {
