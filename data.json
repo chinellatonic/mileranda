@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 10:17",
+  "actualizado": "jue 8/10 · 10:24",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:17 a. m.]",
-    "autor": "Muke",
-    "texto": "Uh se puso medio facho ahora"
+    "fecha": "[8/10/2026, 10:23 a. m.]",
+    "autor": "Cata",
+    "texto": "che bartolo yo nunca dije algo a la estaca!!!"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -112,7 +112,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "¿Va el Boquita? Sol pregunta; según Manu, Basha tiene uno nuevo.",
+                  "t": "El Boquita (el cáliz): Basha, ¿lo llevás? Dicen que tenés uno nuevo.",
                   "who": "Basha"
                 }
               ]
@@ -723,12 +723,28 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "titulo": "Basha",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "duda",
+                          "t": "El Boquita",
+                          "nota": "El cáliz. Dicen que tiene uno nuevo. Falta que confirme."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "¿Luces para la noche?",
+                          "nota": "Pregunta abierta."
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
-            },
-            {
-              "tipo": "nota",
-              "texto": "Basha: por ahora, solo lo de \"Qué lleva cada uno\". Si te sumás a llevar algo, avisá en el grupo."
             }
           ]
         }
@@ -1047,7 +1063,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "A definir: carnes a la parrilla, algo a la estaca (idea de Cata) o choris y carne para sanguchitos. Lo compra Chine en el Redil, con 15% de descuento."
+                  "A definir: lo fácil (choris y carne para sanguchitos) o, si de verdad lo queremos, algo más elaborado (estaca o carnes a la parrilla). Lo compra Chine en el Redil, con 15% de descuento."
                 ],
                 [
                   "Dom mediodía",
