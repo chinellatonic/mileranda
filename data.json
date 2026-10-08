@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 17:12",
+  "actualizado": "jue 8/10 · 20:45",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 4:50 p. m.]",
-    "autor": "Pili",
-    "texto": "No sé en q quedó lo de los autos. Puedo poner! No tengo LA experiencia en ruta pero si me tienen paciencia arrancamo"
+    "fecha": "8/10, después de las 16:55",
+    "autor": "(sin nombre en lo pegado)",
+    "texto": "Bueno dos autos salen de fisher uno pasa"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -84,8 +84,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne: la compra Pili en el Redil de Fisherton. Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg en total), de bondiola o vacío. Si sobra, al día siguiente va a las empanadas. Para las empanadas: 2 kg de picada especial.",
-                  "who": "Pili"
+                  "t": "Carne: Pili compra las dos piezas de 2,5 kg para los sanguches. La picada (2 kg) se compra el sábado a las 9 en el Redil: ¿qué auto de los que salen de Fisherton pasa?",
+                  "who": "Pili y un auto de Fisherton"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -472,10 +472,10 @@
                           "who": "¿Quién?"
                         },
                         {
-                          "e": "duda",
+                          "e": "ok",
                           "t": "El relleno de las empanadas",
-                          "who": "A definir",
-                          "nota": "Hay que cocinarlo y enfriarlo antes de repulgar: ¿el sábado, mientras la carne está en el fuego, o el domingo temprano?"
+                          "who": "Sábado",
+                          "nota": "Se cocina el sábado (con la picada comprada esa mañana) y las empanadas se hacen el domingo."
                         },
                         {
                           "e": "duda",
@@ -958,7 +958,7 @@
                         {
                           "e": "wip",
                           "t": "La carne",
-                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg en total), de bondiola o vacío. Si sobra, al día siguiente va a las empanadas. Para las empanadas: 2 kg de picada especial."
+                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg), bondiola o vacío. La picada no conviene comprarla con tantos días: se compra el sábado a las 9, cuando abre el Redil, y la pasa a buscar uno de los autos que sale de Fisherton. El relleno se cocina el sábado y las empanadas se hacen el domingo."
                         },
                         {
                           "e": "ok",
@@ -1281,6 +1281,10 @@
                       "filas": [
                         [
                           "9:00",
+                          "Un auto de Fisherton pasa por el Redil a buscar la picada."
+                        ],
+                        [
+                          "9:00",
                           "Sale la avanzada."
                         ],
                         [
@@ -1305,7 +1309,7 @@
                         ],
                         [
                           "17:30",
-                          "La carne al fuego."
+                          "La carne al fuego. En paralelo, el relleno de las empanadas."
                         ],
                         [
                           "18:30",
@@ -1344,7 +1348,7 @@
                         ],
                         [
                           "11:00",
-                          "Domingo libre (burako, The Mind, algo para Juani), cadáver exquisito y bitácora. En paralelo, el relleno de las empanadas, si no se hizo el sábado."
+                          "Domingo libre (burako, The Mind, algo para Juani), cadáver exquisito y bitácora."
                         ],
                         [
                           "13:00",
@@ -1658,7 +1662,7 @@
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
                     "Ni Cata ni Agus consiguen. Cata prueba en Casa González.",
-                    "Plan B de Agus: mitad orejas y mitad ogro (o algo medieval), y que eso divida los equipos. Cata vio laureles de cotillón y pelucas para ponerles a los novios."
+                    "Plan B de Agus: mitad orejas y mitad ogro (o algo medieval), y que eso divida los equipos. Otra idea: orejas de Shrek, para ser trolls del bosque. Cata vio laureles de cotillón y pelucas para ponerles a los novios."
                   ],
                   "links": [
                     {
