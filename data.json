@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 10:06",
+  "actualizado": "jue 8/10 · 10:09",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:05 a. m.]",
-    "autor": "Manu",
-    "texto": "ssh bartolome"
+    "fecha": "8/10, después de las 10:05",
+    "autor": "Flopi",
+    "texto": "Como será Bartolomé?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -58,6 +58,10 @@
                 {
                   "t": "Horario de salida: ¿9:30 o más tarde? Propuesta: la avanzada a las 9 y el resto hasta las 10:30, con los novios. La casa abre a las 10 y cada hora que llegamos tarde es una hora pagada sin usar.",
                   "who": "Todos"
+                },
+                {
+                  "t": "Cena del sábado: ¿carnes, estaca o choris y carne para sanguchitos? Si nadie se hace cargo de la estaca antes de esta noche, vamos con choris y sanguchitos.",
+                  "who": "Todos, hoy"
                 },
                 {
                   "t": "Carne: el Redil hace 15% en efectivo o transferencia. Chine arma la lista y se la pasa a Pili, que la deja preparada para retirar.",
@@ -1039,7 +1043,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Parrilla. Compra Chine en el Redil, con 15% de descuento (efectivo o transferencia), gracias a Pili."
+                  "A definir: carnes a la parrilla, algo a la estaca (idea de Cata) o choris y carne para sanguchitos. Lo compra Chine en el Redil, con 15% de descuento."
                 ],
                 [
                   "Dom mediodía",
