@@ -1,5 +1,5 @@
 {
-  "actualizado": "jue 8/10 · 10:27",
+  "actualizado": "jue 8/10 · 10:42",
   "ultimo_leido": {
     "fecha": "[8/10/2026, 10:26 a. m.]",
     "autor": "Chine",
@@ -48,6 +48,30 @@
               "id": "pendientes",
               "items": [
                 {
+                  "t": "Fotos con los novios para Jerga: hasta hoy a la noche, así imprime el viernes.",
+                  "who": "Todos, a Jerga"
+                },
+                {
+                  "t": "Crónicas del Reino: cada uno manda un recuerdo con los novios hasta el viernes al mediodía.",
+                  "who": "Todos"
+                },
+                {
+                  "t": "Búsqueda del tesoro: ¿quién escribe y esconde las pistas? Propuesta: Angie y Agus.",
+                  "who": "¿Angie y Agus?"
+                },
+                {
+                  "t": "Cuervo de mañana: quién se los manda, a qué hora y dónde los buscan, y qué traen (reposera, toallón, abrigo, repelente, linterna; ni plata ni bebida).",
+                  "who": "Hoy"
+                },
+                {
+                  "t": "Árbitro de Juani vs. Bian, con el silbato: ¿Manu?",
+                  "who": "Manu"
+                },
+                {
+                  "t": "Cronograma: es un borrador, está en Logística. Correcciones hasta el viernes al mediodía.",
+                  "who": "Todos"
+                },
+                {
                   "t": "Segundo pago: $33.250 cada uno. Se le paga a Jerga allá, en el lugar.",
                   "who": "Todos, a Jerga"
                 },
@@ -72,7 +96,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Falta un auto: con 3 no entramos los 14. Si nadie suma uno antes del viernes, vamos con el de Bian y Juani (no es lo ideal). Y falta definir en cuál van los novios.",
+                  "t": "Autos: con 3 entramos justo los 14 y sin lugar para la carga. Si nadie suma uno antes del viernes, va el de los novios. Falta armar quién va en cuál (Muke no tiene carnet; Jerga, en la avanzada, porque recibe la casa).",
                   "who": "¿Alguien más tiene auto?"
                 },
                 {
@@ -100,7 +124,7 @@
                   "who": "Cata"
                 },
                 {
-                  "t": "Toro mecánico: falta el precio del flete para decidir.",
+                  "t": "Toro: hoy sí o no. ~$27.500 por cabeza. Cata, ¿de quién es la cotización de $180.000 + flete? Si esta noche no hay precio final y mayoría, no va.",
                   "who": "Cata"
                 },
                 {
@@ -187,7 +211,12 @@
                         "Linterna (para el juego de la noche)",
                         "Útiles que tengas (lapiceras, fibras) para la bitácora",
                         "Lo que quieras tomar + un extra para los novios (vino o Cinzano)",
-                        "Algo para el almuerzo a la canasta del sábado"
+                        "Algo para el almuerzo a la canasta del sábado",
+                        "Abrigo para la noche",
+                        "Algo para la lluvia",
+                        "Zapatillas",
+                        "Cargador o powerbank",
+                        "Tus medicamentos"
                       ]
                     },
                     {
@@ -349,6 +378,102 @@
                           "e": "ok",
                           "t": "Cafetera",
                           "who": "Manu"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Extensión o zapatilla larga",
+                          "who": "¿Quién?",
+                          "nota": "Parlante, luces, batidora, celulares."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Bolsas de residuos, encendedor e iniciador",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Vasos plásticos o reutilizables",
+                          "who": "¿Quién?",
+                          "nota": "Lo que se rompe se repone."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Botiquín",
+                          "who": "¿Quién?",
+                          "nota": "Curitas, ibuprofeno, antiácido, algo para picaduras y quemaduras."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Leña (y llevarla en auto)",
+                          "who": "¿Quién?",
+                          "nota": "No está en cualquier súper y hace falta bastante: fogón, carne varias horas, esculturas."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Hielo el sábado temprano y reposición el domingo en Victoria",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Bajar la playlist offline en el celu del parlante",
+                          "who": "¿Quién?",
+                          "nota": "Por si no hay señal."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Cocina",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "items": [
+                        {
+                          "e": "pend",
+                          "t": "Fuego para el disco: trébede sobre la leña, o garrafa y quemador",
+                          "who": "¿Quién?",
+                          "nota": "Freír 8 docenas pide algo firme. Preguntarle a Olga."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Cuchillos y tablas",
+                          "who": "¿Quién?",
+                          "nota": "La casa dice \"cuchillo\", en singular. Hay 3 kg de cebolla y la carne."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Espumadera y fuentes o bandejas para las empanadas",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Termos y mates",
+                          "who": "¿Quién?"
+                        },
+                        {
+                          "e": "duda",
+                          "t": "El relleno de las empanadas",
+                          "who": "A definir",
+                          "nota": "Hay que cocinarlo y enfriarlo antes de repulgar: ¿el sábado, mientras la carne está en el fuego, o el domingo temprano?"
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Gaseosas, agua con gas y lo que se mezcla con el fernet",
+                          "who": "A definir",
+                          "nota": "Con \"cada uno lleva lo que toma\" no queda claro quién pone la Coca."
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Merienda del sábado",
+                          "who": "A definir",
+                          "nota": "No hay nada previsto."
+                        },
+                        {
+                          "e": "duda",
+                          "t": "¿Vegetarianos, celíacos o alergias?",
+                          "who": "Todos",
+                          "nota": "La cena del sábado es solo carne."
                         }
                       ]
                     }
@@ -439,6 +564,21 @@
                           "t": "Linternas",
                           "who": "Cada uno la suya"
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Para preguntarle a Olga (vía Jerga)",
+                  "bloques": [
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "¿Hay camas para 14? ¿Cuántas piezas?",
+                        "¿Dónde se puede hacer fogón y quemar cosas? Lejos del cumple de al lado.",
+                        "¿Hay trébede, anafe y pava? ¿Hay señal o wifi?",
+                        "¿A qué hora pasa Giuli a la noche?",
+                        "La pileta: ¿tiene agua o está vacía? De noche hay que marcarla como zona prohibida."
                       ]
                     }
                   ]
@@ -825,7 +965,7 @@
                   "concepto": "Toro mecánico",
                   "total": 330000,
                   "e": "pend",
-                  "nota": "~$180.000 por 2 h + flete ~$150.000. Cata espera el precio del flete."
+                  "nota": "Estimado con ~$180.000 por 2 h + flete ~$150.000. Toribio había cotizado $500.000 por 2 h. Hoy se decide."
                 },
                 {
                   "concepto": "Compras del súper",
@@ -1020,6 +1160,106 @@
           ]
         },
         {
+          "id": "cronograma",
+          "titulo": "Cronograma (borrador)",
+          "tag": "correcciones hasta el viernes 12 h",
+          "ancho": true,
+          "bloques": [
+            {
+              "tipo": "datos",
+              "subtitulo": "Sábado",
+              "filas": [
+                [
+                  "9:00",
+                  "Sale la avanzada."
+                ],
+                [
+                  "10:00",
+                  "Llega: recibe la casa, guarda el frío y decora (globos, banderines, luces)."
+                ],
+                [
+                  "10:30",
+                  "Salen los novios."
+                ],
+                [
+                  "~11:30",
+                  "Llegan: bienvenida, orejas y sorteo de equipos Juani vs. Bian."
+                ],
+                [
+                  "13:00",
+                  "Almuerzo: tortillas, fiambres y canasta."
+                ],
+                [
+                  "15:00–18:00",
+                  "Kermesse por equipos: embolsados, postas tipo Supermatch, dardos, cola al burro, harina y caramelos (y el toro, si va)."
+                ],
+                [
+                  "17:30",
+                  "La carne al fuego."
+                ],
+                [
+                  "18:30",
+                  "La dinámica de los novios (falta saber cuánto dura y qué necesitan)."
+                ],
+                [
+                  "21:00",
+                  "Cena: sanguches."
+                ],
+                [
+                  "Fogón",
+                  "Crónicas del Reino, búsqueda del tesoro con final en la bitácora (y quema de esculturas, si hay) y brindis."
+                ],
+                [
+                  "Después",
+                  "Juego tipo grillo y desafío nocturno."
+                ]
+              ]
+            },
+            {
+              "tipo": "datos",
+              "subtitulo": "Domingo",
+              "filas": [
+                [
+                  "10:00",
+                  "Desayuno."
+                ],
+                [
+                  "11:00",
+                  "Domingo libre (burako, The Mind, algo para Juani), cadáver exquisito y bitácora. En paralelo, el relleno de las empanadas, si no se hizo el sábado."
+                ],
+                [
+                  "13:00",
+                  "Repulgue y fritura."
+                ],
+                [
+                  "14:00",
+                  "Almuerzo."
+                ],
+                [
+                  "16:00",
+                  "Frutillas con crema, conteo de puntos y premio."
+                ],
+                [
+                  "17:00",
+                  "Ordenar y cargar los autos."
+                ],
+                [
+                  "18:00",
+                  "Entregamos la casa."
+                ],
+                [
+                  "Si llueve",
+                  "El salón rústico."
+                ]
+              ]
+            },
+            {
+              "tipo": "nota",
+              "texto": "Es un borrador: corríjanlo hasta el viernes al mediodía. Lo que nadie adopte hoy, se cae."
+            }
+          ]
+        },
+        {
           "titulo": "La casa tiene",
           "bloques": [
             {
@@ -1073,7 +1313,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas mientras hacemos otra cosa. La carne la compra Chine en el Redil, con 15% de descuento."
+                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas. Plan B: algo a la estaca (idea de Cata, 5/10). La carne la compra Chine en el Redil, con 15% de descuento."
                 ],
                 [
                   "Dom mediodía",
@@ -1112,12 +1352,13 @@
                 {
                   "e": "pend",
                   "t": "Toro mecánico",
-                  "nota": "Cata espera el precio del flete. Sería antes de las 21 h.",
+                  "nota": "Hoy se decide. Toribio cotizó $435.000 (1 h) y $500.000 (2 h). Los ~$180.000 por 2 h + flete (~$150.000) son de otra cotización: Cata confirma de quién.",
                   "propuso": "Cata",
                   "mas": [
-                    "Servicio llave en mano de 1 o 2 h: vienen 2 operadores que se quedan todo el rato y adaptan la velocidad a cada uno.",
-                    "Unos $180.000 por 2 h más el flete (~$150.000): unos $330.000 entre todos. Sería antes de las 21 h.",
-                    "Olga lo permite si no tapa la entrada y salida de autos y nadie se golpea."
+                    "Servicio llave en mano: 2 operadores que se quedan todo el rato y adaptan la velocidad a cada uno.",
+                    "Toribio cotizó $435.000 (1 h) y $500.000 (2 h). Los ~$180.000 por 2 h + flete (~$150.000) son de otra cotización: Cata confirma de quién.",
+                    "Sería antes de las 21 h. Olga lo permite si no tapa la entrada y salida de autos y nadie se golpea.",
+                    "Default: si esta noche no hay precio final con flete y una mayoría que lo banque, no va."
                   ],
                   "links": [
                     {
@@ -1282,7 +1523,7 @@
                 {
                   "e": "wip",
                   "t": "Orejas de elfo para todos",
-                  "nota": "Para usarlas después en el casamiento. Aprobado; son 14. Falta quién las compra.",
+                  "nota": "Para usarlas después en el casamiento. Son 13 o 14: Manu votó que no.",
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
