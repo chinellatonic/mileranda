@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 08:51",
+  "actualizado": "jue 8/10 · 08:52",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 8:51 a. m.]",
-    "autor": "Chine",
-    "texto": "frutillas x aca las estan regalando 2kg x 6k, compro 4 kg"
+    "fecha": "8/10, después de las 8:51",
+    "autor": "(sin nombre en lo pegado)",
+    "texto": "El horario de salida… 9.30 no es muy temprano ? Jaja por si nos queda comrpar algo tendría un changüí… onda 11 am salir ? Muy vaga yo?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -54,6 +54,10 @@
                 {
                   "t": "Orejas de elfo: donde averiguó Agus no había 14. Cata mira en calle San Luis el viernes. Si no aparecen, otra variante.",
                   "who": "Agus y Cata"
+                },
+                {
+                  "t": "Horario de salida: ¿9:30 o más tarde? Propuesta: la avanzada a las 9 y el resto hasta las 10:30, con los novios. La casa abre a las 10 y cada hora que llegamos tarde es una hora pagada sin usar.",
+                  "who": "Todos"
                 },
                 {
                   "t": "Comprar el cuaderno de la bitácora: el viernes, en Croquis.",
@@ -853,6 +857,10 @@
                 [
                   "Avanzada",
                   "Sale ~9 h y llega a las 10, cuando abre la casa. Lleva heladeritas, compras y lo que haya que armar."
+                ],
+                [
+                  "El resto",
+                  "A definir. Se había dicho 9:30; hay quien propone 11 para tener changüí y comprar lo que falte. Propuesta: hasta 10:30, junto con los novios."
                 ],
                 [
                   "Novios",
