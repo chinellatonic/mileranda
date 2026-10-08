@@ -182,6 +182,16 @@ details.acc > summary .a-arrow{font-family:var(--mono);font-size:15px;color:var(
 details.acc[open] > summary .a-arrow{transform:rotate(90deg)}
 .a-body{padding:2px 14px 14px;display:grid;gap:10px;border-top:1px solid var(--border-soft);padding-top:10px}
 
+/* cuentas del grupo */
+.debt{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:baseline;border:1px solid var(--warn-bd);background:var(--warn-bg);border-radius:10px;padding:10px 12px;font-size:16.5px;line-height:1.35}
+.debt .v{font-family:var(--mono);font-size:15px;font-weight:700;color:var(--warn);white-space:nowrap;font-variant-numeric:tabular-nums}
+.debts{display:grid;gap:7px}
+.mano{border:1px solid var(--good-bd);background:var(--good-bg);color:var(--good);border-radius:10px;padding:10px 12px;font-size:16px}
+.sal{font-family:var(--mono);font-size:13.5px;white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right}
+.sal.pos{color:var(--good);font-weight:700}
+.sal.neg{color:var(--warn);font-weight:700}
+.sal.cero{color:var(--muted2)}
+
 /* presupuesto */
 .pres-top{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .pres-box{border:1px solid var(--border-soft);background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:2px}
@@ -271,6 +281,135 @@ function init(D){
   }
   function closeModal(){ if (dlg.close) dlg.close(); else dlg.removeAttribute('open'); }
   dlg.addEventListener('click', function(ev){ if (ev.target === dlg) closeModal(); });
+
+  // fila desplegable reutilizable
+  function acc(titulo, tag, warn, nodes){
+    var det = el('details', 'acc');
+    var sum = el('summary');
+    sum.appendChild(el('span', 'a-t', titulo));
+    if (tag) sum.appendChild(el('span', 'a-n' + (warn ? ' warn' : ''), tag));
+    sum.appendChild(el('span', 'a-arrow', '›'));
+    det.appendChild(sum);
+    var body = el('div', 'a-body');
+    nodes.forEach(function(n){ body.appendChild(n); });
+    det.appendChild(body);
+    return det;
+  }
+
+  // cuentas tipo splitwise. D.cuentas = {personas, gastos:[{concepto, monto, pago, entre?, pendiente?, fecha?, nota?}], pagos:[{de, a, monto, fecha?, nota?}]}
+  // pago: "Nombre" o {"Nombre": monto}. entre: "todos" (o ausente), ["A","B"] en partes iguales, o {"A": monto} exacto.
+  var L = null;
+  function ledger(){
+    if (L) return L;
+    var C = D.cuentas || {personas: [], gastos: [], pagos: []};
+    var names = C.personas.slice(), puso = {}, toca = {}, env = {}, rec = {};
+    function ensure(n){ if (!(n in puso)) { puso[n] = 0; toca[n] = 0; env[n] = 0; rec[n] = 0; if (names.indexOf(n) < 0) names.push(n); } }
+    names.forEach(ensure);
+    function payers(g){ if (typeof g.pago === 'string') { var o = {}; o[g.pago] = g.monto; return o; } return g.pago || {}; }
+    function shares(g){
+      var o = {}, list = (g.entre == null || g.entre === 'todos') ? C.personas : g.entre;
+      if (Array.isArray(list)) list.forEach(function(n){ o[n] = g.monto / list.length; }); else o = list;
+      return o;
+    }
+    var total = 0, porPagar = 0;
+    C.gastos.forEach(function(g){
+      g._pay = payers(g); g._sh = shares(g);
+      if (g.pendiente) { porPagar += g.monto; return; }
+      total += g.monto;
+      Object.keys(g._pay).forEach(function(n){ ensure(n); puso[n] += g._pay[n]; });
+      Object.keys(g._sh).forEach(function(n){ ensure(n); toca[n] += g._sh[n]; });
+    });
+    (C.pagos || []).forEach(function(p){ ensure(p.de); ensure(p.a); env[p.de] += p.monto; rec[p.a] += p.monto; });
+    var bal = {};
+    names.forEach(function(n){ bal[n] = puso[n] - toca[n] + env[n] - rec[n]; });
+    // menos transferencias posibles: el que más debe le paga al que más le deben
+    var cred = names.filter(function(n){ return bal[n] > 0.5; }).map(function(n){ return {n: n, v: bal[n]}; });
+    var deud = names.filter(function(n){ return bal[n] < -0.5; }).map(function(n){ return {n: n, v: -bal[n]}; });
+    cred.sort(function(a, b){ return b.v - a.v; }); deud.sort(function(a, b){ return b.v - a.v; });
+    var deudas = [], i = 0, j = 0;
+    while (i < deud.length && j < cred.length) {
+      var m = Math.min(deud[i].v, cred[j].v);
+      if (m > 0.5) deudas.push({de: deud[i].n, a: cred[j].n, v: m});
+      deud[i].v -= m; cred[j].v -= m;
+      if (deud[i].v <= 0.5) i++;
+      if (cred[j].v <= 0.5) j++;
+    }
+    L = {C: C, names: names, puso: puso, toca: toca, env: env, rec: rec, bal: bal, deudas: deudas, total: total, porPagar: porPagar};
+    return L;
+  }
+
+  function renderCuentas(vista){
+    var R = ledger(), C = R.C, node = el('div'); node.style.display = 'grid'; node.style.gap = '12px';
+    if (vista === 'saldos') {
+      var top = el('div', 'pres-top');
+      var b1 = el('div', 'pres-box main'); b1.appendChild(el('span', 'n', money(R.total))); b1.appendChild(el('span', 'l', 'gastado entre todos hasta ahora'));
+      var b2 = el('div', 'pres-box'); b2.appendChild(el('span', 'n', money(R.porPagar))); b2.appendChild(el('span', 'l', 'por pagar todavía'));
+      top.appendChild(b1); top.appendChild(b2); node.appendChild(top);
+      node.appendChild(el('div', 'sub-h', 'Quién le debe a quién'));
+      if (!R.deudas.length) node.appendChild(el('div', 'mano', '✓ Estamos todos a mano.'));
+      else {
+        var ds = el('div', 'debts');
+        R.deudas.forEach(function(x){
+          var r = el('div', 'debt'), t = el('span');
+          t.appendChild(el('b', null, x.de)); t.appendChild(document.createTextNode(' le debe a ')); t.appendChild(el('b', null, x.a));
+          r.appendChild(t); r.appendChild(el('span', 'v', money(x.v))); ds.appendChild(r);
+        });
+        node.appendChild(ds);
+      }
+      var ul = el('ul', 'rows');
+      R.names.forEach(function(n){
+        var li = el('li'), m = el('div', 'r-main');
+        var nm = el('span', 'r-t'); nm.appendChild(el('b', null, n)); m.appendChild(nm);
+        var det = 'puso ' + money(R.puso[n]) + ' · le toca ' + money(R.toca[n]);
+        if (R.env[n]) det += ' · transfirió ' + money(R.env[n]);
+        if (R.rec[n]) det += ' · recibió ' + money(R.rec[n]);
+        m.appendChild(el('span', 'r-who', det));
+        li.appendChild(m);
+        var v = R.bal[n], s = v > 0.5 ? el('span', 'sal pos', 'le deben ' + money(v)) : v < -0.5 ? el('span', 'sal neg', 'debe ' + money(-v)) : el('span', 'sal cero', 'a mano');
+        li.appendChild(s); ul.appendChild(li);
+      });
+      node.appendChild(acc('Cómo está cada uno', R.names.length + ' personas', false, [ul]));
+    } else if (vista === 'gastos') {
+      var gs = el('div', 'accs');
+      C.gastos.slice().reverse().forEach(function(g){
+        var parts = [];
+        var dl = el('dl', 'kv');
+        function row(k, v){ var r = el('div', 'kv-row'); r.appendChild(el('dt', null, k)); r.appendChild(el('dd', null, v)); dl.appendChild(r); }
+        var pk = Object.keys(g._pay);
+        row(g.pendiente ? 'Lo paga' : 'Pagó', pk.length === 1 ? pk[0] : pk.map(function(n){ return n + ' ' + money(g._pay[n]); }).join(', '));
+        var sk = Object.keys(g._sh), todos = g.entre == null || g.entre === 'todos';
+        row('Entre', todos ? 'todos (' + sk.length + ')' : sk.join(', '));
+        var vals = sk.map(function(n){ return g._sh[n]; }), igual = vals.every(function(v){ return Math.abs(v - vals[0]) < 0.5; });
+        if (igual) row('A cada uno', money(vals[0]));
+        else row('A cada uno', sk.map(function(n){ return n + ' ' + money(g._sh[n]); }).join(', '));
+        if (g.fecha) row('Cuándo', g.fecha);
+        parts.push(dl);
+        if (g.nota) parts.push(el('p', 'note', g.nota));
+        gs.appendChild(acc(g.concepto, money(g.monto) + (g.pendiente ? ' · por pagar' : ' · ' + (pk.length === 1 ? pk[0] : pk.length + ' pagaron')), g.pendiente, parts));
+      });
+      if (!C.gastos.length) gs.appendChild(el('p', 'note', 'Todavía no hay gastos.'));
+      node.appendChild(gs);
+    } else if (vista === 'pagos') {
+      var ps = C.pagos || [];
+      if (!ps.length) { node.appendChild(el('p', 'note', 'Todavía nadie le transfirió a nadie.')); return node; }
+      var grupos = {};
+      ps.forEach(function(p){ var k = p.nota || 'Otros'; (grupos[k] = grupos[k] || []).push(p); });
+      var wrap = el('div', 'accs');
+      Object.keys(grupos).forEach(function(k){
+        var ul2 = el('ul', 'rows'), sum = 0;
+        grupos[k].forEach(function(p){
+          sum += p.monto;
+          var li = el('li'), t = el('span', 'r-t');
+          t.appendChild(el('b', null, p.de)); t.appendChild(document.createTextNode(' → ')); t.appendChild(el('b', null, p.a));
+          var m = el('div', 'r-main'); m.appendChild(t); if (p.fecha) m.appendChild(el('span', 'r-who', p.fecha));
+          li.appendChild(m); li.appendChild(el('span', 'sal', money(p.monto))); ul2.appendChild(li);
+        });
+        wrap.appendChild(acc(k, grupos[k].length + ' · ' + money(sum), false, [ul2]));
+      });
+      node.appendChild(wrap);
+    }
+    return node;
+  }
 
   var byId = {};
   D.tabs.forEach(function(t){ t.cards.forEach(function(c){ c.bloques.forEach(function(b){ if (b.id) byId[b.id] = b; }); }); });
@@ -377,9 +516,6 @@ function init(D){
     } else if (b.tipo === 'desplegables') {
       node = el('div', 'accs');
       b.items.forEach(function(a){
-        var det = el('details', 'acc');
-        var sum = el('summary');
-        sum.appendChild(el('span', 'a-t', a.titulo));
         var n = 0, falta = 0;
         a.bloques.forEach(function(x){
           var arr = x.items || x.personas || [];
@@ -387,14 +523,11 @@ function init(D){
           arr.forEach(function(i){ if (i && (i.e === 'pend' || i.e === 'duda')) falta++; });
         });
         var tag = a.tag || (n + (n === 1 ? ' cosa' : ' cosas') + (falta ? ' · ' + falta + ' sin resolver' : ''));
-        sum.appendChild(el('span', 'a-n' + (falta && !a.tag ? ' warn' : ''), tag));
-        sum.appendChild(el('span', 'a-arrow', '›'));
-        det.appendChild(sum);
-        var body = el('div', 'a-body');
-        a.bloques.forEach(function(x){ body.appendChild(renderBlock(x)); });
-        det.appendChild(body);
-        node.appendChild(det);
+        node.appendChild(acc(a.titulo, tag, falta && !a.tag, a.bloques.map(renderBlock)));
       });
+
+    } else if (b.tipo === 'cuentas') {
+      node = renderCuentas(b.vista);
 
     } else if (b.tipo === 'presupuesto') {
       node = el('div'); node.style.display = 'grid'; node.style.gap = '12px';

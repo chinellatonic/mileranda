@@ -1,5 +1,5 @@
 {
-  "actualizado": "mié 7/10 · 21:45",
+  "actualizado": "mié 7/10 · 21:50",
   "ultimo_leido": {
     "fecha": "[7/10/2026, 9:36 p. m.]",
     "autor": "Angie",
@@ -563,6 +563,41 @@
       "id": "plata",
       "titulo": "Plata",
       "cards": [
+        {
+          "id": "cuentas",
+          "titulo": "Cuentas del grupo",
+          "tag": "tipo splitwise",
+          "ancho": true,
+          "bloques": [
+            {
+              "tipo": "cuentas",
+              "vista": "saldos"
+            },
+            {
+              "tipo": "nota",
+              "texto": "¿Pagaste algo? Avisale a Bartolomé en el grupo qué fue, cuánto, quién pagó y entre quiénes va (todos o solo algunos). Si le transferiste a alguien, también: así se descuenta."
+            }
+          ]
+        },
+        {
+          "titulo": "Gastos",
+          "tag": "tocá para ver",
+          "bloques": [
+            {
+              "tipo": "cuentas",
+              "vista": "gastos"
+            }
+          ]
+        },
+        {
+          "titulo": "Transferencias",
+          "bloques": [
+            {
+              "tipo": "cuentas",
+              "vista": "pagos"
+            }
+          ]
+        },
         {
           "id": "presupuesto",
           "titulo": "Presupuesto estimado por persona",
@@ -1242,5 +1277,105 @@
         }
       ]
     }
-  ]
+  ],
+  "cuentas": {
+    "personas": [
+      "Chine",
+      "Julia",
+      "Muke",
+      "Manu",
+      "Angie",
+      "Cata",
+      "Flopi",
+      "Agus",
+      "Jerga",
+      "Sol",
+      "Pili",
+      "Basha"
+    ],
+    "gastos": [
+      {
+        "concepto": "Casa: seña (50%)",
+        "monto": 399000,
+        "pago": "Jerga",
+        "fecha": "11/9",
+        "nota": "Jerga se la pasó a la dueña."
+      },
+      {
+        "concepto": "Casa: segundo 50%",
+        "monto": 399000,
+        "pago": "Jerga",
+        "pendiente": true,
+        "nota": "Cada uno le transfiere $33.250 a Jerga y él le paga a la dueña."
+      }
+    ],
+    "pagos": [
+      {
+        "de": "Chine",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Julia",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Muke",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Manu",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Angie",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Cata",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Flopi",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Agus",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Sol",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Pili",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      },
+      {
+        "de": "Basha",
+        "a": "Jerga",
+        "monto": 33250,
+        "nota": "Seña"
+      }
+    ]
+  }
 }
