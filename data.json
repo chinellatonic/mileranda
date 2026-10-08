@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 08:48",
+  "actualizado": "jue 8/10 · 08:51",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 8:47 a. m.]",
-    "autor": "Flopi",
-    "texto": "Que condimentos necesitan los cocinerxs"
+    "fecha": "[8/10/2026, 8:51 a. m.]",
+    "autor": "Chine",
+    "texto": "frutillas x aca las estan regalando 2kg x 6k, compro 4 kg"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -68,12 +68,8 @@
                   "who": "¿Alguien más tiene auto?"
                 },
                 {
-                  "t": "Desayuno: ¿qué quieren? Flopi propone buen pan con mermeladas y huevos; sumamos yerba, café, azúcar y leche.",
+                  "t": "Desayuno: pan de Barra (Sol), mermeladas, huevos, yerba, café, azúcar y leche. Si nadie pide otra cosa antes de esta noche, queda así.",
                   "who": "Todos, a Flopi"
-                },
-                {
-                  "t": "Postres y cosas dulces: faltan.",
-                  "who": "Ideas, a Flopi"
                 },
                 {
                   "t": "Condimentos: los cocineros le dicen a Flopi qué necesitan.",
@@ -96,7 +92,7 @@
                   "who": "Los chicos, ideas"
                 },
                 {
-                  "t": "Sábado a la tarde: ¿picada de Zaatar (la compra Cata) o alcanza con lo de la canasta?",
+                  "t": "Almuerzo a la canasta del sábado: cada uno dice qué lleva, así comemos variado (idea de Pili). Según eso, se ve si hace falta la picada de Zaatar.",
                   "who": "Todos"
                 },
                 {
@@ -200,8 +196,8 @@
                       "items": [
                         "3 bidones de agua.",
                         "Hielo. En heladeritas aguanta unas 24 h, se puede llevar de acá.",
-                        "Desayuno: buen pan, mermeladas, huevos, yerba, café, azúcar y leche (a confirmar).",
-                        "Postres y cosas dulces (a definir).",
+                        "Desayuno: mermeladas, huevos, yerba, café, azúcar y leche (a confirmar). El pan lo lleva Sol: 2 hogazas de Barra.",
+                        "Crema y azúcar impalpable, para las frutillas con crema (las frutillas las compra Chine).",
                         "Carne y pan para la parrilla (Chine).",
                         "Empanadas: ver la lista de abajo.",
                         "Condimentos.",
@@ -429,6 +425,11 @@
                         {
                           "e": "ok",
                           "t": "Pelota"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "4 kg de frutillas",
+                          "nota": "Para el postre. Las están regalando: 2 kg × $6.000."
                         }
                       ]
                     }
@@ -526,6 +527,11 @@
                           "e": "wip",
                           "t": "Mirar orejas en calle San Luis",
                           "nota": "El viernes, de paso a Croquis."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Batidora",
+                          "nota": "Para la crema."
                         }
                       ]
                     }
@@ -585,6 +591,11 @@
                         {
                           "e": "ok",
                           "t": "Auto"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "2 hogazas de Barra",
+                          "nota": "Para el desayuno."
                         }
                       ]
                     }
@@ -901,7 +912,7 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "A la canasta: cada uno trae algo."
+                  "A la canasta: cada uno trae algo. Pili propone definir qué lleva cada uno, así comemos variado."
                 ],
                 [
                   "Sáb tarde",
@@ -917,11 +928,11 @@
                 ],
                 [
                   "Desayunos y meriendas",
-                  "Flopi propone buen pan con mermeladas y huevos. Falta sumar mate y café."
+                  "2 hogazas de Barra (Sol), mermeladas, huevos, mate y café."
                 ],
                 [
                   "Postre",
-                  "Falta definir. Ideas: frutillas con crema (Cata)."
+                  "Frutillas con crema. Chine compra 4 kg de frutillas, la crema va en el súper y Cata lleva la batidora."
                 ]
               ]
             }
@@ -1353,6 +1364,13 @@
         "pago": "Jerga",
         "pendiente": true,
         "nota": "Se paga allá, en el lugar: cada uno le da $33.250 a Jerga y él le paga a la dueña."
+      },
+      {
+        "concepto": "Frutillas (4 kg)",
+        "monto": 12000,
+        "pago": "Chine",
+        "pendiente": true,
+        "nota": "2 kg × $6.000. Cuando las compre, se pasa a gasto real."
       }
     ],
     "pagos": [
