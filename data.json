@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 12:49",
+  "actualizado": "jue 8/10 · 12:50",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 12:43 p. m.]",
-    "autor": "Angie",
-    "texto": "Vos elegis. Un álbum es lo mismo? Yo estoy juntando las fotos en un album"
+    "fecha": "[8/10/2026, 12:49 p. m.]",
+    "autor": "Julia",
+    "texto": "Confirmadas tortillas"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,7 +48,7 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "Fotos: al álbum compartido de Angie (o directo a Jerga), hasta hoy a la noche. Jerga elige y mañana imprime.",
+                  "t": "Fotos: pásenle a Jerga los links de los álbumes (el de Angie, el de Muke), hasta hoy a la noche. Jerga elige y mañana imprime.",
                   "who": "Todos, a Jerga"
                 },
                 {
@@ -108,7 +108,7 @@
                   "who": "Los chicos, ideas"
                 },
                 {
-                  "t": "Tortillas: Julia le pide a su primo 5 de papa y cebolla. Falta el precio.",
+                  "t": "Tortillas: confirmadas (5 de papa y cebolla). Falta el precio.",
                   "who": "Julia"
                 },
                 {
@@ -529,7 +529,7 @@
                           "e": "wip",
                           "t": "Fotos impresas en A3",
                           "who": "Jerga",
-                          "nota": "Angie las junta en un álbum compartido (Muke, sumá ahí tu álbum de Juani). Jerga ya bajó las que mandaron al grupo y elige cuáles imprime: tampoco mil. Mañana las imprime."
+                          "nota": "Angie las junta en un álbum compartido (Muke, sumá tu álbum de Juani). Pásenle los links a Jerga: ya bajó las del grupo y elige cuáles imprime, tampoco mil. Mañana imprime."
                         },
                         {
                           "e": "wip",
@@ -711,9 +711,9 @@
                           "t": "Disco para freír"
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "5 tortillas de papa y cebolla",
-                          "nota": "Se las pide a su primo. Falta el precio."
+                          "nota": "Confirmadas con su primo. Falta el precio."
                         }
                       ]
                     }
@@ -888,7 +888,7 @@
                         {
                           "e": "wip",
                           "t": "Fotos impresas en A3",
-                          "nota": "Angie las junta en un álbum compartido (Muke, sumá ahí tu álbum de Juani). Jerga ya bajó las que mandaron al grupo y elige cuáles imprime: tampoco mil. Mañana las imprime."
+                          "nota": "Angie las junta en un álbum compartido (Muke, sumá tu álbum de Juani). Pásenle los links a Jerga: ya bajó las del grupo y elige cuáles imprime, tampoco mil. Mañana imprime."
                         }
                       ]
                     }
@@ -1524,7 +1524,8 @@
                   "mas": [
                     "Las pistas son las Crónicas del Reino: cada pista, un recuerdo de nuestra historia con ellos (idea de Angie).",
                     "El tesoro es la bitácora (idea de Cata). También podrían ser las orejas.",
-                    "Final posible: quemamos las esculturas en el fogón y, cuando se apaga el fuego, aparece la bitácora."
+                    "Final posible: quemamos las esculturas en el fogón y, cuando se apaga el fuego, aparece la bitácora.",
+                    "A Bian le encantan los acertijos: le armó a Shoni un Excel súper complejo con acertijos para su cumpleaños (dato de Angie). Pistas con acertijos, entonces."
                   ],
                   "necesita": [
                     "Escribir las pistas",
@@ -1536,7 +1537,11 @@
                   "e": "idea",
                   "t": "Escape room",
                   "nota": "A Bian le encantan.",
-                  "propuso": "Agus"
+                  "propuso": "Agus",
+                  "mas": [
+                    "A Bian le encantan. A Bian le encantan los acertijos: le armó a Shoni un Excel súper complejo con acertijos para su cumpleaños (dato de Angie).",
+                    "Se puede fundir con la búsqueda del tesoro."
+                  ]
                 },
                 {
                   "e": "idea",
