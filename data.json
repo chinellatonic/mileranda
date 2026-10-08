@@ -1,9 +1,9 @@
 {
-  "actualizado": "mié 7/10 · 22:13",
+  "actualizado": "jue 8/10 · 08:43",
   "ultimo_leido": {
-    "fecha": "[7/10/2026, 10:12 p. m.]",
-    "autor": "Angie",
-    "texto": "yo llevo mi cartuchera"
+    "fecha": "[8/10/2026, 7:18 a. m.]",
+    "autor": "Flopi",
+    "texto": "https://chinellatonic.github.io/mileranda/ Amo esto"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -52,10 +52,6 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Limpieza: Giuli limpia de noche y deja todo listo para la mañana. El último grupo le juntó $50.000 entre todos. Cata y Agus a favor de pagarle. Si nadie se opone antes del jueves, le pagamos.",
-                  "who": "Todos"
-                },
-                {
                   "t": "Orejas de elfo: donde averiguó Agus no había 14. Cata mira en calle San Luis el viernes. Si no aparecen, otra variante.",
                   "who": "Agus y Cata"
                 },
@@ -86,14 +82,6 @@
                 {
                   "t": "Un sombrero loco para sortear los equipos.",
                   "who": "¿Quién tiene?"
-                },
-                {
-                  "t": "Las cartas de los números.",
-                  "who": "Flopi, ¿las llevás?"
-                },
-                {
-                  "t": "Burako para el domingo: Sol, ¿tenés?",
-                  "who": "Sol"
                 },
                 {
                   "t": "Domingo a la mañana: un juego o actividad chill que le guste a Juani.",
@@ -210,7 +198,6 @@
                         "Condimentos.",
                         "Papel de cocina y papel higiénico extra (más de un paquete).",
                         "Leña para el fogón, y para la estaca si hacemos.",
-                        "Detergente, rejilla y repasador, solo si limpiamos nosotros.",
                         "Harina y caramelos (juego de la harina).",
                         "Chocolates y un buen escabio: el premio para el agasajado cuyo equipo gane."
                       ],
@@ -354,9 +341,10 @@
                           "who": "¿Quién tiene?"
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Cartas de los números",
-                          "who": "Flopi, a confirmar"
+                          "who": "Flopi",
+                          "nota": "The Mind."
                         },
                         {
                           "e": "pend",
@@ -369,10 +357,10 @@
                           "who": "¿Quién?"
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Burako",
-                          "who": "¿Sol?",
-                          "nota": "Angie cree que Sol tiene. Cata no."
+                          "who": "Flopi",
+                          "nota": "Uno medio chumi. Sol tiene otro."
                         },
                         {
                           "e": "ok",
@@ -556,8 +544,15 @@
                           "nota": "Falta que las confirme."
                         },
                         {
-                          "e": "duda",
-                          "t": "Cartas de los números"
+                          "e": "ok",
+                          "t": "Cartas de los números",
+                          "who": "Flopi",
+                          "nota": "The Mind."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Burako",
+                          "nota": "Medio chumi, pero va. Sol tiene otro."
                         }
                       ]
                     }
@@ -645,8 +640,8 @@
                 {
                   "concepto": "Limpieza (Giuli)",
                   "total": 50000,
-                  "e": "wip",
-                  "nota": "Lo que juntó el último grupo. Cata y Agus a favor."
+                  "e": "ok",
+                  "nota": "Decidido: nadie se opuso. $50.000 entre todos."
                 },
                 {
                   "concepto": "Toro mecánico",
@@ -869,7 +864,7 @@
                 "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
                 "Lo que se rompe se repone.",
                 "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee.",
-                "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba."
+                "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba. Le pagamos $50.000 entre todos."
               ]
             }
           ]
@@ -1083,12 +1078,12 @@
                   "nota": "Burako para Bian y algo para Juani (se aceptan sugerencias). Cartas de los números, si Flopi las lleva.",
                   "propuso": "Agus",
                   "necesita": [
-                    "Burako",
-                    "Cartas de los números (Flopi)",
+                    "Burako (Flopi)",
+                    "The Mind (Flopi)",
                     "Algo que le guste a Juani"
                   ],
                   "mas": [
-                    "Algo tranqui para el domingo a la mañana. Para Bian, burako (¿Sol tiene?). Para Juani, se aceptan sugerencias de los chicos."
+                    "Algo tranqui para el domingo a la mañana. Para Bian, burako (lo lleva Flopi; Sol tiene otro). Cartas: The Mind, de Flopi. Para Juani, se aceptan sugerencias de los chicos."
                   ]
                 }
               ],
