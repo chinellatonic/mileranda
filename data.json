@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 10:12",
+  "actualizado": "jue 8/10 · 10:17",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:12 a. m.]",
-    "autor": "Sol",
-    "texto": "JAJAJJAAJ"
+    "fecha": "[8/10/2026, 10:17 a. m.]",
+    "autor": "Muke",
+    "texto": "Uh se puso medio facho ahora"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -60,7 +60,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Cena del sábado: lo fácil (choris y carne para sanguchitos) o algo más elaborado (estaca o carnes a la parrilla) solo si de verdad lo queremos. Si da igual, vamos con lo fácil.",
+                  "t": "Cena del sábado: lo fácil (choris y carne para sanguchitos) o algo más elaborado (estaca o carnes a la parrilla) solo si de verdad lo queremos. Si da igual, vamos con lo fácil. Manu, a favor de los sanguchitos.",
                   "who": "Todos, hoy"
                 },
                 {
@@ -110,6 +110,10 @@
                 {
                   "t": "Frases para el cuervo del viernes.",
                   "who": "Todos"
+                },
+                {
+                  "t": "¿Va el Boquita? Sol pregunta; según Manu, Basha tiene uno nuevo.",
+                  "who": "Basha"
                 }
               ]
             }
