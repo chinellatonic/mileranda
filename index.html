@@ -412,7 +412,8 @@ function init(D){
   }
 
   var byId = {};
-  D.tabs.forEach(function(t){ t.cards.forEach(function(c){ c.bloques.forEach(function(b){ if (b.id) byId[b.id] = b; }); }); });
+  function indexar(bs){ bs.forEach(function(b){ if (b.id) byId[b.id] = b; if (b.tipo === 'desplegables') b.items.forEach(function(a){ indexar(a.bloques); }); }); }
+  D.tabs.forEach(function(t){ t.cards.forEach(function(c){ indexar(c.bloques); }); });
 
   document.getElementById('act').textContent = 'actualizado ' + D.actualizado;
 
@@ -518,7 +519,7 @@ function init(D){
       b.items.forEach(function(a){
         var n = 0, falta = 0;
         a.bloques.forEach(function(x){
-          var arr = x.items || x.personas || [];
+          var arr = x.items || x.personas || x.filas || [];
           n += arr.length;
           arr.forEach(function(i){ if (i && (i.e === 'pend' || i.e === 'duda')) falta++; });
         });

@@ -1,5 +1,5 @@
 {
-  "actualizado": "jue 8/10 · 10:46",
+  "actualizado": "jue 8/10 · 10:48",
   "ultimo_leido": {
     "fecha": "[8/10/2026, 10:39 a. m.]",
     "autor": "Basha",
@@ -1091,189 +1091,212 @@
       "titulo": "Logística",
       "cards": [
         {
-          "titulo": "Autos",
-          "bloques": [
-            {
-              "tipo": "estado",
-              "id": "autos",
-              "items": [
-                {
-                  "e": "ok",
-                  "t": "Chine",
-                  "nota": "3 lugares."
-                },
-                {
-                  "e": "ok",
-                  "t": "Flopi"
-                },
-                {
-                  "e": "ok",
-                  "t": "Sol"
-                },
-                {
-                  "e": "duda",
-                  "t": "Auto de los novios",
-                  "nota": "Con 3 autos no entramos los 14. Bian ofreció el de ellos (vía Angie): es una opción, pero lo ideal sería conseguir otro."
-                },
-                {
-                  "e": "pend",
-                  "t": "¿Alguien más tiene auto?",
-                  "nota": "Somos 14 y con 3 autos no entramos. Si nadie suma uno, vamos con el de Bian y Juani."
-                }
-              ]
-            },
-            {
-              "tipo": "datos",
-              "subtitulo": "Salida",
-              "filas": [
-                [
-                  "Avanzada",
-                  "Sale ~9 h y llega a las 10, cuando abre la casa. Lleva heladeritas, compras y lo que haya que armar."
-                ],
-                [
-                  "El resto",
-                  "A definir. Se había dicho 9:30; hay quien propone 11 para tener changüí y comprar lo que falte. Propuesta: hasta 10:30, junto con los novios."
-                ],
-                [
-                  "Novios",
-                  "Salen ~10:30 y llegan con todo listo. Falta definir el auto."
-                ],
-                [
-                  "Ruta",
-                  "Se puede rodear Victoria sin entrar."
-                ]
-              ]
-            }
-          ]
-        },
-        {
           "id": "cronograma",
-          "titulo": "Cronograma (borrador)",
-          "tag": "correcciones hasta el viernes 12 h",
+          "titulo": "Logística",
+          "tag": "tocá para abrir",
           "ancho": true,
           "bloques": [
             {
-              "tipo": "datos",
-              "subtitulo": "Sábado",
-              "filas": [
-                [
-                  "9:00",
-                  "Sale la avanzada."
-                ],
-                [
-                  "10:00",
-                  "Llega: recibe la casa, guarda el frío y decora (globos, banderines, luces)."
-                ],
-                [
-                  "10:30",
-                  "Salen los novios."
-                ],
-                [
-                  "~11:30",
-                  "Llegan: bienvenida, orejas y sorteo de equipos Juani vs. Bian."
-                ],
-                [
-                  "13:00",
-                  "Almuerzo: tortillas, fiambres y canasta."
-                ],
-                [
-                  "15:00–18:00",
-                  "Kermesse por equipos: embolsados, postas tipo Supermatch, dardos, cola al burro, harina y caramelos (y el toro, si va)."
-                ],
-                [
-                  "17:30",
-                  "La carne al fuego."
-                ],
-                [
-                  "18:30",
-                  "La dinámica de los novios (falta saber cuánto dura y qué necesitan)."
-                ],
-                [
-                  "21:00",
-                  "Cena: sanguches."
-                ],
-                [
-                  "Fogón",
-                  "Crónicas del Reino, búsqueda del tesoro con final en la bitácora (y quema de esculturas, si hay) y brindis."
-                ],
-                [
-                  "Después",
-                  "Juego tipo grillo y desafío nocturno."
-                ]
-              ]
-            },
-            {
-              "tipo": "datos",
-              "subtitulo": "Domingo",
-              "filas": [
-                [
-                  "10:00",
-                  "Desayuno."
-                ],
-                [
-                  "11:00",
-                  "Domingo libre (burako, The Mind, algo para Juani), cadáver exquisito y bitácora. En paralelo, el relleno de las empanadas, si no se hizo el sábado."
-                ],
-                [
-                  "13:00",
-                  "Repulgue y fritura."
-                ],
-                [
-                  "14:00",
-                  "Almuerzo."
-                ],
-                [
-                  "16:00",
-                  "Frutillas con crema, conteo de puntos y premio."
-                ],
-                [
-                  "17:00",
-                  "Ordenar y cargar los autos."
-                ],
-                [
-                  "18:00",
-                  "Entregamos la casa."
-                ],
-                [
-                  "Si llueve",
-                  "El salón rústico."
-                ]
-              ]
-            },
-            {
-              "tipo": "nota",
-              "texto": "Es un borrador: corríjanlo hasta el viernes al mediodía. Lo que nadie adopte hoy, se cae."
-            }
-          ]
-        },
-        {
-          "titulo": "La casa tiene",
-          "bloques": [
-            {
-              "tipo": "lista",
+              "tipo": "desplegables",
               "items": [
-                "Quincho con vasos, platos, cubiertos, ollas, parrilla, tele, heladera y freezer.",
-                "Salón de fiesta rústico con freezer grande.",
-                "Ropa de cama, toalla de ducha, papel higiénico y jabón.",
-                "Asado a la estaca y horno de barro.",
-                "Metegol, sapo y canchita de fútbol.",
-                "Agua potable (lo confirmó Olga)."
-              ]
-            }
-          ]
-        },
-        {
-          "titulo": "Ojo con la casa",
-          "bloques": [
-            {
-              "tipo": "ojo",
-              "items": [
-                "La pileta no está lista.",
-                "No hay disco para freír. Lo lleva Julia.",
-                "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
-                "Lo que se rompe se repone.",
-                "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee.",
-                "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba. Le pagamos $50.000 entre todos."
+                {
+                  "titulo": "Autos",
+                  "bloques": [
+                    {
+                      "tipo": "estado",
+                      "id": "autos",
+                      "items": [
+                        {
+                          "e": "ok",
+                          "t": "Chine",
+                          "nota": "3 lugares."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Flopi"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Sol"
+                        },
+                        {
+                          "e": "duda",
+                          "t": "Auto de los novios",
+                          "nota": "Con 3 autos no entramos los 14. Bian ofreció el de ellos (vía Angie): es una opción, pero lo ideal sería conseguir otro."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "¿Alguien más tiene auto?",
+                          "nota": "Somos 14 y con 3 autos no entramos. Si nadie suma uno, vamos con el de Bian y Juani."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Salida",
+                  "bloques": [
+                    {
+                      "tipo": "datos",
+                      "filas": [
+                        [
+                          "Avanzada",
+                          "Sale ~9 h y llega a las 10, cuando abre la casa. Lleva heladeritas, compras y lo que haya que armar."
+                        ],
+                        [
+                          "El resto",
+                          "A definir. Se había dicho 9:30; hay quien propone 11 para tener changüí y comprar lo que falte. Propuesta: hasta 10:30, junto con los novios."
+                        ],
+                        [
+                          "Novios",
+                          "Salen ~10:30 y llegan con todo listo. Falta definir el auto."
+                        ],
+                        [
+                          "Ruta",
+                          "Se puede rodear Victoria sin entrar."
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Cronograma: sábado",
+                  "tag": "borrador",
+                  "bloques": [
+                    {
+                      "tipo": "datos",
+                      "filas": [
+                        [
+                          "9:00",
+                          "Sale la avanzada."
+                        ],
+                        [
+                          "10:00",
+                          "Llega: recibe la casa, guarda el frío y decora (globos, banderines, luces)."
+                        ],
+                        [
+                          "10:30",
+                          "Salen los novios."
+                        ],
+                        [
+                          "~11:30",
+                          "Llegan: bienvenida, orejas y sorteo de equipos Juani vs. Bian."
+                        ],
+                        [
+                          "13:00",
+                          "Almuerzo: tortillas, fiambres y canasta."
+                        ],
+                        [
+                          "15:00–18:00",
+                          "Kermesse por equipos: embolsados, postas tipo Supermatch, dardos, cola al burro, harina y caramelos (y el toro, si va)."
+                        ],
+                        [
+                          "17:30",
+                          "La carne al fuego."
+                        ],
+                        [
+                          "18:30",
+                          "La dinámica de los novios (falta saber cuánto dura y qué necesitan)."
+                        ],
+                        [
+                          "21:00",
+                          "Cena: sanguches."
+                        ],
+                        [
+                          "Fogón",
+                          "Crónicas del Reino, búsqueda del tesoro con final en la bitácora (y quema de esculturas, si hay) y brindis."
+                        ],
+                        [
+                          "Después",
+                          "Juego tipo grillo y desafío nocturno."
+                        ]
+                      ]
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Es un borrador: corríjanlo hasta el viernes al mediodía. Lo que nadie adopte hoy, se cae."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Cronograma: domingo",
+                  "tag": "borrador",
+                  "bloques": [
+                    {
+                      "tipo": "datos",
+                      "filas": [
+                        [
+                          "10:00",
+                          "Desayuno."
+                        ],
+                        [
+                          "11:00",
+                          "Domingo libre (burako, The Mind, algo para Juani), cadáver exquisito y bitácora. En paralelo, el relleno de las empanadas, si no se hizo el sábado."
+                        ],
+                        [
+                          "13:00",
+                          "Repulgue y fritura."
+                        ],
+                        [
+                          "14:00",
+                          "Almuerzo."
+                        ],
+                        [
+                          "16:00",
+                          "Frutillas con crema, conteo de puntos y premio."
+                        ],
+                        [
+                          "17:00",
+                          "Ordenar y cargar los autos."
+                        ],
+                        [
+                          "18:00",
+                          "Entregamos la casa."
+                        ],
+                        [
+                          "Si llueve",
+                          "El salón rústico."
+                        ]
+                      ]
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Es un borrador: corríjanlo hasta el viernes al mediodía. Lo que nadie adopte hoy, se cae."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "La casa tiene",
+                  "bloques": [
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "Quincho con vasos, platos, cubiertos, ollas, parrilla, tele, heladera y freezer.",
+                        "Salón de fiesta rústico con freezer grande.",
+                        "Ropa de cama, toalla de ducha, papel higiénico y jabón.",
+                        "Asado a la estaca y horno de barro.",
+                        "Metegol, sapo y canchita de fútbol.",
+                        "Agua potable (lo confirmó Olga)."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Ojo con la casa",
+                  "bloques": [
+                    {
+                      "tipo": "ojo",
+                      "items": [
+                        "La pileta no está lista.",
+                        "No hay disco para freír. Lo lleva Julia.",
+                        "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
+                        "Lo que se rompe se repone.",
+                        "Toro e inflable se pueden, sin tapar la entrada y salida de autos y sin que nadie se golpee.",
+                        "Giuli limpia de noche (platos, basura, patio y quincho) y al irnos deja todo como estaba. Le pagamos $50.000 entre todos."
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
