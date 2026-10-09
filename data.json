@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 09:28",
+  "actualizado": "vie 9/10 · 10:05",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 9:27 a. m.]",
-    "autor": "Cata",
-    "texto": "Che y las frutillas no en la lista de la verdu, eso se encarga el chine? O hay q sumarlo?"
+    "fecha": "[9/10/2026, 10:03 a. m.]",
+    "autor": "Pili",
+    "texto": "Y carne retiro todo hoy!! La picada la ponen al vacío para q aguante un poco más. Así q mañana NO hay q ir a el Redil"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -52,8 +52,8 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Postres y cosas ricas para después de comer: aparte de las frutillas con crema, no hay nada. ¿Quién suma algo?",
-                  "who": "¿Quién?"
+                  "t": "Postres: frutillas con crema y un bizcochuelo de caja que hacemos allá (va al súper). ¿Alguien suma algo más?",
+                  "who": "Opcional"
                 },
                 {
                   "t": "Plan lluvia: ¿qué hacemos adentro si llueve? Propuesta en el mensaje de Bartolomé. Sol pregunta por el juego que juega siempre Magui: ¿cuál es?",
@@ -72,8 +72,8 @@
                   "who": "¿Angie y Agus?"
                 },
                 {
-                  "t": "Cuervo para los novios: sale HOY. Bartolomé arma la versión medieval (pedido de Cata), Chine la pasa a PDF y Agus la imprime y se la deja en la casa a la salida del laburo.",
-                  "who": "Chine y Agus"
+                  "t": "Cuervo: Manu hizo el PDF (pergamino, también en blanco y negro). Agus lo imprime y se los deja hoy en la casa.",
+                  "who": "Agus"
                 },
                 {
                   "t": "Cronograma: es un borrador, está en Logística. Correcciones hasta el viernes al mediodía.",
@@ -92,8 +92,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne: Pili compra mañana las dos piezas de 2,5 kg. La picada (2 kg) la busca la chata del Chine en el Redil, el sábado a las 9.",
-                  "who": "Pili y un auto de Fisherton"
+                  "t": "Carne: Pili retira hoy todo en el Redil de Fisherton (15% en efectivo o transferencia): dos piezas de 2,5 kg para los sanguches y 2 kg de picada especial, al vacío para que aguante. El sábado no hay que pasar por el Redil.",
+                  "who": "Pili"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -122,10 +122,6 @@
                 {
                   "t": "Fiambres de Zaatar para el almuerzo del sábado: Cata los compra el viernes.",
                   "who": "Cata"
-                },
-                {
-                  "t": "Frases para el cuervo del viernes.",
-                  "who": "Todos"
                 }
               ]
             }
@@ -297,7 +293,8 @@
                       "subtitulo": "Postre",
                       "items": [
                         "Crema",
-                        "Azúcar impalpable"
+                        "Azúcar impalpable",
+                        "Bizcochuelo de caja (tipo Águila) y lo que pida la caja: lo hacemos allá"
                       ]
                     },
                     {
@@ -732,6 +729,11 @@
                         {
                           "e": "ok",
                           "t": "Cafetera"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "El PDF del cuervo",
+                          "nota": "Pergamino, con versión blanco y negro."
                         }
                       ]
                     }
@@ -785,6 +787,11 @@
                           "e": "duda",
                           "t": "Pistas de la búsqueda del tesoro, con Angie",
                           "nota": "Propuesta de Bartolomé, a confirmar."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Imprimir el cuervo y dejárselo a los novios",
+                          "nota": "Hoy, a la salida del laburo."
                         }
                       ]
                     }
@@ -971,12 +978,17 @@
                         {
                           "e": "wip",
                           "t": "La carne",
-                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg), bondiola o vacío. La picada no conviene comprarla con tantos días: se compra el sábado a las 9, cuando abre el Redil, y la pasa a buscar la chata del Chine. El relleno se cocina el sábado y las empanadas se hacen el domingo."
+                          "nota": "Pili retira hoy todo en el Redil de Fisherton (15% en efectivo o transferencia): dos piezas de 2,5 kg para los sanguches y 2 kg de picada especial, al vacío para que aguante. El sábado no hay que pasar por el Redil."
                         },
                         {
                           "e": "ok",
                           "t": "Una heladerita",
                           "nota": "Hoy manda foto del tamaño."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Acompañar a Flopi al súper",
+                          "nota": "Hoy a la tarde."
                         }
                       ]
                     }
@@ -1263,7 +1275,7 @@
                       "filas": [
                         [
                           "Chata del Chine",
-                          "Fisherton, 9 h (avanzada). Chine, Julia, Agus y Jerga (viene en moto a Fisherton). Pasa por el Redil a las 9 a buscar la picada y por la despensa de Victoria a comprar hielo. Lleva parlante, leña y bidones."
+                          "Fisherton, 9 h (avanzada). Chine, Julia, Agus y Jerga (viene en moto a Fisherton). Pasa por la despensa de Victoria a comprar hielo. Lleva parlante, leña y bidones."
                         ],
                         [
                           "Flopi",
@@ -1320,11 +1332,7 @@
                       "filas": [
                         [
                           "9:00",
-                          "La chata del Chine pasa por el Redil a buscar la picada y sale la avanzada."
-                        ],
-                        [
-                          "9:00",
-                          "Sale el auto de Flopi desde el centro."
+                          "Sale la avanzada: la chata del Chine desde Fisherton y el auto de Flopi desde el centro."
                         ],
                         [
                           "10:00",
@@ -1492,7 +1500,7 @@
                 ],
                 [
                   "Postre",
-                  "Frutillas con crema: Chine compra 4 kg, la crema va en el súper y Cata lleva la batidora. Faltan más cosas dulces para después de comer."
+                  "Frutillas con crema (Chine compra 4 kg, Cata lleva la batidora) y un bizcochuelo de caja que hacemos allá. Se aceptan más cosas dulces."
                 ]
               ]
             }
@@ -1732,13 +1740,12 @@
                 {
                   "e": "wip",
                   "t": "Un cuervo nuestro para los novios",
-                  "nota": "Les llega el viernes a la mañana, con lo que tienen que llevar, armado en tono simpático. Idea de Angie. Faltan frases.",
+                  "nota": "Sale hoy. Texto de Bartolomé, PDF de Manu (pergamino, versión blanco y negro), Agus lo imprime y se los deja en la casa.",
                   "propuso": "Angie",
                   "mas": [
-                    "Que les llegue el viernes a la mañana, con lo que tienen que llevar, armado en tono simpático (Agus)."
-                  ],
-                  "necesita": [
-                    "Frases de todos"
+                    "Pergamino medieval con lo que tienen que traer, a pedido de Cata.",
+                    "Manu armó los PDF: dos páginas para imprimir doble faz y doblar en 3, tipo sobre.",
+                    "Agus lo imprime y se los deja en la casa a la salida del laburo."
                   ]
                 },
                 {
