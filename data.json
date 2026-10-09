@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 13:46",
+  "actualizado": "vie 9/10 · 13:48",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 1:45 p. m.]",
-    "autor": "Chine",
-    "texto": "La carne es para hacer sanguches y los panes son para los sanguches. Eso a la noche entre todos"
+    "fecha": "[9/10/2026, 1:47 p. m.]",
+    "autor": "Flopi",
+    "texto": "Chicos no leí nada! Estaba en la facu, hay algo nuevo para mí??"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -108,12 +108,8 @@
                   "who": "Flopi y Sol"
                 },
                 {
-                  "t": "Desayuno: pan de Barra (Sol), mermeladas, huevos, yerba, café, azúcar y leche. Si nadie pide otra cosa antes de esta noche, queda así.",
-                  "who": "Todos, a Flopi"
-                },
-                {
-                  "t": "Condimentos: los cocineros le dicen a Flopi qué necesitan.",
-                  "who": "Chine (parrilla) y Cata (empanadas)"
+                  "t": "Condimentos: los de las empanadas ya están en la lista. Chine, ¿qué necesitás para la carne de los sanguches? Decíselo a Flopi antes de que compre.",
+                  "who": "Chine"
                 },
                 {
                   "t": "Domingo a la mañana: un juego o actividad chill que le guste a Juani.",
@@ -959,12 +955,13 @@
                       "items": [
                         {
                           "e": "ok",
-                          "t": "Auto"
+                          "t": "Auto",
+                          "nota": "Sale del centro a las 9 con Cata, Pili, Angie y Muke."
                         },
                         {
-                          "e": "ok",
+                          "e": "wip",
                           "t": "Las compras",
-                          "nota": "Confirmadas, todo menos la carne."
+                          "nota": "Hoy a la tarde, con Pili. La lista del súper ya tiene lo de las tortas, el desayuno y la cena."
                         },
                         {
                           "e": "ok",
