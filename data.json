@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 18:13",
+  "actualizado": "vie 9/10 · 19:52",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 6:12 p. m.]",
-    "autor": "Cata",
-    "texto": "1 Tubo = 1 vino"
+    "fecha": "[9/10/2026, 7:43 p. m.]",
+    "autor": "Angie",
+    "texto": "Y q no este mojada"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -47,6 +47,10 @@
               "tipo": "pendientes",
               "id": "pendientes",
               "items": [
+                {
+                  "t": "Leña: no se consiguió en el súper. La compra la avanzada en el camino o en Victoria, que no esté mojada.",
+                  "who": "La avanzada"
+                },
                 {
                   "t": "Hora de los novios: propuesta 11:30 (las salidas se atrasaron una hora). Sol, ¿te va?",
                   "who": "Sol"
@@ -94,10 +98,6 @@
                 {
                   "t": "Segundo pago: $33.250 cada uno. Se le paga a Jerga allá, en el lugar.",
                   "who": "Todos, a Jerga"
-                },
-                {
-                  "t": "Carne: Pili retira hoy todo en el Redil de Fisherton (15% en efectivo o transferencia): dos piezas de 2,5 kg para los sanguches y 2 kg de picada especial, al vacío para que aguante. El sábado no hay que pasar por el Redil.",
-                  "who": "Pili"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
@@ -397,7 +397,7 @@
                         "Hielo: lo compra la avanzada en la despensa de Victoria, antes de llegar (la casa tiene freezer grande)",
                         "Papel de cocina",
                         "Papel higiénico extra (más de un paquete)",
-                        "Leña para el fogón y para cocinar la carne"
+                        "Leña: no se consiguió en el súper; se compra en el camino (que no esté mojada)"
                       ]
                     },
                     {
@@ -513,8 +513,8 @@
                         {
                           "e": "pend",
                           "t": "Leña (y llevarla en auto)",
-                          "who": "¿Quién?",
-                          "nota": "No está en cualquier súper y hace falta bastante: fogón, carne varias horas, esculturas."
+                          "who": "La avanzada",
+                          "nota": "No se consiguió en el súper. Se compra en el camino o en Victoria, y que no esté mojada."
                         },
                         {
                           "e": "ok",
@@ -1053,9 +1053,9 @@
                           "nota": "En camino a las 10. Pasa a buscar a Angie, Cata, Muke y Pili."
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Las compras",
-                          "nota": "Hoy a la tarde, con Pili. La lista del súper ya tiene lo de las tortas, el desayuno y la cena."
+                          "nota": "Hechas: $266.973. Faltó la leña."
                         },
                         {
                           "e": "ok",
@@ -1122,9 +1122,9 @@
                           "nota": "Sin mucha experiencia en ruta: paciencia."
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "La carne",
-                          "nota": "Pili retira hoy todo en el Redil de Fisherton (15% en efectivo o transferencia): dos piezas de 2,5 kg para los sanguches y 2 kg de picada especial, al vacío para que aguante. El sábado no hay que pasar por el Redil."
+                          "nota": "Retirada: $159.990, entre todos menos Flopi."
                         },
                         {
                           "e": "ok",
@@ -1249,20 +1249,16 @@
                 },
                 {
                   "concepto": "Compras del súper",
-                  "total": null,
-                  "e": "pend",
-                  "nota": "Cuando Flopi cierre la lista."
+                  "total": 266973,
+                  "e": "ok",
+                  "nota": "Pagó Flopi."
                 },
                 {
-                  "concepto": "Carne para la parrilla y las empanadas",
-                  "total": null,
-                  "e": "pend",
-                  "nota": "La compra Pili en el Redil de Fisherton, con 15% de descuento."
-                },
-                {
-                  "concepto": "Orejas y banderines",
-                  "total": null,
-                  "e": "pend"
+                  "concepto": "Carne (entre 11, sin Flopi)",
+                  "total": 159990,
+                  "e": "ok",
+                  "nota": "Pagó Pili.",
+                  "entre": 11
                 },
                 {
                   "concepto": "Fotos A3",
@@ -1281,6 +1277,24 @@
                   "total": null,
                   "e": "ok",
                   "nota": "Se cobra por peso: mañana se sabe."
+                },
+                {
+                  "concepto": "Barra: panes y facturas",
+                  "total": 20000,
+                  "e": "ok",
+                  "nota": "Pagó Sol."
+                },
+                {
+                  "concepto": "Cotillón: corona, gorro y orejas",
+                  "total": 18000,
+                  "e": "ok",
+                  "nota": "Pagó Agus."
+                },
+                {
+                  "concepto": "Frutillas (4 kg)",
+                  "total": 12000,
+                  "e": "ok",
+                  "nota": "Pagó Agus."
                 }
               ]
             }
@@ -2139,6 +2153,39 @@
         "pago": "Agus",
         "fecha": "9/10",
         "nota": "Cotillón de Colombres y Navarro. Las orejas, que eran pocas, se sortean."
+      },
+      {
+        "concepto": "Súper",
+        "monto": 266973,
+        "pago": "Flopi",
+        "fecha": "9/10",
+        "nota": "La lista del súper completa. Faltó la leña."
+      },
+      {
+        "concepto": "Carne (Redil, con 15%)",
+        "monto": 159990,
+        "pago": "Pili",
+        "fecha": "9/10",
+        "entre": [
+          "Chine",
+          "Julia",
+          "Muke",
+          "Manu",
+          "Angie",
+          "Cata",
+          "Agus",
+          "Jerga",
+          "Sol",
+          "Pili",
+          "Basha"
+        ],
+        "nota": "Dos piezas para los sanguches y 2 kg de picada. Flopi no come carne: no paga esta."
+      },
+      {
+        "concepto": "Barra: panes y facturas",
+        "monto": 20000,
+        "pago": "Sol",
+        "fecha": "9/10"
       }
     ],
     "pagos": [
