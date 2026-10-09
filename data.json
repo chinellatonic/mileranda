@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 11:37",
+  "actualizado": "vie 9/10 · 12:50",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 11:35 a. m.]",
+    "fecha": "[9/10/2026, 12:47 p. m.]",
     "autor": "Pili",
-    "texto": "73 panes total (45 milonguita + 28 saborizados), 28 fosforitos miti miti... A las 9 está listo. Pedido a nombre de Manu"
+    "texto": "Si llevamos eso habria q agregar alguna prenda más y tenemos juego y outfit"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -80,10 +80,6 @@
                   "who": "¿Angie y Agus?"
                 },
                 {
-                  "t": "Cuervo: el PDF de Manu está más arriba en el grupo (el v5 es en blanco y negro). Agus lo imprime y se los deja hoy.",
-                  "who": "Agus"
-                },
-                {
                   "t": "Cronograma: es un borrador, está en Logística. Correcciones hasta el viernes al mediodía.",
                   "who": "Todos"
                 },
@@ -92,8 +88,8 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Orejas: Agus ya recorrió otro cotillón sin suerte; Cata prueba en Casa González. Plan B: mitad orejas y mitad ogro (o laureles), que dividan los equipos.",
-                  "who": "Cata y Agus"
+                  "t": "Orejas: no aparecen. Cata prueba hoy en un cotillón grande del centro. Agus encontró algo en Colombres y Navarro ($18.000, hay 2, abre de 17 a 20) que Pili propone para un juego de postas. ¿Lo compramos? Mínimo 3 respuestas.",
+                  "who": "Todos, hoy"
                 },
                 {
                   "t": "Horario de salida: ¿9:30 o más tarde? Propuesta: la avanzada a las 9 y el resto hasta las 10:30, con los novios. La casa abre a las 10 y cada hora que llegamos tarde es una hora pagada sin usar.",
@@ -327,7 +323,7 @@
                     },
                     {
                       "tipo": "nota",
-                      "texto": "No va en el súper: carne (Pili) y frutillas (Chine), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Lo de verdulería lo compra Cata el viernes (ver abajo)."
+                      "texto": "No va en el súper: carne (Pili), frutillas (Agus), pan del desayuno (Sol), bebida (cada uno), plasticola (Cata). Lo de verdulería lo compra Cata el viernes (ver abajo)."
                     }
                   ]
                 },
@@ -347,7 +343,7 @@
                         "Cebollas (para la cena)",
                         "Pepino y limón (para el tzatziki de Cata)",
                         "Bananas y naranjas (desayuno y merienda)",
-                        "Frutillas: no, las compra Chine (4 kg)"
+                        "Frutillas: no, ya las compró Agus (4 kg)"
                       ]
                     }
                   ]
@@ -685,11 +681,6 @@
                           "t": "Pelota"
                         },
                         {
-                          "e": "wip",
-                          "t": "4 kg de frutillas",
-                          "nota": "Para el postre. Las están regalando: 2 kg × $6.000."
-                        },
-                        {
                           "e": "ok",
                           "t": "Algo contundente para la canasta",
                           "nota": "Tarta, empanadas o sanguchitos."
@@ -814,14 +805,24 @@
                           "nota": "Propuesta de Bartolomé, a confirmar."
                         },
                         {
-                          "e": "wip",
-                          "t": "Imprimir el cuervo y dejárselo a los novios",
-                          "nota": "Hoy, a la salida del laburo."
-                        },
-                        {
                           "e": "ok",
                           "t": "Hummus, queso y salame para la canasta",
                           "nota": "Con Cata y Jerga."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "4 kg de frutillas",
+                          "nota": "Comprados: $12.000."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "El cuervo, impreso y entregado",
+                          "nota": "En el buzón, con folio."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Tarjetas de la búsqueda del tesoro",
+                          "nota": "Impresas."
                         }
                       ]
                     }
@@ -1560,7 +1561,7 @@
                 ],
                 [
                   "Postre",
-                  "Frutillas con crema (Chine compra 4 kg, Cata lleva la batidora). Tortas de caja para la tarde del sábado (Angie lleva el molde)."
+                  "Frutillas con crema (4 kg que compró Agus; Cata lleva la batidora). Tortas de caja para la tarde del sábado, y quizá rellenas de frutillas con crema (idea de Cata: tope de gama). Angie lleva el molde."
                 ]
               ]
             }
@@ -1643,7 +1644,8 @@
                     "Las pistas son las Crónicas del Reino: cada pista, un recuerdo de nuestra historia con ellos (idea de Angie).",
                     "El tesoro es la bitácora (idea de Cata). También podrían ser las orejas.",
                     "Final posible: quemamos las esculturas en el fogón y, cuando se apaga el fuego, aparece la bitácora.",
-                    "A Bian le encantan los acertijos: le armó a Shoni un Excel súper complejo con acertijos para su cumpleaños (dato de Angie). Pistas con acertijos, entonces."
+                    "A Bian le encantan los acertijos: le armó a Shoni un Excel súper complejo con acertijos para su cumpleaños (dato de Angie). Pistas con acertijos, entonces.",
+                    "Agus ya imprimió las tarjetas de la búsqueda."
                   ],
                   "necesita": [
                     "Escribir las pistas",
@@ -1769,8 +1771,9 @@
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
-                    "Ni Cata ni Agus consiguen. Cata prueba en Casa González.",
-                    "Plan B de Agus: mitad orejas y mitad ogro (o algo medieval), y que eso divida los equipos. Otra idea: orejas de Shrek, para ser trolls del bosque. Cata vio laureles de cotillón y pelucas para ponerles a los novios."
+                    "No aparecen: Agus recorrió varios cotillones; Cata prueba hoy en un cotillón grande del centro.",
+                    "Lo que encontró Agus en el cotillón de Colombres y Navarro (abre de 17 a 20): $18.000, hay justo 2. Pili propone usarlo para un juego de postas: dos equipos, cada uno corre, le pone una prenda a su agasajado y vuelve. Con algunas prendas más, juego y outfit.",
+                    "Otros planes: mitad orejas y mitad ogro, orejas de Shrek, laureles, pelucas para los novios."
                   ],
                   "links": [
                     {
@@ -1798,9 +1801,9 @@
                   ]
                 },
                 {
-                  "e": "wip",
+                  "e": "ok",
                   "t": "Un cuervo nuestro para los novios",
-                  "nota": "Sale hoy. Texto de Bartolomé, PDF de Manu (pergamino, versión blanco y negro), Agus lo imprime y se los deja en la casa.",
+                  "nota": "Entregado: Agus lo imprimió a color, lo protegió con un folio, lo dejó en el buzón, tocó el timbre y salió corriendo. PDF de Manu, texto de Bartolomé.",
                   "propuso": "Angie",
                   "mas": [
                     "Pergamino medieval con lo que tienen que traer, a pedido de Cata.",
@@ -2016,9 +2019,9 @@
       {
         "concepto": "Frutillas (4 kg)",
         "monto": 12000,
-        "pago": "Chine",
-        "pendiente": true,
-        "nota": "2 kg × $6.000. Cuando las compre, se pasa a gasto real."
+        "pago": "Agus",
+        "nota": "4 kg a $6.000 los 2 kg. Las compró Agus.",
+        "fecha": "9/10"
       },
       {
         "concepto": "Extra del sábado",
