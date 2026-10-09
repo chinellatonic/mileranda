@@ -1,5 +1,5 @@
 {
-  "actualizado": "vie 9/10 · 13:48",
+  "actualizado": "vie 9/10 · 13:49",
   "ultimo_leido": {
     "fecha": "[9/10/2026, 1:47 p. m.]",
     "autor": "Flopi",
@@ -56,7 +56,7 @@
                   "who": "Flopi, Sol y Basha"
                 },
                 {
-                  "t": "Flopi: ¿comés carne? Los fosforitos van mitad solo queso por vos; si no comés, armamos algo para la cena del sábado.",
+                  "t": "Cena veggie para Flopi: propuesta de verduras asadas y provoleta en los sanguches (ya en la verdulería y el súper). Flopi, ¿te va o preferís otra cosa?",
                   "who": "Flopi"
                 },
                 {
@@ -278,7 +278,8 @@
                       "items": [
                         "Papel aluminio",
                         "Condimentos para la carne",
-                        "Salsitas (o lo necesario para hacerlas)"
+                        "Salsitas (o lo necesario para hacerlas)",
+                        "Una provoleta (para los sanguches veggie)"
                       ]
                     },
                     {
@@ -339,7 +340,8 @@
                         "Cebollas (para la cena)",
                         "Pepino y limón (para el tzatziki de Cata)",
                         "Bananas y naranjas (desayuno y merienda)",
-                        "Frutillas: no, ya las compró Agus (4 kg)"
+                        "Frutillas: no, ya las compró Agus (4 kg)",
+                        "Berenjenas, morrones y zapallitos (sanguches veggie de la cena, para Flopi y quien se sume)"
                       ]
                     }
                   ]
@@ -501,10 +503,10 @@
                           "nota": "No hay nada previsto."
                         },
                         {
-                          "e": "duda",
+                          "e": "ok",
                           "t": "¿Vegetarianos, celíacos o alergias?",
-                          "who": "Todos",
-                          "nota": "La cena del sábado es solo carne."
+                          "who": "Flopi",
+                          "nota": "Flopi no come carne: a la noche hay sanguches veggie (verduras asadas y provoleta) y los fosforitos van mitad solo queso. Las empanadas del domingo tienen las de cebolla y queso."
                         }
                       ]
                     }
@@ -1551,7 +1553,7 @@
                 ],
                 [
                   "Sáb noche",
-                  "Sanguches de carne, con milonguitas de La Abuela de Navarro (encargó Pili, retira Manu): un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10)."
+                  "Sanguches de carne, con milonguitas de La Abuela de Navarro (encargó Pili, retira Manu): un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10). Para Flopi, que no come carne (y quien se sume): sanguches de verduras asadas y provoleta."
                 ],
                 [
                   "Dom mediodía",
