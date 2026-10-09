@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 20:49",
+  "actualizado": "jue 8/10 · 22:13",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 7:19 p. m.]",
+    "fecha": "[8/10/2026, 10:01 p. m.]",
     "autor": "Angie",
-    "texto": "Bueno dos autos salen de fisher uno pasa"
+    "texto": "@~Nicolas vos de donde salis?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -84,7 +84,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Carne: Pili compra las dos piezas de 2,5 kg para los sanguches. La picada (2 kg) se compra el sábado a las 9 en el Redil, como prefiere Cata: según Angie, salen dos autos de Fisherton y uno pasa. ¿Cuál?",
+                  "t": "Carne: Pili compra mañana las dos piezas de 2,5 kg. La picada (2 kg) la busca la chata del Chine en el Redil, el sábado a las 9.",
                   "who": "Pili y un auto de Fisherton"
                 },
                 {
@@ -92,7 +92,7 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Autos: ya somos 4 (Chine con la chata, Flopi, Sol y Pili). Falta armar quién va en cuál. Muke no tiene carnet; Jerga, en la avanzada.",
+                  "t": "Autos: propuesta en Logística (chata del Chine con Julia, Agus y Jerga a las 9; Flopi desde el centro con Cata, Pili, Angie y Muke; Sol a las 10:30 con los novios, Manu y Basha). Pili de reserva. Falta: de dónde sale Jerga y si Flopi y Sol tienen 4 lugares.",
                   "who": "Todos"
                 },
                 {
@@ -958,7 +958,7 @@
                         {
                           "e": "wip",
                           "t": "La carne",
-                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg), bondiola o vacío. La picada no conviene comprarla con tantos días: se compra el sábado a las 9, cuando abre el Redil, y la pasa a buscar uno de los autos que sale de Fisherton. El relleno se cocina el sábado y las empanadas se hacen el domingo."
+                          "nota": "Va al Redil de Fisherton (15% en efectivo o transferencia). Para los sanguches del sábado: dos piezas de unos 2,5 kg (5 kg), bondiola o vacío. La picada no conviene comprarla con tantos días: se compra el sábado a las 9, cuando abre el Redil, y la pasa a buscar la chata del Chine. El relleno se cocina el sábado y las empanadas se hacen el domingo."
                         },
                         {
                           "e": "ok",
@@ -1222,7 +1222,7 @@
                         {
                           "e": "ok",
                           "t": "Chine",
-                          "nota": "Va con la chata: se pueden poner cosas arriba o en la caja."
+                          "nota": "La chata, sale de Fisherton. Carga arriba o en la caja."
                         },
                         {
                           "e": "ok",
@@ -1233,9 +1233,9 @@
                           "t": "Sol"
                         },
                         {
-                          "e": "ok",
+                          "e": "duda",
                           "t": "Pili",
-                          "nota": "No tiene mucha experiencia en ruta: va con paciencia y buena compañía."
+                          "nota": "Sale del centro, 4 lugares. Si entramos todos en los otros 3, prefiere no manejar: queda de reserva."
                         },
                         {
                           "e": "no",
@@ -1243,6 +1243,32 @@
                           "nota": "Ya no hace falta: Pili suma el cuarto auto."
                         }
                       ]
+                    },
+                    {
+                      "tipo": "datos",
+                      "subtitulo": "Quién va en cuál (propuesta, a confirmar)",
+                      "filas": [
+                        [
+                          "Chata del Chine",
+                          "Fisherton, 9 h (avanzada). Chine, Julia, Agus y Jerga. Pasa por el Redil a las 9 a buscar la picada. Lleva heladeritas, parlante, leña y bidones."
+                        ],
+                        [
+                          "Flopi",
+                          "Centro. Flopi, Cata, Pili, Angie y Muke. Lleva las compras que entren; lo voluminoso va en la chata."
+                        ],
+                        [
+                          "Sol",
+                          "Fisherton, 10:30. Sol, Juani, Bian, Manu y Basha."
+                        ],
+                        [
+                          "Pili",
+                          "De reserva: si no entramos, maneja."
+                        ]
+                      ]
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Armado sobre la propuesta de Julia. Falta confirmar: Jerga, ¿desde dónde salís? Flopi y Sol, ¿tienen 4 lugares libres cada uno?"
                     }
                   ]
                 },
@@ -1281,11 +1307,11 @@
                       "filas": [
                         [
                           "9:00",
-                          "Un auto de Fisherton pasa por el Redil a buscar la picada."
+                          "La chata del Chine pasa por el Redil a buscar la picada y sale la avanzada."
                         ],
                         [
                           "9:00",
-                          "Sale la avanzada."
+                          "Sale el auto de Flopi desde el centro."
                         ],
                         [
                           "10:00",
