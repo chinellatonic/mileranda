@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 18:06",
+  "actualizado": "vie 9/10 · 18:13",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 6:05 p. m.]",
+    "fecha": "[9/10/2026, 6:12 p. m.]",
     "autor": "Cata",
-    "texto": "Bartolo, hacé un conteo total del alcohol sumando lo que lleva cada uno"
+    "texto": "1 Tubo = 1 vino"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -244,7 +244,7 @@
                         ],
                         [
                           "Cata, Jerga, Agus, Flopi y Julia",
-                          "9 tubos y 3 six packs"
+                          "9 tubos (de vino) y 3 six packs"
                         ],
                         [
                           "Muke y Basha",
@@ -265,13 +265,14 @@
                       "subtitulo": "Total (sin lo de Sol)",
                       "filas": [
                         [
-                          "Cervezas: 4 six packs + 9 tubos",
-                          "33",
+                          "Cervezas: 4 six packs",
+                          "24",
                           true
                         ],
                         [
-                          "Vinos",
-                          "6"
+                          "Vinos (9 tubos + 6)",
+                          "15",
+                          true
                         ],
                         [
                           "Cinzano",
