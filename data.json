@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 11:04",
+  "actualizado": "vie 9/10 · 11:37",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 11:03 a. m.]",
-    "autor": "Manu",
-    "texto": "fatto. Esta mas arriba"
+    "fecha": "[9/10/2026, 11:35 a. m.]",
+    "autor": "Pili",
+    "texto": "73 panes total (45 milonguita + 28 saborizados), 28 fosforitos miti miti... A las 9 está listo. Pedido a nombre de Manu"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -54,6 +54,10 @@
                 {
                   "t": "Canasta del sábado: falta que digan qué llevan Angie, Flopi, Sol y Basha. Abundante: tiene que durar hasta la cena.",
                   "who": "Los que faltan"
+                },
+                {
+                  "t": "Flopi: ¿comés carne? Los fosforitos van mitad solo queso por vos; si no comés, armamos algo para la cena del sábado.",
+                  "who": "Flopi"
                 },
                 {
                   "t": "Postres: frutillas con crema y un bizcochuelo de caja que hacemos allá (va al súper). ¿Alguien suma algo más?",
@@ -471,10 +475,10 @@
                           "nota": "La casa dice \"cuchillo\", en singular. Hay 3 kg de cebolla y la carne."
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Cuchillo de pan",
-                          "who": "¿Quién?",
-                          "nota": "Para la hogaza; si no, se rompe toda (dato de Sol)."
+                          "who": "Sol / Cata",
+                          "nota": "Sol pide en Barra que le corten la hogaza a máquina. Si no, Cata lleva cuchillo de pan."
                         },
                         {
                           "e": "pend",
@@ -600,9 +604,9 @@
                           "who": "Cada uno la suya"
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Tijeras (bitácora)",
-                          "who": "¿Quién?"
+                          "who": "Manu"
                         },
                         {
                           "e": "pend",
@@ -726,8 +730,8 @@
                       "items": [
                         {
                           "e": "ok",
-                          "t": "Su cartuchera y cuadernos",
-                          "nota": "Para el cadáver exquisito."
+                          "t": "Su cartuchera, tijera y pegamento",
+                          "nota": "Portaminas y estilógrafos. Para la bitácora y el cadáver exquisito."
                         },
                         {
                           "e": "ok",
@@ -749,12 +753,7 @@
                         {
                           "e": "ok",
                           "t": "Retirar el pan de los sanguches",
-                          "nota": "Mañana, el encargo de Pili en La Abuela de Navarro."
-                        },
-                        {
-                          "e": "wip",
-                          "t": "Facturas para el sábado a la mañana",
-                          "nota": "En el barrio, antes de salir."
+                          "nota": "Mañana a las 9, en La Abuela de Navarro (a su nombre): 73 panes y 28 fosforitos."
                         }
                       ]
                     }
@@ -989,7 +988,7 @@
                         {
                           "e": "ok",
                           "t": "Pan de Barra",
-                          "nota": "Hoy: hogaza y pan de molde, para el desayuno y la canasta."
+                          "nota": "Hoy: hogaza (cortada a máquina) y pan de molde, para el desayuno y la canasta."
                         },
                         {
                           "e": "ok",
@@ -999,6 +998,11 @@
                           "e": "wip",
                           "t": "Las fotos del jacuzzi",
                           "nota": "Las sube al álbum."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Facturas de Barra",
+                          "nota": "Para el sábado a la mañana."
                         }
                       ]
                     }
@@ -1032,12 +1036,13 @@
                         },
                         {
                           "e": "ok",
-                          "t": "Chipá de Cepro para la canasta"
+                          "t": "Chipá de Cepro para la canasta",
+                          "nota": "Ya comprado."
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Encargar el pan de los sanguches",
-                          "nota": "En La Abuela de Navarro, 2 o 3 por cabeza. Manu lo retira mañana."
+                          "nota": "Encargado en La Abuela de Navarro: 73 panes (45 milonguitas y 28 saborizados) y 28 fosforitos (mitad jamón y queso, mitad solo queso). Listo a las 9, a nombre de Manu. Se cobra por peso: mañana se sabe el monto."
                         }
                       ]
                     }
@@ -1163,6 +1168,12 @@
                   "total": null,
                   "e": "ok",
                   "nota": "Confirmadas. Falta el precio."
+                },
+                {
+                  "concepto": "Pan y fosforitos (La Abuela de Navarro)",
+                  "total": null,
+                  "e": "ok",
+                  "nota": "Se cobra por peso: mañana se sabe."
                 }
               ]
             }
@@ -1533,11 +1544,11 @@
                 ],
                 [
                   "Sáb tarde",
-                  "Mates con lo que sobre de la canasta y las tortas de caja. Idea del Chine: unos panqueques."
+                  "Mates, 28 fosforitos de La Abuela de Navarro (mitad jamón y queso, mitad solo queso), tortas de caja y lo que sobre de la canasta. Idea del Chine: unos panqueques."
                 ],
                 [
                   "Sáb noche",
-                  "Sanguches de carne, con pan de La Abuela de Navarro (encarga Pili, retira Manu): un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10)."
+                  "Sanguches de carne, con milonguitas de La Abuela de Navarro (encargó Pili, retira Manu): un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10)."
                 ],
                 [
                   "Dom mediodía",
@@ -1545,7 +1556,7 @@
                 ],
                 [
                   "Desayunos y meriendas",
-                  "Sábado: facturas (Manu). Pan de Barra (Sol), manteca, mermeladas, huevos, bananas, naranjas, mate y café."
+                  "Sábado: facturas de Barra (Sol). Pan de Barra y milonguitas que sobren, manteca, mermeladas, huevos, bananas, naranjas, mate y café."
                 ],
                 [
                   "Postre",
