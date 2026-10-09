@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 12:50",
+  "actualizado": "vie 9/10 · 13:46",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 12:47 p. m.]",
-    "autor": "Pili",
-    "texto": "Si llevamos eso habria q agregar alguna prenda más y tenemos juego y outfit"
+    "fecha": "[9/10/2026, 1:45 p. m.]",
+    "autor": "Chine",
+    "texto": "La carne es para hacer sanguches y los panes son para los sanguches. Eso a la noche entre todos"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -52,8 +52,8 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Canasta del sábado: falta que digan qué llevan Angie, Flopi, Sol y Basha. Abundante: tiene que durar hasta la cena.",
-                  "who": "Los que faltan"
+                  "t": "Canasta del sábado: falta que digan qué llevan Flopi, Sol y Basha. Abundante: tiene que durar hasta la cena.",
+                  "who": "Flopi, Sol y Basha"
                 },
                 {
                   "t": "Flopi: ¿comés carne? Los fosforitos van mitad solo queso por vos; si no comés, armamos algo para la cena del sábado.",
@@ -871,6 +871,11 @@
                         {
                           "e": "ok",
                           "t": "Molde para tortas"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Sándwiches del Sangucheto para la canasta",
+                          "nota": "Los encarga para el almuerzo del sábado."
                         }
                       ]
                     }
@@ -1541,7 +1546,7 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "Tortillas del primo de Julia y canasta abundante: tiene que durar hasta la cena y contar a los novios. Chine lleva tarta, empanadas o sanguchitos; Manu, una tarta de Sofi; Cata, Agus y Jerga, hummus, queso y salame; Pili, chipá de Cepro; Muke, porotos a la vinagreta, aceitunas y escabeche; pan de Barra (Sol). Más cherrys, papitas y palitos del súper. La picada comunitaria se dio de baja."
+                  "Tortillas del primo de Julia y canasta abundante: tiene que durar hasta la cena y contar a los novios. Chine lleva tarta, empanadas o sanguchitos; Manu, una tarta de Sofi; Cata, Agus y Jerga, hummus, queso y salame; Pili, chipá de Cepro; Angie, sándwiches del Sangucheto; Muke, porotos a la vinagreta, aceitunas y escabeche; pan de Barra (Sol). Más cherrys, papitas y palitos del súper. La picada comunitaria se dio de baja."
                 ],
                 [
                   "Sáb tarde",
