@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 14:08",
+  "actualizado": "vie 9/10 · 14:37",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 2:06 p. m.]",
-    "autor": "Chine",
-    "texto": "ya fue no te la vueles con las orejas inventamos algo mas"
+    "fecha": "[9/10/2026, 2:30 p. m.]",
+    "autor": "Cata",
+    "texto": "Agus, Jerga, Julia y yo llevamos en grupo: 4 prepizzas, salsa y queso; variedad de quesos y fiambre; hummus"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -52,8 +52,8 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Canasta: falta lo contundente para almorzar de Pili, Muke, Sol, Flopi y Basha. Cata, Agus y Jerga encargan sándwiches de miga.",
-                  "who": "Pili, Muke, Sol, Flopi y Basha"
+                  "t": "Canasta: falta lo contundente para almorzar de Muke, Sol, Flopi y Basha.",
+                  "who": "Muke, Sol, Flopi y Basha"
                 },
                 {
                   "t": "Cena veggie para Flopi: propuesta de verduras asadas y provoleta en los sanguches (ya en la verdulería y el súper). Flopi, ¿te va o preferís otra cosa?",
@@ -706,6 +706,11 @@
                           "e": "ok",
                           "t": "5 tortillas de papa y cebolla",
                           "nota": "Confirmadas con su primo. Falta el precio."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Para la canasta, en grupo",
+                          "nota": "Con Cata, Agus, Jerga y Julia: 4 prepizzas con salsa y queso, variedad de quesos y fiambre, y hummus."
                         }
                       ]
                     }
@@ -803,11 +808,6 @@
                           "nota": "Propuesta de Bartolomé, a confirmar."
                         },
                         {
-                          "e": "wip",
-                          "t": "Quesos, hummus y sándwiches de miga para la canasta",
-                          "nota": "Entre Cata, Agus y Jerga. Los de miga, a encargar."
-                        },
-                        {
                           "e": "ok",
                           "t": "4 kg de frutillas",
                           "nota": "Comprados: $12.000."
@@ -821,6 +821,11 @@
                           "e": "ok",
                           "t": "Tarjetas de la búsqueda del tesoro",
                           "nota": "Impresas."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Para la canasta, en grupo",
+                          "nota": "Con Cata, Agus, Jerga y Julia: 4 prepizzas con salsa y queso, variedad de quesos y fiambre, y hummus."
                         }
                       ]
                     }
@@ -897,11 +902,6 @@
                         },
                         {
                           "e": "wip",
-                          "t": "Quesos, hummus y sándwiches de miga para la canasta",
-                          "nota": "Entre Cata, Agus y Jerga. Los de miga, a encargar."
-                        },
-                        {
-                          "e": "wip",
                           "t": "Mirar orejas en calle San Luis",
                           "nota": "El viernes, de paso a Croquis."
                         },
@@ -919,6 +919,11 @@
                           "e": "ok",
                           "t": "Tzatziki para la carne",
                           "nota": "El yogurt ya está en marcha: lo saca el viernes a las 11, lo enfría y a la tarde lo filtra. Con ralladura de limón, pepino, sal, pimienta y aceite de oliva."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Para la canasta, en grupo",
+                          "nota": "Con Cata, Agus, Jerga y Julia: 4 prepizzas con salsa y queso, variedad de quesos y fiambre, y hummus."
                         }
                       ]
                     }
@@ -941,9 +946,9 @@
                           "nota": "Se lo compra al hermano de Cata (promos por cantidad). Agus se suma. La bebida corre por cuenta de cada uno."
                         },
                         {
-                          "e": "wip",
-                          "t": "Quesos, hummus y sándwiches de miga para la canasta",
-                          "nota": "Entre Cata, Agus y Jerga. Los de miga, a encargar."
+                          "e": "ok",
+                          "t": "Para la canasta, en grupo",
+                          "nota": "Con Cata, Agus, Jerga y Julia: 4 prepizzas con salsa y queso, variedad de quesos y fiambre, y hummus."
                         }
                       ]
                     }
@@ -1048,6 +1053,11 @@
                           "e": "ok",
                           "t": "Encargar el pan de los sanguches",
                           "nota": "Encargado en La Abuela de Navarro: 73 panes (45 milonguitas y 28 saborizados) y 28 fosforitos (mitad jamón y queso, mitad solo queso). Listo a las 9, a nombre de Manu. Se cobra por peso: mañana se sabe el monto."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Milanesas de pollo para la canasta",
+                          "nota": "Unas 5, cortadas."
                         }
                       ]
                     }
@@ -1545,7 +1555,7 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "Regla de la canasta: cada uno lleva algo para almorzar (contundente) y algo para picar, con un poco extra para Juani y Bian y para la tarde. No es picada: es almuerzo. Almuerzo: 5 tortillas (Julia), tarta del Chine, tarta de Sofi (Manu), sándwiches del Sangucheto (Angie) y sándwiches de miga (Cata, Agus y Jerga los encargan). Para picar: quesos y hummus (Cata, Agus y Jerga), chipá (Pili), porotos a la vinagreta, aceitunas y escabeche (Muke), pan de Barra (Sol), papitas del Chine, y cherrys y palitos del súper. Falta lo contundente de Pili, Muke, Sol, Flopi y Basha."
+                  "Regla de la canasta: cada uno lleva algo para almorzar (contundente) y algo para picar, con un poco extra para Juani y Bian y para la tarde. No es picada: es almuerzo. Almuerzo: 5 tortillas (Julia), tarta y papitas (Chine), tarta de Sofi (Manu), sándwiches del Sangucheto (Angie), milanesas de pollo cortadas (Pili) y 4 prepizzas con salsa y queso (Cata, Agus, Jerga y Julia). Para picar: quesos, fiambre y hummus (los mismos cuatro), chipá (Pili), porotos a la vinagreta, aceitunas y escabeche (Muke), pan de Barra (Sol), y cherrys y palitos del súper. Falta lo contundente de Muke, Sol, Flopi y Basha."
                 ],
                 [
                   "Sáb tarde",
