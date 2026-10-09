@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 09:13",
+  "actualizado": "vie 9/10 · 09:28",
   "ultimo_leido": {
-    "fecha": "9/10, mañana",
-    "autor": "(sin nombre en lo pegado)",
-    "texto": "Hay q mandarle el cuervo a los chicos / Buen diaaaa"
+    "fecha": "[9/10/2026, 9:27 a. m.]",
+    "autor": "Cata",
+    "texto": "Che y las frutillas no en la lista de la verdu, eso se encarga el chine? O hay q sumarlo?"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -56,6 +56,10 @@
                   "who": "¿Quién?"
                 },
                 {
+                  "t": "Plan lluvia: ¿qué hacemos adentro si llueve? Propuesta en el mensaje de Bartolomé. Sol pregunta por el juego que juega siempre Magui: ¿cuál es?",
+                  "who": "Todos"
+                },
+                {
                   "t": "Crónicas del Reino: cada uno manda un recuerdo con los novios hasta el viernes al mediodía.",
                   "who": "Todos"
                 },
@@ -68,8 +72,8 @@
                   "who": "¿Angie y Agus?"
                 },
                 {
-                  "t": "Cuervo para los novios: sale HOY. Bartolomé redactó una versión base; falta aprobarla y que alguien se lo mande (¿Angie a Bian, Manu a Juani?).",
-                  "who": "Hoy"
+                  "t": "Cuervo para los novios: sale HOY. Bartolomé arma la versión medieval (pedido de Cata), Chine la pasa a PDF y Agus la imprime y se la deja en la casa a la salida del laburo.",
+                  "who": "Chine y Agus"
                 },
                 {
                   "t": "Cronograma: es un borrador, está en Logística. Correcciones hasta el viernes al mediodía.",
@@ -219,8 +223,8 @@
                         "Útiles que tengas (lapiceras, fibras) para la bitácora",
                         "Lo que quieras tomar + un extra para los novios (vino o Cinzano). La bebida corre por cuenta de cada uno.",
                         "Algo para el almuerzo a la canasta del sábado",
-                        "Abrigo para la noche",
-                        "Algo para la lluvia",
+                        "Abrigo: el clima viene feo",
+                        "Algo para la lluvia (paraguas)",
                         "Zapatillas",
                         "Cargador o powerbank",
                         "Tus medicamentos"
@@ -340,7 +344,8 @@
                         "Ajo (para la cena)",
                         "Cebollas (para la cena)",
                         "Pepino y limón (para el tzatziki de Cata)",
-                        "Bananas y naranjas (desayuno y merienda)"
+                        "Bananas y naranjas (desayuno y merienda)",
+                        "Frutillas: no, las compra Chine (4 kg)"
                       ]
                     }
                   ]
@@ -1438,6 +1443,7 @@
                     {
                       "tipo": "ojo",
                       "items": [
+                        "El clima viene medio feo: abrigo, paraguas y un plan para jugar adentro (el salón rústico).",
                         "La pileta no está lista.",
                         "No hay disco para freír. Lo lleva Julia.",
                         "En la casita de al lado, la sobrina de la dueña festeja un cumple.",
