@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 13:53",
+  "actualizado": "vie 9/10 · 14:08",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 1:52 p. m.]",
+    "fecha": "[9/10/2026, 2:06 p. m.]",
     "autor": "Chine",
-    "texto": "NO ES PICADA, es ALMUERZO A LA CANASTA..."
+    "texto": "ya fue no te la vueles con las orejas inventamos algo mas"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -52,8 +52,8 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Canasta del sábado: falta que digan qué llevan Flopi, Sol y Basha. Regla de la canasta: cada uno lleva su almuerzo, más un poco para Juani y Bian y un poco para la tarde. No es picada: es almuerzo.",
-                  "who": "Flopi, Sol y Basha"
+                  "t": "Canasta: falta lo contundente para almorzar de Pili, Muke, Sol, Flopi y Basha. Cata, Agus y Jerga encargan sándwiches de miga.",
+                  "who": "Pili, Muke, Sol, Flopi y Basha"
                 },
                 {
                   "t": "Cena veggie para Flopi: propuesta de verduras asadas y provoleta en los sanguches (ya en la verdulería y el súper). Flopi, ¿te va o preferís otra cosa?",
@@ -88,7 +88,7 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Orejas: no aparecen. Cata prueba hoy en un cotillón grande del centro. Agus encontró algo en Colombres y Navarro ($18.000, hay 2, abre de 17 a 20) que Pili propone para un juego de postas. ¿Lo compramos? Mínimo 3 respuestas.",
+                  "t": "En lugar de las orejas: ¿lo que encontró Agus en Colombres y Navarro ($18.000, hay 2, abre de 17 a 20) para el juego de postas de Pili, u otra idea?",
                   "who": "Todos, hoy"
                 },
                 {
@@ -214,7 +214,7 @@
                         "Linterna (para el juego de la noche)",
                         "Útiles que tengas (lapiceras, fibras) para la bitácora",
                         "Lo que quieras tomar + un extra para los novios (vino o Cinzano). La bebida corre por cuenta de cada uno.",
-                        "Tu almuerzo a la canasta del sábado: lo tuyo, más un poco para los novios y para la tarde. No es picada.",
+                        "Tu almuerzo a la canasta del sábado: algo contundente para almorzar y algo para picar, más un poco para los novios y para la tarde. No es picada.",
                         "Abrigo: el clima viene feo",
                         "Algo para la lluvia (paraguas)",
                         "Zapatillas",
@@ -547,10 +547,10 @@
                           "nota": "Cata compró dos grafos y una boligoma. Cada uno lleva los útiles que tenga."
                         },
                         {
-                          "e": "wip",
+                          "e": "no",
                           "t": "Orejas de elfo",
-                          "who": "Agus y Cata buscan",
-                          "nota": "Ni Cata ni Agus consiguen. Cata prueba en Casa González. Plan B: mitad orejas y mitad ogro, que dividan los equipos; laureles de cotillón; pelucas para los novios."
+                          "who": "—",
+                          "nota": "No aparecieron. Se reemplazan por otra cosa."
                         },
                         {
                           "e": "wip",
@@ -681,7 +681,7 @@
                         {
                           "e": "ok",
                           "t": "Algo contundente para la canasta",
-                          "nota": "Tarta, empanadas o sanguchitos."
+                          "nota": "Una tarta y papitas."
                         },
                         {
                           "e": "ok",
@@ -788,9 +788,9 @@
                           "t": "Juego de dardos con imanes"
                         },
                         {
-                          "e": "wip",
+                          "e": "no",
                           "t": "Orejas de elfo y cosas de cotillón",
-                          "nota": "Sigue buscando: donde averiguó no había 14."
+                          "nota": "Recorrió 3 cotillones: no hay orejas. Se reemplazan."
                         },
                         {
                           "e": "wip",
@@ -803,9 +803,9 @@
                           "nota": "Propuesta de Bartolomé, a confirmar."
                         },
                         {
-                          "e": "ok",
-                          "t": "Hummus, queso y salame para la canasta",
-                          "nota": "Con Cata y Jerga."
+                          "e": "wip",
+                          "t": "Quesos, hummus y sándwiches de miga para la canasta",
+                          "nota": "Entre Cata, Agus y Jerga. Los de miga, a encargar."
                         },
                         {
                           "e": "ok",
@@ -896,9 +896,9 @@
                           "nota": "Comprados."
                         },
                         {
-                          "e": "ok",
-                          "t": "Hummus, queso y salame para la canasta",
-                          "nota": "Con Agus y Jerga."
+                          "e": "wip",
+                          "t": "Quesos, hummus y sándwiches de miga para la canasta",
+                          "nota": "Entre Cata, Agus y Jerga. Los de miga, a encargar."
                         },
                         {
                           "e": "wip",
@@ -941,9 +941,9 @@
                           "nota": "Se lo compra al hermano de Cata (promos por cantidad). Agus se suma. La bebida corre por cuenta de cada uno."
                         },
                         {
-                          "e": "ok",
-                          "t": "Hummus, queso y salame para la canasta",
-                          "nota": "Con Cata y Agus."
+                          "e": "wip",
+                          "t": "Quesos, hummus y sándwiches de miga para la canasta",
+                          "nota": "Entre Cata, Agus y Jerga. Los de miga, a encargar."
                         }
                       ]
                     }
@@ -993,7 +993,7 @@
                         {
                           "e": "ok",
                           "t": "Pan de Barra",
-                          "nota": "Hoy: hogaza (cortada a máquina) y pan de molde, para el desayuno y la canasta."
+                          "nota": "Hoy: hogaza (cortada a máquina) y pan de molde, para el desayuno y la canasta. Ya comprado."
                         },
                         {
                           "e": "ok",
@@ -1005,9 +1005,9 @@
                           "nota": "Las sube al álbum."
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Facturas de Barra",
-                          "nota": "Para el sábado a la mañana."
+                          "nota": "Para el sábado a la mañana. Ya comprado."
                         }
                       ]
                     }
@@ -1545,7 +1545,7 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "Regla de la canasta: cada uno lleva su almuerzo, más un poco para Juani y Bian y un poco para la tarde. No es picada: es almuerzo. Tortillas del primo de Julia y canasta abundante: tiene que durar hasta la cena y contar a los novios. Chine lleva tarta, empanadas o sanguchitos; Manu, una tarta de Sofi; Cata, Agus y Jerga, hummus, queso y salame; Pili, chipá de Cepro; Angie, sándwiches del Sangucheto; Muke, porotos a la vinagreta, aceitunas y escabeche; pan de Barra (Sol). Más cherrys, papitas y palitos del súper. La picada comunitaria se dio de baja."
+                  "Regla de la canasta: cada uno lleva algo para almorzar (contundente) y algo para picar, con un poco extra para Juani y Bian y para la tarde. No es picada: es almuerzo. Almuerzo: 5 tortillas (Julia), tarta del Chine, tarta de Sofi (Manu), sándwiches del Sangucheto (Angie) y sándwiches de miga (Cata, Agus y Jerga los encargan). Para picar: quesos y hummus (Cata, Agus y Jerga), chipá (Pili), porotos a la vinagreta, aceitunas y escabeche (Muke), pan de Barra (Sol), papitas del Chine, y cherrys y palitos del súper. Falta lo contundente de Pili, Muke, Sol, Flopi y Basha."
                 ],
                 [
                   "Sáb tarde",
@@ -1769,9 +1769,9 @@
               "tipo": "estado",
               "items": [
                 {
-                  "e": "wip",
+                  "e": "no",
                   "t": "Orejas de elfo para todos",
-                  "nota": "Para usarlas después en el casamiento. Son 13 o 14: Manu votó que no.",
+                  "nota": "Descartadas (9/10): no aparecen en ningún cotillón. Inventamos otra cosa.",
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
