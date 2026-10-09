@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 10:06",
+  "actualizado": "vie 9/10 · 10:50",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 10:03 a. m.]",
-    "autor": "Pili",
-    "texto": "Y carne retiro todo hoy!! La picada la ponen al vacío para q aguante un poco más. Así q mañana NO hay q ir a el Redil"
+    "fecha": "[9/10/2026, 10:46 a. m.]",
+    "autor": "Chine",
+    "texto": "y si comes solo salame y queso claro que no aguantas hasta la noche!!"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -50,6 +50,10 @@
                 {
                   "t": "Fotos: pásenle a Jerga los links de los álbumes (el de Angie, el de Muke), hasta hoy a la noche. Jerga elige y mañana imprime.",
                   "who": "Todos, a Jerga"
+                },
+                {
+                  "t": "Canasta del sábado: falta que digan qué llevan Julia (además de las tortillas), Muke, Angie, Flopi, Sol y Basha. Abundante: tiene que durar hasta la cena.",
+                  "who": "Los que faltan"
                 },
                 {
                   "t": "Postres: frutillas con crema y un bizcochuelo de caja que hacemos allá (va al súper). ¿Alguien suma algo más?",
@@ -118,10 +122,6 @@
                 {
                   "t": "Tortillas: confirmadas (5 de papa y cebolla). Falta el precio.",
                   "who": "Julia"
-                },
-                {
-                  "t": "Fiambres de Zaatar para el almuerzo del sábado: Cata los compra el viernes.",
-                  "who": "Cata"
                 }
               ]
             }
@@ -683,7 +683,7 @@
                         {
                           "e": "ok",
                           "t": "Algo contundente para la canasta",
-                          "nota": "Empanadas o tartas."
+                          "nota": "Tarta, empanadas o sanguchitos."
                         },
                         {
                           "e": "ok",
@@ -736,6 +736,10 @@
                           "e": "ok",
                           "t": "El PDF del cuervo",
                           "nota": "Pergamino, con versión blanco y negro."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Una tarta de Sofi para la canasta"
                         }
                       ]
                     }
@@ -794,6 +798,11 @@
                           "e": "wip",
                           "t": "Imprimir el cuervo y dejárselo a los novios",
                           "nota": "Hoy, a la salida del laburo."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Hummus, queso y salame para la canasta",
+                          "nota": "Con Cata y Jerga."
                         }
                       ]
                     }
@@ -864,9 +873,9 @@
                           "nota": "Comprados."
                         },
                         {
-                          "e": "wip",
-                          "t": "Fiambres de Zaatar",
-                          "nota": "Para el almuerzo del sábado. Los compra el viernes."
+                          "e": "ok",
+                          "t": "Hummus, queso y salame para la canasta",
+                          "nota": "Con Agus y Jerga."
                         },
                         {
                           "e": "wip",
@@ -907,6 +916,11 @@
                           "e": "wip",
                           "t": "Vino para la cena",
                           "nota": "Se lo compra al hermano de Cata (promos por cantidad). Agus se suma. La bebida corre por cuenta de cada uno."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Hummus, queso y salame para la canasta",
+                          "nota": "Con Cata y Agus."
                         }
                       ]
                     }
@@ -995,6 +1009,10 @@
                           "e": "wip",
                           "t": "Acompañar a Flopi al súper",
                           "nota": "Hoy a la tarde."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Chipá de Cepro para la canasta"
                         }
                       ]
                     }
@@ -1486,11 +1504,11 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "5 tortillas de papa y cebolla del primo de Julia (una cada 3), fiambres de Zaatar (Cata, el viernes), cherrys o ensalada, papitas y palitos. Más lo que cada uno sume a la canasta: Chine lleva algo contundente (empanadas o tartas)."
+                  "Tortillas del primo de Julia y canasta abundante: tiene que durar hasta la cena y contar a los novios. Chine lleva tarta, empanadas o sanguchitos; Manu, una tarta de Sofi; Cata, Agus y Jerga, hummus, queso y salame; Pili, chipá de Cepro. Más cherrys, papitas y palitos del súper. La picada comunitaria se dio de baja."
                 ],
                 [
                   "Sáb tarde",
-                  "Lo que sobre del mediodía."
+                  "Mates con lo que sobre de la canasta. Idea del Chine: unos panqueques."
                 ],
                 [
                   "Sáb noche",
