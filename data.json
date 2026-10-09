@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 17:57",
+  "actualizado": "vie 9/10 · 18:06",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 5:56 p. m.]",
-    "autor": "Chine",
-    "texto": "Chine: 1 velho barreiro, 1 coca z, 1 Sprite, 1 soda"
+    "fecha": "[9/10/2026, 6:05 p. m.]",
+    "autor": "Cata",
+    "texto": "Bartolo, hacé un conteo total del alcohol sumando lo que lleva cada uno"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -257,6 +257,49 @@
                         [
                           "Sol",
                           "Falta que diga"
+                        ]
+                      ]
+                    },
+                    {
+                      "tipo": "balance",
+                      "subtitulo": "Total (sin lo de Sol)",
+                      "filas": [
+                        [
+                          "Cervezas: 4 six packs + 9 tubos",
+                          "33",
+                          true
+                        ],
+                        [
+                          "Vinos",
+                          "6"
+                        ],
+                        [
+                          "Cinzano",
+                          "2"
+                        ],
+                        [
+                          "Fernet",
+                          "1"
+                        ],
+                        [
+                          "Cachaça (Velho Barreiro)",
+                          "1"
+                        ],
+                        [
+                          "Sodas",
+                          "5"
+                        ],
+                        [
+                          "Cocas (incluye 1 Zero)",
+                          "4 o más"
+                        ],
+                        [
+                          "Pomelos",
+                          "2"
+                        ],
+                        [
+                          "Sprite",
+                          "1"
                         ]
                       ]
                     },
