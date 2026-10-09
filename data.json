@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 10:50",
+  "actualizado": "vie 9/10 · 11:04",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 10:46 a. m.]",
-    "autor": "Chine",
-    "texto": "y si comes solo salame y queso claro que no aguantas hasta la noche!!"
+    "fecha": "[9/10/2026, 11:03 a. m.]",
+    "autor": "Manu",
+    "texto": "fatto. Esta mas arriba"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -52,7 +52,7 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Canasta del sábado: falta que digan qué llevan Julia (además de las tortillas), Muke, Angie, Flopi, Sol y Basha. Abundante: tiene que durar hasta la cena.",
+                  "t": "Canasta del sábado: falta que digan qué llevan Angie, Flopi, Sol y Basha. Abundante: tiene que durar hasta la cena.",
                   "who": "Los que faltan"
                 },
                 {
@@ -76,7 +76,7 @@
                   "who": "¿Angie y Agus?"
                 },
                 {
-                  "t": "Cuervo: Manu hizo el PDF (pergamino, también en blanco y negro). Agus lo imprime y se los deja hoy en la casa.",
+                  "t": "Cuervo: el PDF de Manu está más arriba en el grupo (el v5 es en blanco y negro). Agus lo imprime y se los deja hoy.",
                   "who": "Agus"
                 },
                 {
@@ -280,7 +280,6 @@
                       "id": "super-cena",
                       "subtitulo": "Cena del sábado (sanguches de carne)",
                       "items": [
-                        "Pan para sanguches",
                         "Papel aluminio",
                         "Condimentos para la carne",
                         "Salsitas (o lo necesario para hacerlas)"
@@ -470,6 +469,12 @@
                           "t": "Cuchillos y tablas",
                           "who": "¿Quién?",
                           "nota": "La casa dice \"cuchillo\", en singular. Hay 3 kg de cebolla y la carne."
+                        },
+                        {
+                          "e": "pend",
+                          "t": "Cuchillo de pan",
+                          "who": "¿Quién?",
+                          "nota": "Para la hogaza; si no, se rompe toda (dato de Sol)."
                         },
                         {
                           "e": "pend",
@@ -740,6 +745,16 @@
                         {
                           "e": "ok",
                           "t": "Una tarta de Sofi para la canasta"
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Retirar el pan de los sanguches",
+                          "nota": "Mañana, el encargo de Pili en La Abuela de Navarro."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Facturas para el sábado a la mañana",
+                          "nota": "En el barrio, antes de salir."
                         }
                       ]
                     }
@@ -759,6 +774,11 @@
                           "e": "wip",
                           "t": "Su álbum de fotos de Juani",
                           "nota": "Para sumar al álbum de Angie."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Para la canasta",
+                          "nota": "Porotos a la vinagreta, aceitunas y algún escabeche."
                         }
                       ]
                     }
@@ -968,8 +988,8 @@
                         },
                         {
                           "e": "ok",
-                          "t": "2 hogazas de Barra",
-                          "nota": "Para el desayuno. Las compra el viernes."
+                          "t": "Pan de Barra",
+                          "nota": "Hoy: hogaza y pan de molde, para el desayuno y la canasta."
                         },
                         {
                           "e": "ok",
@@ -1013,6 +1033,11 @@
                         {
                           "e": "ok",
                           "t": "Chipá de Cepro para la canasta"
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Encargar el pan de los sanguches",
+                          "nota": "En La Abuela de Navarro, 2 o 3 por cabeza. Manu lo retira mañana."
                         }
                       ]
                     }
@@ -1504,15 +1529,15 @@
               "filas": [
                 [
                   "Sáb mediodía",
-                  "Tortillas del primo de Julia y canasta abundante: tiene que durar hasta la cena y contar a los novios. Chine lleva tarta, empanadas o sanguchitos; Manu, una tarta de Sofi; Cata, Agus y Jerga, hummus, queso y salame; Pili, chipá de Cepro. Más cherrys, papitas y palitos del súper. La picada comunitaria se dio de baja."
+                  "Tortillas del primo de Julia y canasta abundante: tiene que durar hasta la cena y contar a los novios. Chine lleva tarta, empanadas o sanguchitos; Manu, una tarta de Sofi; Cata, Agus y Jerga, hummus, queso y salame; Pili, chipá de Cepro; Muke, porotos a la vinagreta, aceitunas y escabeche; pan de Barra (Sol). Más cherrys, papitas y palitos del súper. La picada comunitaria se dio de baja."
                 ],
                 [
                   "Sáb tarde",
-                  "Mates con lo que sobre de la canasta. Idea del Chine: unos panqueques."
+                  "Mates con lo que sobre de la canasta y las tortas de caja. Idea del Chine: unos panqueques."
                 ],
                 [
                   "Sáb noche",
-                  "Sanguches de carne: un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10)."
+                  "Sanguches de carne, con pan de La Abuela de Navarro (encarga Pili, retira Manu): un buen pedazo envuelto en aluminio, a fuego lento unas horas. Con tzatziki casero de Cata. La carne la compra Pili en el Redil, con 15% de descuento. Plan B: algo a la estaca (idea de Cata, 5/10)."
                 ],
                 [
                   "Dom mediodía",
@@ -1520,11 +1545,11 @@
                 ],
                 [
                   "Desayunos y meriendas",
-                  "2 hogazas de Barra (Sol), manteca, mermeladas, huevos, bananas, naranjas, mate y café."
+                  "Sábado: facturas (Manu). Pan de Barra (Sol), manteca, mermeladas, huevos, bananas, naranjas, mate y café."
                 ],
                 [
                   "Postre",
-                  "Frutillas con crema (Chine compra 4 kg, Cata lleva la batidora) y dos tortas de caja que hacemos allá, con dulce de leche si queremos (Angie lleva el molde)."
+                  "Frutillas con crema (Chine compra 4 kg, Cata lleva la batidora). Tortas de caja para la tarde del sábado (Angie lleva el molde)."
                 ]
               ]
             }
