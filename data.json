@@ -1,5 +1,5 @@
 {
-  "actualizado": "vie 9/10 · 10:05",
+  "actualizado": "vie 9/10 · 10:06",
   "ultimo_leido": {
     "fecha": "[9/10/2026, 10:03 a. m.]",
     "autor": "Pili",
@@ -294,7 +294,9 @@
                       "items": [
                         "Crema",
                         "Azúcar impalpable",
-                        "Bizcochuelo de caja (tipo Águila) y lo que pida la caja: lo hacemos allá"
+                        "2 cajitas de bizcochuelo (tipo Águila): las tortas las hacemos allá",
+                        "Leche y manteca para las tortas (aparte de las del desayuno)",
+                        "Dulce de leche, si le queremos poner"
                       ]
                     },
                     {
@@ -836,6 +838,10 @@
                           "e": "wip",
                           "t": "Preparar la búsqueda del tesoro al llegar",
                           "nota": "Llega temprano con Flopi. Si no, la esconden mientras los novios están en otra cosa."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Molde para tortas"
                         }
                       ]
                     }
@@ -1500,7 +1506,7 @@
                 ],
                 [
                   "Postre",
-                  "Frutillas con crema (Chine compra 4 kg, Cata lleva la batidora) y un bizcochuelo de caja que hacemos allá. Se aceptan más cosas dulces."
+                  "Frutillas con crema (Chine compra 4 kg, Cata lleva la batidora) y dos tortas de caja que hacemos allá, con dulce de leche si queremos (Angie lleva el molde)."
                 ]
               ]
             }
