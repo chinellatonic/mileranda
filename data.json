@@ -1,9 +1,9 @@
 {
-  "actualizado": "jue 8/10 · 22:13",
+  "actualizado": "vie 9/10 · 08:17",
   "ultimo_leido": {
-    "fecha": "[8/10/2026, 10:01 p. m.]",
-    "autor": "Angie",
-    "texto": "@~Nicolas vos de donde salis?"
+    "fecha": "[10/8/26, 11:20:47 PM]",
+    "autor": "Manu",
+    "texto": "<imagen omitida>"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -92,8 +92,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Autos: propuesta en Logística (chata del Chine con Julia, Agus y Jerga a las 9; Flopi desde el centro con Cata, Pili, Angie y Muke; Sol a las 10:30 con los novios, Manu y Basha). Pili de reserva. Falta: de dónde sale Jerga y si Flopi y Sol tienen 4 lugares.",
-                  "who": "Todos"
+                  "t": "Autos: propuesta en Logística. Chata del Chine (Chine, Julia, Agus y Jerga, que va en moto a Fisherton) y Flopi (Flopi, Cata, Pili, Angie, Muke) a las 9; Sol con los novios, Manu y Basha a las 10:30. Pili de reserva. Falta: Flopi y Sol, ¿4 lugares libres?",
+                  "who": "Flopi y Sol"
                 },
                 {
                   "t": "Desayuno: pan de Barra (Sol), mermeladas, huevos, yerba, café, azúcar y leche. Si nadie pide otra cosa antes de esta noche, queda así.",
@@ -309,7 +309,7 @@
                       "subtitulo": "Casa",
                       "items": [
                         "3 bidones de agua",
-                        "Hielo (en heladeritas aguanta unas 24 h, se puede llevar de acá)",
+                        "Hielo: lo compra la avanzada en la despensa de Victoria, antes de llegar (la casa tiene freezer grande)",
                         "Papel de cocina",
                         "Papel higiénico extra (más de un paquete)",
                         "Leña para el fogón y para cocinar la carne"
@@ -375,8 +375,8 @@
                         {
                           "e": "ok",
                           "t": "Heladeritas",
-                          "who": "Chine, Pili y Muke",
-                          "nota": "Chine y Pili, una heladerita cada uno (Pili manda foto del tamaño). Muke suma una conservadora."
+                          "who": "Pili y Muke",
+                          "nota": "Pili, una heladerita; Muke, una conservadora. Chine al final no tiene. La casa tiene freezer grande. El hielo lo compra la avanzada en la despensa de Victoria, antes de llegar."
                         },
                         {
                           "e": "ok",
@@ -429,9 +429,10 @@
                           "nota": "No está en cualquier súper y hace falta bastante: fogón, carne varias horas, esculturas."
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Hielo el sábado temprano y reposición el domingo en Victoria",
-                          "who": "¿Quién?"
+                          "who": "La avanzada",
+                          "nota": "En la despensa de Victoria, antes de llegar. El domingo, si hace falta, ahí mismo."
                         },
                         {
                           "e": "pend",
@@ -610,7 +611,8 @@
                         "¿Hay trébede, anafe y pava? ¿Hay señal o wifi?",
                         "¿A qué hora pasa Giuli a la noche?",
                         "La pileta: ¿tiene agua o está vacía? De noche hay que marcarla como zona prohibida.",
-                        "¿Conoce a alguien que alquile un inflable en Victoria? Lo llevamos y lo traemos nosotros."
+                        "¿Conoce a alguien que alquile un inflable en Victoria? Lo llevamos y lo traemos nosotros.",
+                        "¿Hay algún puente en el predio? (pregunta de Angie)"
                       ]
                     }
                   ]
@@ -659,10 +661,6 @@
                         {
                           "e": "ok",
                           "t": "Limas y azúcar para tragos"
-                        },
-                        {
-                          "e": "ok",
-                          "t": "Una heladerita"
                         },
                         {
                           "e": "ok",
@@ -816,6 +814,11 @@
                           "e": "wip",
                           "t": "Fotos y videos para Jerga",
                           "nota": "Las junta en un álbum compartido."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Preparar la búsqueda del tesoro al llegar",
+                          "nota": "Llega temprano con Flopi. Si no, la esconden mientras los novios están en otra cosa."
                         }
                       ]
                     }
@@ -860,7 +863,7 @@
                         {
                           "e": "ok",
                           "t": "Tzatziki para la carne",
-                          "nota": "Con su yogurt casero, ralladura de limón, pepino, sal, pimienta y aceite de oliva."
+                          "nota": "El yogurt ya está en marcha: lo saca el viernes a las 11, lo enfría y a la tarde lo filtra. Con ralladura de limón, pepino, sal, pimienta y aceite de oliva."
                         }
                       ]
                     }
@@ -1250,11 +1253,11 @@
                       "filas": [
                         [
                           "Chata del Chine",
-                          "Fisherton, 9 h (avanzada). Chine, Julia, Agus y Jerga. Pasa por el Redil a las 9 a buscar la picada. Lleva heladeritas, parlante, leña y bidones."
+                          "Fisherton, 9 h (avanzada). Chine, Julia, Agus y Jerga (viene en moto a Fisherton). Pasa por el Redil a las 9 a buscar la picada y por la despensa de Victoria a comprar hielo. Lleva parlante, leña y bidones."
                         ],
                         [
                           "Flopi",
-                          "Centro. Flopi, Cata, Pili, Angie y Muke. Lleva las compras que entren; lo voluminoso va en la chata."
+                          "Centro, 9 h. Flopi, Cata, Pili, Angie y Muke, con las compras. Angie llega temprano y prepara la búsqueda del tesoro."
                         ],
                         [
                           "Sol",
@@ -1268,7 +1271,7 @@
                     },
                     {
                       "tipo": "nota",
-                      "texto": "Armado sobre la propuesta de Julia. Falta confirmar: Jerga, ¿desde dónde salís? Flopi y Sol, ¿tienen 4 lugares libres cada uno?"
+                      "texto": "Armado sobre la propuesta de Julia. Jerga sale del centro y se ofreció a ir en moto a Fisherton. Falta confirmar: Flopi y Sol, ¿tienen 4 lugares libres cada uno?"
                     }
                   ]
                 },
