@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 14:37",
+  "actualizado": "vie 9/10 · 16:47",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 2:30 p. m.]",
-    "autor": "Cata",
-    "texto": "Agus, Jerga, Julia y yo llevamos en grupo: 4 prepizzas, salsa y queso; variedad de quesos y fiambre; hummus"
+    "fecha": "[9/10/2026, 4:44 p. m.]",
+    "autor": "Chine",
+    "texto": "https://chinellatonic.github.io/mileranda/ ahi esta todo"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -88,10 +88,6 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "En lugar de las orejas: ¿lo que encontró Agus en Colombres y Navarro ($18.000, hay 2, abre de 17 a 20) para el juego de postas de Pili, u otra idea?",
-                  "who": "Todos, hoy"
-                },
-                {
                   "t": "Horario de salida: ¿9:30 o más tarde? Propuesta: la avanzada a las 9 y el resto hasta las 10:30, con los novios. La casa abre a las 10 y cada hora que llegamos tarde es una hora pagada sin usar.",
                   "who": "Todos"
                 },
@@ -104,8 +100,8 @@
                   "who": "Todos"
                 },
                 {
-                  "t": "Autos: propuesta en Logística. Chata del Chine (Chine, Julia, Agus y Jerga, que va en moto a Fisherton) y Flopi (Flopi, Cata, Pili, Angie, Muke) a las 9; Sol con los novios, Manu y Basha a las 10:30. Pili de reserva. Falta: Flopi y Sol, ¿4 lugares libres?",
-                  "who": "Flopi y Sol"
+                  "t": "Autos casi cerrados (ver Logística). Falta: Flopi, el punto de encuentro en el centro.",
+                  "who": "Flopi"
                 },
                 {
                   "t": "Condimentos: los de las empanadas ya están en la lista. Chine, ¿qué necesitás para la carne de los sanguches? Decíselo a Flopi antes de que compre.",
@@ -547,10 +543,10 @@
                           "nota": "Cata compró dos grafos y una boligoma. Cada uno lleva los útiles que tenga."
                         },
                         {
-                          "e": "no",
-                          "t": "Orejas de elfo",
-                          "who": "—",
-                          "nota": "No aparecieron. Se reemplazan por otra cosa."
+                          "e": "ok",
+                          "t": "Corona, gorro guerrero y orejas",
+                          "who": "Agus",
+                          "nota": "Comprados. Las orejas se sortean."
                         },
                         {
                           "e": "wip",
@@ -793,9 +789,9 @@
                           "t": "Juego de dardos con imanes"
                         },
                         {
-                          "e": "no",
-                          "t": "Orejas de elfo y cosas de cotillón",
-                          "nota": "Recorrió 3 cotillones: no hay orejas. Se reemplazan."
+                          "e": "ok",
+                          "t": "Corona, gorro guerrero y orejas",
+                          "nota": "Comprados: $18.000. Las orejas se sortean."
                         },
                         {
                           "e": "wip",
@@ -963,7 +959,7 @@
                         {
                           "e": "ok",
                           "t": "Auto",
-                          "nota": "Sale del centro a las 9 con Cata, Pili, Angie y Muke."
+                          "nota": "Sale del centro a las 9 con Cata, Pili, Angie y Muke. Elige un punto de encuentro."
                         },
                         {
                           "e": "wip",
@@ -1354,11 +1350,11 @@
                         ],
                         [
                           "Flopi",
-                          "Centro, 9 h. Flopi, Cata, Pili, Angie y Muke, con las compras. Angie llega temprano y prepara la búsqueda del tesoro."
+                          "Centro, 9 h. Flopi, Cata, Pili, Angie y Muke, con las compras. Flopi elige un punto de encuentro y los busca ahí. Angie llega temprano y prepara la búsqueda."
                         ],
                         [
                           "Sol",
-                          "Fisherton, 10:30. Sol, Juani, Bian, Manu y Basha."
+                          "Fisherton, 10:30. Sol, Juani, Bian, Manu y Basha. Manu espera en lo de su mamá."
                         ],
                         [
                           "Pili",
@@ -1368,7 +1364,7 @@
                     },
                     {
                       "tipo": "nota",
-                      "texto": "Armado sobre la propuesta de Julia. Jerga sale del centro y se ofreció a ir en moto a Fisherton. Falta confirmar: Flopi y Sol, ¿tienen 4 lugares libres cada uno?"
+                      "texto": "Armado sobre la propuesta de Julia. Falta: Flopi, el punto de encuentro en el centro."
                     }
                   ]
                 },
@@ -1779,9 +1775,9 @@
               "tipo": "estado",
               "items": [
                 {
-                  "e": "no",
-                  "t": "Orejas de elfo para todos",
-                  "nota": "Descartadas (9/10): no aparecen en ningún cotillón. Inventamos otra cosa.",
+                  "e": "ok",
+                  "t": "Corona, gorro guerrero y orejas",
+                  "nota": "Agus compró en el cotillón ($18.000): corona para Bian, gorro guerrero para Juani y unas pocas orejas, que se sortean (idea de Julia).",
                   "propuso": "Cata",
                   "mas": [
                     "Votaron que sí Pili, Basha, Muke, Sol, Flopi, Angie, Julia y Jerga. Manu votó que no.",
@@ -1817,7 +1813,7 @@
                 {
                   "e": "ok",
                   "t": "Un cuervo nuestro para los novios",
-                  "nota": "Entregado: Agus lo imprimió a color, lo protegió con un folio, lo dejó en el buzón, tocó el timbre y salió corriendo. PDF de Manu, texto de Bartolomé.",
+                  "nota": "Entregado y recibido (los novios confirmaron). Texto de Bartolomé, PDF de Manu, impreso y entregado por Agus.",
                   "propuso": "Angie",
                   "mas": [
                     "Pergamino medieval con lo que tienen que traer, a pedido de Cata.",
@@ -2044,6 +2040,13 @@
         "aDividir": true,
         "fecha": "8/10",
         "nota": "Ya pagado por Chine. Se divide solo entre los que participen; se define el sábado."
+      },
+      {
+        "concepto": "Cotillón: corona para Bian, gorro guerrero para Juani y orejas",
+        "monto": 18000,
+        "pago": "Agus",
+        "fecha": "9/10",
+        "nota": "Cotillón de Colombres y Navarro. Las orejas, que eran pocas, se sortean."
       }
     ],
     "pagos": [
