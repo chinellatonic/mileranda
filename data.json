@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 16:47",
+  "actualizado": "vie 9/10 · 17:57",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 4:44 p. m.]",
+    "fecha": "[9/10/2026, 5:56 p. m.]",
     "autor": "Chine",
-    "texto": "https://chinellatonic.github.io/mileranda/ ahi esta todo"
+    "texto": "Chine: 1 velho barreiro, 1 coca z, 1 Sprite, 1 soda"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,6 +48,14 @@
               "id": "pendientes",
               "items": [
                 {
+                  "t": "Hora de los novios: propuesta 11:30 (las salidas se atrasaron una hora). Sol, ¿te va?",
+                  "who": "Sol"
+                },
+                {
+                  "t": "Bebidas: falta lo de Sol.",
+                  "who": "Sol"
+                },
+                {
                   "t": "Fotos: pásenle a Jerga los links de los álbumes (el de Angie, el de Muke), hasta hoy a la noche. Jerga elige y mañana imprime.",
                   "who": "Todos, a Jerga"
                 },
@@ -88,20 +96,12 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Horario de salida: ¿9:30 o más tarde? Propuesta: la avanzada a las 9 y el resto hasta las 10:30, con los novios. La casa abre a las 10 y cada hora que llegamos tarde es una hora pagada sin usar.",
-                  "who": "Todos"
-                },
-                {
                   "t": "Carne: Pili retira hoy todo en el Redil de Fisherton (15% en efectivo o transferencia): dos piezas de 2,5 kg para los sanguches y 2 kg de picada especial, al vacío para que aguante. El sábado no hay que pasar por el Redil.",
                   "who": "Pili"
                 },
                 {
                   "t": "Elegir qué juegos hacemos: hay muchas ideas y hay que filtrar por tiempo y organización.",
                   "who": "Todos"
-                },
-                {
-                  "t": "Autos casi cerrados (ver Logística). Falta: Flopi, el punto de encuentro en el centro.",
-                  "who": "Flopi"
                 },
                 {
                   "t": "Condimentos: los de las empanadas ya están en la lista. Chine, ¿qué necesitás para la carne de los sanguches? Decíselo a Flopi antes de que compre.",
@@ -221,6 +221,48 @@
                     {
                       "tipo": "nota",
                       "texto": "Los tildes se guardan solo en tu celu."
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Bebidas (cada uno la suya)",
+                  "bloques": [
+                    {
+                      "tipo": "datos",
+                      "filas": [
+                        [
+                          "Pili",
+                          "1 Cinzano, 2 sodas y 1 six pack"
+                        ],
+                        [
+                          "Angie",
+                          "1 Cinzano malbec, 1 vino tinto, 1 soda y 1 pomelo"
+                        ],
+                        [
+                          "Manu",
+                          "3 vinos, Coca, pomelo y soda"
+                        ],
+                        [
+                          "Cata, Jerga, Agus, Flopi y Julia",
+                          "9 tubos y 3 six packs"
+                        ],
+                        [
+                          "Muke y Basha",
+                          "1 fernet con Cocas y 2 vinos"
+                        ],
+                        [
+                          "Chine",
+                          "1 Velho Barreiro, 1 Coca Zero, 1 Sprite y 1 soda"
+                        ],
+                        [
+                          "Sol",
+                          "Falta que diga"
+                        ]
+                      ]
+                    },
+                    {
+                      "tipo": "nota",
+                      "texto": "Recuento que propuso Muke, para no quedarnos con sed y tener en cuenta a Sir Juani y Lady Bian."
                     }
                   ]
                 },
@@ -822,6 +864,11 @@
                           "e": "ok",
                           "t": "Para la canasta, en grupo",
                           "nota": "Con Cata, Agus, Jerga y Julia: 4 prepizzas con salsa y queso, variedad de quesos y fiambre, y hummus."
+                        },
+                        {
+                          "e": "wip",
+                          "t": "Cartas",
+                          "nota": "Chequea que el mazo esté completo."
                         }
                       ]
                     }
@@ -959,7 +1006,7 @@
                         {
                           "e": "ok",
                           "t": "Auto",
-                          "nota": "Sale del centro a las 9 con Cata, Pili, Angie y Muke. Elige un punto de encuentro."
+                          "nota": "En camino a las 10. Pasa a buscar a Angie, Cata, Muke y Pili."
                         },
                         {
                           "e": "wip",
@@ -1009,6 +1056,11 @@
                           "e": "ok",
                           "t": "Facturas de Barra",
                           "nota": "Para el sábado a la mañana. Ya comprado."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Burako",
+                          "nota": "Asignado por Agus. Juega Bian."
                         }
                       ]
                     }
@@ -1346,15 +1398,15 @@
                       "filas": [
                         [
                           "Chata del Chine",
-                          "Fisherton, 9 h (avanzada). Chine, Julia, Agus y Jerga (viene en moto a Fisherton). Pasa por la despensa de Victoria a comprar hielo. Lleva parlante, leña y bidones."
+                          "Fisherton, en camino a las 10 (avanzada). Chine, Julia, Agus y Jerga (viene en moto a Fisherton). Pasa por la despensa de Victoria a comprar hielo. Lleva parlante, leña y bidones."
                         ],
                         [
                           "Flopi",
-                          "Centro, 9 h. Flopi, Cata, Pili, Angie y Muke, con las compras. Flopi elige un punto de encuentro y los busca ahí. Angie llega temprano y prepara la búsqueda."
+                          "Centro, en camino a las 10. Flopi pasa a buscar a Angie, Cata, Muke y Pili. Lleva las compras. Angie prepara la búsqueda al llegar."
                         ],
                         [
                           "Sol",
-                          "Fisherton, 10:30. Sol, Juani, Bian, Manu y Basha. Manu espera en lo de su mamá."
+                          "Fisherton, 11:30 (propuesta). Sol, Juani, Bian, Manu y Basha. Manu espera en lo de su mamá."
                         ],
                         [
                           "Pili",
@@ -1364,7 +1416,7 @@
                     },
                     {
                       "tipo": "nota",
-                      "texto": "Armado sobre la propuesta de Julia. Falta: Flopi, el punto de encuentro en el centro."
+                      "texto": "Las salidas se atrasaron una hora (Cata, Flopi y Julia). La de los novios, a las 11:30, es propuesta de Bartolomé."
                     }
                   ]
                 },
@@ -1376,15 +1428,11 @@
                       "filas": [
                         [
                           "Avanzada",
-                          "Sale ~9 h y llega a las 10, cuando abre la casa. Lleva heladeritas, compras y lo que haya que armar."
-                        ],
-                        [
-                          "El resto",
-                          "A definir. Se había dicho 9:30; hay quien propone 11 para tener changüí y comprar lo que falte. Propuesta: hasta 10:30, junto con los novios."
+                          "En camino a las 10: la chata del Chine y el auto de Flopi. Compran hielo en Victoria y preparan la casa."
                         ],
                         [
                           "Novios",
-                          "Salen ~10:30 y llegan con todo listo. Falta definir el auto."
+                          "A las 11:30 (propuesta), en el auto de Sol."
                         ],
                         [
                           "Ruta",
@@ -1402,23 +1450,23 @@
                       "tipo": "datos",
                       "filas": [
                         [
-                          "9:00",
-                          "Sale la avanzada: la chata del Chine desde Fisherton y el auto de Flopi desde el centro."
-                        ],
-                        [
                           "10:00",
-                          "Llega: recibe la casa, guarda el frío y decora (globos, banderines, luces)."
+                          "Sale la avanzada (chata del Chine y auto de Flopi)."
                         ],
                         [
-                          "10:30",
-                          "Salen los novios."
+                          "~11:00",
+                          "Llega la avanzada: recibe la casa, guarda el frío y decora."
                         ],
                         [
-                          "~11:30",
-                          "Llegan: bienvenida, orejas y sorteo de equipos Juani vs. Bian."
+                          "11:30",
+                          "Salen los novios con Sol."
                         ],
                         [
-                          "13:00",
+                          "~12:30",
+                          "Llegan: bienvenida, corona, gorro, sorteo de orejas y de equipos."
+                        ],
+                        [
+                          "13:30",
                           "Almuerzo: tortillas, fiambres y canasta."
                         ],
                         [
