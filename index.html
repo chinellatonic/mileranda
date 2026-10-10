@@ -392,6 +392,32 @@ function init(D){
       });
       if (!C.gastos.length) gs.appendChild(el('p', 'note', 'Todavía no hay gastos.'));
       node.appendChild(gs);
+    } else if (vista === 'lista') {
+      // todos los gastos juntos, con quién pagó, y lo que puso cada uno
+      var ul = el('ul', 'rows'), porPersona = {};
+      C.gastos.forEach(function(g){
+        var pk = Object.keys(g._pay), sk = Object.keys(g._sh);
+        var li = el('li'); li.style.gridTemplateColumns = 'minmax(0,1fr) auto';
+        var m = el('div', 'r-main');
+        m.appendChild(el('span', 'r-t', g.concepto));
+        var entre = g.aDividir ? 'a dividir' : (g.entre == null || g.entre === 'todos') ? 'entre todos' : 'entre ' + sk.length;
+        m.appendChild(el('span', 'r-who', (g.pendiente ? 'lo paga ' : 'pagó ') + pk.join(' y ') + ' · ' + entre + (g.fecha ? ' · ' + g.fecha : '')));
+        li.appendChild(m);
+        var a = el('div', 'g-amt');
+        a.appendChild(el('span', 'pp' + (g.pendiente || g.aDividir ? ' off' : ''), money(g.monto)));
+        if (g.pendiente) a.appendChild(el('span', 'tot', 'por pagar'));
+        else if (g.aDividir) a.appendChild(el('span', 'tot', 'a dividir'));
+        li.appendChild(a); ul.appendChild(li);
+        if (!g.pendiente) pk.forEach(function(n){ porPersona[n] = (porPersona[n] || 0) + g._pay[n]; });
+      });
+      node.appendChild(ul);
+      var bal = el('div', 'balance');
+      Object.keys(porPersona).sort(function(x, y){ return porPersona[y] - porPersona[x]; }).forEach(function(n){
+        var row = el('div', 'bal-row'); row.appendChild(el('span', 'l', n)); row.appendChild(el('span', 'v', money(porPersona[n]))); bal.appendChild(row);
+      });
+      var tot = el('div', 'bal-row strong'); tot.appendChild(el('span', 'l', 'Total pagado')); tot.appendChild(el('span', 'v', money(Object.keys(porPersona).reduce(function(s, n){ return s + porPersona[n]; }, 0)))); bal.appendChild(tot);
+      node.appendChild(el('div', 'sub-h', 'Lo que puso cada uno'));
+      node.appendChild(bal);
     } else if (vista === 'pagos') {
       var ps = C.pagos || [];
       if (!ps.length) { node.appendChild(el('p', 'note', 'Todavía nadie le transfirió a nadie.')); return node; }

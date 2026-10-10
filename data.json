@@ -1,5 +1,5 @@
 {
-  "actualizado": "vie 9/10 · 21:10",
+  "actualizado": "vie 9/10 · 21:13",
   "ultimo_leido": {
     "fecha": "[9/10/2026, 9:01 p. m.]",
     "autor": "Agus",
@@ -1210,7 +1210,22 @@
           ]
         },
         {
-          "titulo": "Gastos",
+          "titulo": "Todos los gastos",
+          "tag": "quién pagó qué",
+          "ancho": true,
+          "bloques": [
+            {
+              "tipo": "cuentas",
+              "vista": "lista"
+            },
+            {
+              "tipo": "nota",
+              "texto": "\"Lo que puso cada uno\" es lo que salió de su bolsillo. Ojo: lo de Jerga incluye la seña, que ya le devolvieron todos. Lo que importa para saldar está arriba, en \"Quién le debe a quién\"."
+            }
+          ]
+        },
+        {
+          "titulo": "Gastos en detalle",
           "tag": "tocá para ver",
           "bloques": [
             {
