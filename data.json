@@ -1,9 +1,9 @@
 {
-  "actualizado": "sáb 10/10 · 08:34",
+  "actualizado": "sáb 10/10 · 08:53",
   "ultimo_leido": {
-    "fecha": "[10/10/2026, 8:30 a. m.]",
-    "autor": "Pili",
-    "texto": "[Sticker] (antes, Julia: ¿alguien lleva cafetera?)"
+    "fecha": "[10/10/2026, 8:50 a. m.]",
+    "autor": "Agus",
+    "texto": "bartolo pasta de dientes tengo que llevar??"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -209,6 +209,7 @@
                       "items": [
                         "Reposera",
                         "Toallón (si preferís el tuyo; la casa tiene toalla de ducha)",
+                        "Cepillo y pasta de dientes, shampoo y lo de higiene personal (la casa tiene jabón, papel y toalla de ducha)",
                         "Repelente (lo recomienda Giuli)",
                         "Protector solar",
                         "Linterna (para el juego de la noche)",
@@ -342,7 +343,7 @@
                         "Mermeladas",
                         "Huevos (aparte de los de las empanadas)",
                         "Yerba",
-                        "Café (Manu lleva cafetera)",
+                        "Café molido (comprado; Manu lleva la cafetera)",
                         "Azúcar",
                         "Leche"
                       ]
@@ -934,11 +935,6 @@
                           "e": "ok",
                           "t": "Mate y yerba para la chata",
                           "nota": "Yerba también para el domingo."
-                        },
-                        {
-                          "e": "ok",
-                          "t": "Aceite de oliva para el hummus",
-                          "nota": "En el súper solo hay común."
                         }
                       ]
                     }
@@ -1181,6 +1177,11 @@
                           "e": "ok",
                           "t": "Milanesas de pollo para la canasta",
                           "nota": "Unas 5, cortadas."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Aceite de oliva",
+                          "nota": "Para el hummus. Agus no lleva."
                         }
                       ]
                     }
