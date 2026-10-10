@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 19:52",
+  "actualizado": "vie 9/10 · 21:10",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 7:43 p. m.]",
-    "autor": "Angie",
-    "texto": "Y q no este mojada"
+    "fecha": "[9/10/2026, 9:01 p. m.]",
+    "autor": "Agus",
+    "texto": "@Flopi amiga en la compra de super hay aceite? por los hummus..."
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -50,6 +50,14 @@
                 {
                   "t": "Leña: no se consiguió en el súper. La compra la avanzada en el camino o en Victoria, que no esté mojada.",
                   "who": "La avanzada"
+                },
+                {
+                  "t": "Bolsas para la carrera de embolsados: Angie no las consiguió. ¿Alguien tiene, o la cambiamos por otro juego?",
+                  "who": "¿Quién?"
+                },
+                {
+                  "t": "Aceite de oliva para el hummus: en el súper hay aceite común (para freír). Agus, mejor llevá el de oliva de tu casa.",
+                  "who": "Agus"
                 },
                 {
                   "t": "Hora de los novios: propuesta 11:30 (las salidas se atrasaron una hora). Sol, ¿te va?",
@@ -176,7 +184,7 @@
               "items": [
                 {
                   "texto": "Abrir en Spotify →",
-                  "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
+                  "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=YPxGEXD3T_mQ2UCUaoM37w&utm_source=whatsapp&pt=11b9796512c72825053c4264107a3c50&pi=g7FpLCLeQW-kn"
                 }
               ]
             }
@@ -606,9 +614,10 @@
                           "who": "Agus"
                         },
                         {
-                          "e": "wip",
+                          "e": "pend",
                           "t": "Bolsas de papa (embolsados)",
-                          "who": "Angie"
+                          "who": "¿Quién?",
+                          "nota": "Angie no las consiguió."
                         },
                         {
                           "e": "ok",
@@ -617,10 +626,10 @@
                           "nota": "Comprado por Cata: tapa dura, A5 horizontal."
                         },
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Fotos impresas en A3",
                           "who": "Jerga",
-                          "nota": "Angie las junta en un álbum compartido (Muke, sumá tu álbum de Juani). Pásenle los links a Jerga: ya bajó las del grupo y elige cuáles imprime, tampoco mil. Mañana imprime."
+                          "nota": "Impresas por Jerga ($12.000)."
                         },
                         {
                           "e": "ok",
@@ -724,7 +733,7 @@
                       "items": [
                         {
                           "texto": "Abrir en Spotify →",
-                          "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
+                          "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=YPxGEXD3T_mQ2UCUaoM37w&utm_source=whatsapp&pt=11b9796512c72825053c4264107a3c50&pi=g7FpLCLeQW-kn"
                         }
                       ]
                     }
@@ -925,9 +934,9 @@
                       "tipo": "estado",
                       "items": [
                         {
-                          "e": "wip",
+                          "e": "pend",
                           "t": "Bolsas de papa",
-                          "nota": "Para la carrera de embolsados."
+                          "nota": "No las consiguió. ¿Alguien?"
                         },
                         {
                           "e": "wip",
@@ -1000,7 +1009,7 @@
                         {
                           "e": "ok",
                           "t": "Las compras de verdulería",
-                          "nota": "El viernes."
+                          "nota": "Hechas: $46.200. La morada y el pepino, en otra verdu."
                         },
                         {
                           "e": "ok",
@@ -1023,9 +1032,9 @@
                       "tipo": "estado",
                       "items": [
                         {
-                          "e": "wip",
+                          "e": "ok",
                           "t": "Fotos impresas en A3",
-                          "nota": "Angie las junta en un álbum compartido (Muke, sumá tu álbum de Juani). Pásenle los links a Jerga: ya bajó las del grupo y elige cuáles imprime, tampoco mil. Mañana imprime."
+                          "nota": "Impresas: $12.000."
                         },
                         {
                           "e": "wip",
@@ -1262,9 +1271,9 @@
                 },
                 {
                   "concepto": "Fotos A3",
-                  "total": null,
-                  "e": "pend",
-                  "nota": "Jerga."
+                  "total": 12000,
+                  "e": "ok",
+                  "nota": "Pagó Jerga."
                 },
                 {
                   "concepto": "Tortillas (5)",
@@ -1295,6 +1304,12 @@
                   "total": 12000,
                   "e": "ok",
                   "nota": "Pagó Agus."
+                },
+                {
+                  "concepto": "Verdulería",
+                  "total": 46200,
+                  "e": "ok",
+                  "nota": "Pagó Cata."
                 }
               ]
             }
@@ -1999,7 +2014,7 @@
                   "links": [
                     {
                       "texto": "Sumar temas →",
-                      "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=43ZlYXCdRUKRrzFJEvBAkQ&utm_source=whatsapp&pi=Ur1CqrVFQpyjn&pt=91ad1238a313235769884d7420f2c7df"
+                      "link": "https://open.spotify.com/playlist/6fWkWHmlVSckY2Y2jnWH3N?si=YPxGEXD3T_mQ2UCUaoM37w&utm_source=whatsapp&pt=11b9796512c72825053c4264107a3c50&pi=g7FpLCLeQW-kn"
                     }
                   ],
                   "mas": [
@@ -2185,6 +2200,19 @@
         "concepto": "Barra: panes y facturas",
         "monto": 20000,
         "pago": "Sol",
+        "fecha": "9/10"
+      },
+      {
+        "concepto": "Verdulería",
+        "monto": 46200,
+        "pago": "Cata",
+        "fecha": "9/10",
+        "nota": "Todo lo de la lista, incluidas las verduras para los sanguches veggie."
+      },
+      {
+        "concepto": "Impresiones (fotos para la bitácora)",
+        "monto": 12000,
+        "pago": "Jerga",
         "fecha": "9/10"
       }
     ],
