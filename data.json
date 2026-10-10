@@ -1,9 +1,9 @@
 {
-  "actualizado": "vie 9/10 · 21:13",
+  "actualizado": "sáb 10/10 · 08:34",
   "ultimo_leido": {
-    "fecha": "[9/10/2026, 9:01 p. m.]",
-    "autor": "Agus",
-    "texto": "@Flopi amiga en la compra de super hay aceite? por los hummus..."
+    "fecha": "[10/10/2026, 8:30 a. m.]",
+    "autor": "Pili",
+    "texto": "[Sticker] (antes, Julia: ¿alguien lleva cafetera?)"
   },
   "inicio": "2026-10-10T10:00:00-03:00",
   "fin": "2026-10-11T18:00:00-03:00",
@@ -48,16 +48,12 @@
               "id": "pendientes",
               "items": [
                 {
-                  "t": "Leña: no se consiguió en el súper. La compra la avanzada en el camino o en Victoria, que no esté mojada.",
+                  "t": "Leña: HOY, en el camino o en Victoria, seca. Hace falta para la carne y para freír las empanadas.",
                   "who": "La avanzada"
                 },
                 {
                   "t": "Bolsas para la carrera de embolsados: Angie no las consiguió. ¿Alguien tiene, o la cambiamos por otro juego?",
                   "who": "¿Quién?"
-                },
-                {
-                  "t": "Aceite de oliva para el hummus: en el súper hay aceite común (para freír). Agus, mejor llevá el de oliva de tu casa.",
-                  "who": "Agus"
                 },
                 {
                   "t": "Hora de los novios: propuesta 11:30 (las salidas se atrasaron una hora). Sol, ¿te va?",
@@ -72,8 +68,8 @@
                   "who": "Todos, a Jerga"
                 },
                 {
-                  "t": "Canasta: falta lo contundente para almorzar de Muke, Sol, Flopi y Basha.",
-                  "who": "Muke, Sol, Flopi y Basha"
+                  "t": "Canasta: falta lo contundente de Sol, Flopi y Basha.",
+                  "who": "Sol, Flopi y Basha"
                 },
                 {
                   "t": "Cena veggie para Flopi: propuesta de verduras asadas y provoleta en los sanguches (ya en la verdulería y el súper). Flopi, ¿te va o preferís otra cosa?",
@@ -570,9 +566,10 @@
                           "who": "¿Quién?"
                         },
                         {
-                          "e": "pend",
+                          "e": "ok",
                           "t": "Termos y mates",
-                          "who": "¿Quién?"
+                          "who": "Agus, Julia y Angie",
+                          "nota": "Un mate por auto, con termo. Agus lleva yerba también para el domingo."
                         },
                         {
                           "e": "ok",
@@ -802,6 +799,11 @@
                           "e": "ok",
                           "t": "Para la canasta, en grupo",
                           "nota": "Con Cata, Agus, Jerga y Julia: 4 prepizzas con salsa y queso, variedad de quesos y fiambre, y hummus."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Un mate",
+                          "nota": "Por las dudas, otro más en la chata."
                         }
                       ]
                     }
@@ -863,6 +865,11 @@
                           "e": "ok",
                           "t": "Para la canasta",
                           "nota": "Porotos a la vinagreta, aceitunas y algún escabeche."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Tarta de zapallito sin TACC",
+                          "nota": "Para la canasta. Apta todo público."
                         }
                       ]
                     }
@@ -922,6 +929,16 @@
                           "e": "wip",
                           "t": "Cartas",
                           "nota": "Chequea que el mazo esté completo."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Mate y yerba para la chata",
+                          "nota": "Yerba también para el domingo."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Aceite de oliva para el hummus",
+                          "nota": "En el súper solo hay común."
                         }
                       ]
                     }
@@ -975,6 +992,11 @@
                           "e": "ok",
                           "t": "Sándwiches del Sangucheto para la canasta",
                           "nota": "Los encarga para el almuerzo del sábado."
+                        },
+                        {
+                          "e": "ok",
+                          "t": "Su mate y termo",
+                          "nota": "Para el auto de Flopi."
                         }
                       ]
                     }
