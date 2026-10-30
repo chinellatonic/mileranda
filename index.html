@@ -143,6 +143,9 @@ ul.checks li:last-child{border-bottom:none}
 label.check{display:flex;align-items:center;gap:12px;min-height:44px;padding:4px 0;font-size:16.5px;cursor:pointer}
 label.check input{width:20px;height:20px;accent-color:var(--good);flex:0 0 auto;margin:0}
 label.check input:checked + span{text-decoration:line-through;color:var(--muted2)}
+ul.rows > li.tick{grid-template-columns:auto minmax(0,1fr) auto}
+ul.rows > li.tick > input{width:20px;height:20px;accent-color:var(--good);margin:2px 0 0}
+ul.rows > li.tick.done .r-t{text-decoration:line-through;color:var(--muted2)}
 
 /* ojo */
 ul.ojo{list-style:none;margin:0;padding:0;display:grid;gap:7px}
@@ -527,6 +530,16 @@ function init(D){
       node = el('ul', 'rows');
       b.items.forEach(function(it){
         var li = el('li');
+        if (b.check) {
+          // tilde por celu: arranca tildado si ya está listo; lo que toca cada uno se guarda solo en su teléfono
+          li.className = 'tick';
+          var key = 'e:' + (b.id || '') + ':' + it.t;
+          var cb = el('input'); cb.type = 'checkbox'; cb.setAttribute('aria-label', it.t);
+          cb.checked = key in checked ? !!checked[key] : it.e === 'ok';
+          if (cb.checked) li.classList.add('done');
+          cb.addEventListener('change', function(){ checked[key] = cb.checked ? 1 : 0; saveChecks(); li.classList.toggle('done', cb.checked); });
+          li.appendChild(cb);
+        }
         var m = el('div', 'r-main');
         m.appendChild(el('span', 'r-t', it.t));
         if (it.who) m.appendChild(el('span', 'r-who', it.who));

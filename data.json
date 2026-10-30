@@ -1,5 +1,5 @@
 {
-  "actualizado": "vie 30/10 · 08:57",
+  "actualizado": "vie 30/10 · 09:03",
   "ultimo_leido": {
     "fecha": "[30/10/2026, 8:55 a. m.]",
     "autor": "Chine",
@@ -44,10 +44,6 @@
                   "who": "Chine"
                 },
                 {
-                  "t": "Delfi tiene que volver antes de las 15: está viendo su auto. Si no, ¿qué auto vuelve a esa hora?",
-                  "who": "Delfi"
-                },
-                {
                   "t": "Lo que tiene que llevar el Chine: cabina DJ, espejo con luces y luces diamante. ¿Algo más?",
                   "who": "Todos"
                 },
@@ -64,7 +60,7 @@
                   "who": "¿Quién?"
                 },
                 {
-                  "t": "Voluntarios del sábado: confirmar a Pedro, Tano, Chine, Muke y Manu.",
+                  "t": "Voluntarios del sábado: confirmar a Pedro, Tano, Chine y Muke. Manu no puede.",
                   "who": "Julia"
                 },
                 {
@@ -155,7 +151,8 @@
                           "e": "pend",
                           "t": "Los chicos arman las estructuras"
                         }
-                      ]
+                      ],
+                      "check": true
                     }
                   ]
                 },
@@ -238,7 +235,8 @@
                           "t": "La base con plantas",
                           "who": "Bian"
                         }
-                      ]
+                      ],
+                      "check": true
                     }
                   ]
                 },
@@ -272,7 +270,8 @@
                           "who": "¿Quién?",
                           "nota": "Para empanelar la lista de invitados."
                         }
-                      ]
+                      ],
+                      "check": true
                     }
                   ]
                 },
@@ -329,7 +328,8 @@
                           "t": "9. Luces de Juani en el árbol",
                           "who": "¿Quién?"
                         }
-                      ]
+                      ],
+                      "check": true
                     }
                   ]
                 },
@@ -384,10 +384,12 @@
                           "t": "Muke"
                         },
                         {
-                          "e": "duda",
-                          "t": "Manu"
+                          "e": "no",
+                          "t": "Manu",
+                          "nota": "El sábado no puede ir."
                         }
-                      ]
+                      ],
+                      "check": true
                     }
                   ]
                 },
@@ -427,7 +429,8 @@
                           "t": "Medidas: mesas banquete y estructuras de luces",
                           "nota": "Banquete 1: altura 0,8 m."
                         }
-                      ]
+                      ],
+                      "check": true
                     }
                   ]
                 },
@@ -442,7 +445,9 @@
                         "Colgarlo con la soga que ya trae atada, dando una o dos vueltas por el tope del palo vertical, donde empieza la punta. Para la altura, ver cuánta soga sobra; si no, cortar lo que sobre de los nuditos.",
                         "Ya colgado, atar con nudo o precinto, por dentro del ojal del medio, la varilla horizontal a la vertical. Lo más firme posible.",
                         "Clavar la estaca en el piso y verificar que quede derecha."
-                      ]
+                      ],
+                      "check": true,
+                      "id": "estandartes"
                     }
                   ]
                 }
@@ -492,9 +497,9 @@
                           "nota": "A las 13, con Cata (Flopi sale de la facu a las 12:30)."
                         },
                         {
-                          "e": "duda",
+                          "e": "ok",
                           "t": "Delfi",
-                          "nota": "Gestionando su auto para volver antes de las 15."
+                          "nota": "Tiene auto para ir y volver (vuelve antes de las 15)."
                         }
                       ]
                     }
@@ -509,7 +514,9 @@
                         "El bosque ya está limpio: sin cenizas, ramas ni pozos (Julia).",
                         "Carlitos sigue con las luces, con ayuda de Midu.",
                         "Llevar mucha agua: el jueves casi se deshidratan."
-                      ]
+                      ],
+                      "check": true,
+                      "id": "estancia"
                     }
                   ]
                 }
